@@ -1,3 +1,4 @@
+import { Footer } from "@/components/layout/footer";
 import { Header } from "@/components/layout/header";
 import { cn } from "@/lib/utils";
 import { ClerkProvider } from "@clerk/nextjs";
@@ -32,9 +33,10 @@ export default function RootLayout({
 			className={cn("h-full antialiased", inter.variable, outfit.variable)}
 		>
 			<ClerkProvider>
-				<body className="min-h-full flex flex-col">
+				<body className="min-h-full">
 					<Header />
 					{children}
+					<Footer />
 				</body>
 			</ClerkProvider>
 		</html>

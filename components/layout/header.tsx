@@ -20,7 +20,7 @@ export function Header() {
 		<header className="border">
 			<div className="container flex items-center justify-between py-4">
 				<nav className="flex items-center gap-x-6">
-					<Link href="/" className="font-bold text-xl">
+					<Link href="/" className="text-xl font-bold">
 						Meetsy
 					</Link>
 
@@ -65,7 +65,7 @@ export function Header() {
 						<ClerkLoading>
 							<LoaderIcon
 								size={28}
-								className="animate-spin text-muted-foreground"
+								className="text-muted-foreground animate-spin"
 							/>
 						</ClerkLoading>
 						<ClerkLoaded>
