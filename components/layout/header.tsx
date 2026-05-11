@@ -1,7 +1,12 @@
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
-import { Show, SignInButton, SignUpButton, UserButton } from "@clerk/nextjs";
-import { MessageCircleIcon, TrophyIcon, UserIcon } from "lucide-react";
+import { ClerkLoaded, ClerkLoading, Show, UserButton } from "@clerk/nextjs";
+import {
+	LoaderIcon,
+	MessageCircleIcon,
+	TrophyIcon,
+	UserIcon,
+} from "lucide-react";
 import Link from "next/link";
 
 const NAVIGATION = [
@@ -37,15 +42,13 @@ export function Header() {
 
 				<div className="flex items-center gap-x-4">
 					<Show when="signed-out">
-						<SignInButton>
-							<Button variant="ghost" size="sm">
-								Sign In
-							</Button>
-						</SignInButton>
+						<Button variant="ghost" size="sm" asChild>
+							<Link href="/sign-in">Sign In</Link>
+						</Button>
 
-						<SignUpButton>
-							<Button size="sm">Sign Up</Button>
-						</SignUpButton>
+						<Button size="sm" asChild>
+							<Link href="/sign-up">Sign Up</Link>
+						</Button>
 					</Show>
 
 					<Show when="signed-in">
@@ -59,7 +62,15 @@ export function Header() {
 							</Badge>
 						</Show>
 
-						<UserButton />
+						<ClerkLoading>
+							<LoaderIcon
+								size={28}
+								className="animate-spin text-muted-foreground"
+							/>
+						</ClerkLoading>
+						<ClerkLoaded>
+							<UserButton />
+						</ClerkLoaded>
 					</Show>
 				</div>
 			</div>
