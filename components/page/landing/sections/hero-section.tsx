@@ -12,17 +12,20 @@ export function HeroSection() {
 						Powered by AI{" "}
 						<SparklesIcon className="text-primary transition-transform duration-200 group-hover/badge:scale-110" />
 					</Badge>
-					<h1 className="text-5xl font-bold tracking-tight md:text-7xl lg:text-8xl">
+
+					<h1 className="text-5xl font-bold tracking-tight sm:text-7xl">
 						Find Your Perfect <br />{" "}
 						<span className="from-primary to-primary/80 bg-linear-to-br bg-clip-text text-transparent">
 							AI Learning Partner
 						</span>
 					</h1>
-					<p className="text-muted-foreground max-w-md text-lg lg:max-w-xl lg:text-xl">
+
+					<p className="text-muted-foreground max-w-xl text-lg">
 						Join communities, set your learning goals, and get matched with
 						partners who share your passion. Chat, collaborate, and grow
 						together with AI-powered insights .
 					</p>
+
 					<div className="flex flex-col gap-3 sm:flex-row">
 						<Button asChild variant="outline" size="lg">
 							<Link
@@ -33,6 +36,7 @@ export function HeroSection() {
 								Get Started for Free
 							</Link>
 						</Button>
+
 						<Button asChild size="lg">
 							<Link href="/#pricing" className="font-semibold">
 								<ZapIcon className="transition-transform duration-200 group-hover/button:scale-115 group-hover/button:rotate-15" />{" "}
