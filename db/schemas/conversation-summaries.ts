@@ -6,15 +6,13 @@ import {
     text,
     uuid,
 } from "drizzle-orm/pg-core";
-import { defineRelationsPart } from "drizzle-orm/relations";
-import { id } from "./_shared/id";
 import { generatedAt } from "./_shared/timestamp";
-import { conversationsTable } from "./conversations-schema";
+import { conversationsTable } from "./conversations";
 
 export const conversationSummariesTable = pgTable(
 	"conversation_summaries",
 	{
-		id,
+		id: uuid("id").primaryKey().defaultRandom(),
 		conversationId: uuid("conversation_id").notNull(),
 		summary: text("summary").notNull(),
 		actionItems: jsonb("action_items").$type<string[]>().default([]).notNull(),
@@ -28,23 +26,9 @@ export const conversationSummariesTable = pgTable(
 			foreignColumns: [conversationsTable.id],
 			name: "conversation_summaries_conversation_id_fk",
 		}),
+
 		index("conversation_summaries_conversation_id_idx").on(
 			table.conversationId,
 		),
 	],
-);
-
-export const conversationSummariesRelation = defineRelationsPart(
-	{
-		conversationSummariesTable,
-		conversationsTable,
-	},
-	(r) => ({
-		conversationSummariesTable: {
-			conversation: r.one.conversationsTable({
-				from: r.conversationSummariesTable.conversationId,
-				to: r.conversationsTable.id,
-			}),
-		},
-	}),
 );

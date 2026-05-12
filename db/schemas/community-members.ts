@@ -1,13 +1,12 @@
 import { foreignKey, index, pgTable, unique, uuid } from "drizzle-orm/pg-core";
-import { id } from "./_shared/id";
 import { joinedAt } from "./_shared/timestamp";
-import { communityTable } from "./communities-schema";
-import { usersTable } from "./users-schema";
+import { communitiesTable } from "./communities";
+import { usersTable } from "./users";
 
 export const communityMembersTable = pgTable(
 	"community_members",
 	{
-		id,
+		id: uuid("id").primaryKey().defaultRandom(),
 		userId: uuid("user_id").notNull(),
 		communityId: uuid("community_id").notNull(),
 		joinedAt,
@@ -23,16 +22,19 @@ export const communityMembersTable = pgTable(
 
 		foreignKey({
 			columns: [table.communityId],
-			foreignColumns: [communityTable.id],
+			foreignColumns: [communitiesTable.id],
 			name: "community_members_community_id_fk",
 		})
 			.onUpdate("cascade")
 			.onDelete("cascade"),
+
 		unique("community_members_user_community_unique").on(
 			table.userId,
 			table.communityId,
 		),
+
 		index("community_members_user_id_idx").on(table.userId),
+
 		index("community_members_community_id_idx").on(table.communityId),
 	],
 );
