@@ -32,6 +32,7 @@ bun run db:seed:users # Seed test users
 
 Required in `.env`:
 - `DATABASE_URL` - PostgreSQL connection string
+- `DIRECT_DATABASE_URL` - PostgreSQL direct connection string
 - `NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY` - Client-side key
 - `CLERK_SECRET_KEY` - Server-side key
 

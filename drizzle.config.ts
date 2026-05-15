@@ -1,9 +1,9 @@
 import { defineConfig } from "drizzle-kit";
 
-const connectionString = process.env.DATABASE_URL;
+const connectionString = process.env.DIRECT_DATABASE_URL;
 
 if (!connectionString) {
-	throw new Error("DATABASE_URL environment variable is not defined.");
+	throw new Error("DIRECT_DATABASE_URL environment variable is not defined.");
 }
 
 export default defineConfig({
