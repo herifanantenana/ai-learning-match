@@ -5,7 +5,7 @@ CREATE TABLE "communities" (
 	"name" varchar(50) NOT NULL,
 	"description" text,
 	"image_url" text,
-	"author_id" uuid NOT NULL,
+	"owner_id" uuid NOT NULL,
 	"created_at" timestamp DEFAULT now() NOT NULL,
 	"updated_at" timestamp DEFAULT now() NOT NULL
 );
@@ -75,7 +75,7 @@ CREATE TABLE "users" (
 	"updated_at" timestamp DEFAULT now() NOT NULL
 );
 --> statement-breakpoint
-CREATE INDEX "communities_author_id_idx" ON "communities" ("author_id");--> statement-breakpoint
+CREATE INDEX "communities_owner_id_idx" ON "communities" ("owner_id");--> statement-breakpoint
 CREATE INDEX "community_members_user_id_idx" ON "community_members" ("user_id");--> statement-breakpoint
 CREATE INDEX "community_members_community_id_idx" ON "community_members" ("community_id");--> statement-breakpoint
 CREATE INDEX "conversation_summaries_conversation_id_idx" ON "conversation_summaries" ("conversation_id");--> statement-breakpoint
@@ -87,7 +87,7 @@ CREATE INDEX "matches_user2_id_idx" ON "matches" ("user2_id");--> statement-brea
 CREATE INDEX "matches_community_id_idx" ON "matches" ("community_id");--> statement-breakpoint
 CREATE INDEX "messages_conversation_id_idx" ON "messages" ("conversation_id");--> statement-breakpoint
 CREATE INDEX "messages_sender_id_idx" ON "messages" ("sender_id");--> statement-breakpoint
-ALTER TABLE "communities" ADD CONSTRAINT "communities_author_id_fk" FOREIGN KEY ("author_id") REFERENCES "users"("id") ON DELETE CASCADE ON UPDATE CASCADE;--> statement-breakpoint
+ALTER TABLE "communities" ADD CONSTRAINT "communities_owner_id_fk" FOREIGN KEY ("owner_id") REFERENCES "users"("id") ON DELETE CASCADE ON UPDATE CASCADE;--> statement-breakpoint
 ALTER TABLE "community_members" ADD CONSTRAINT "community_members_user_id_fk" FOREIGN KEY ("user_id") REFERENCES "users"("id") ON DELETE CASCADE ON UPDATE CASCADE;--> statement-breakpoint
 ALTER TABLE "community_members" ADD CONSTRAINT "community_members_community_id_fk" FOREIGN KEY ("community_id") REFERENCES "communities"("id") ON DELETE CASCADE ON UPDATE CASCADE;--> statement-breakpoint
 ALTER TABLE "conversation_summaries" ADD CONSTRAINT "conversation_summaries_conversation_id_fk" FOREIGN KEY ("conversation_id") REFERENCES "conversations"("id");--> statement-breakpoint

@@ -52,9 +52,9 @@
 	{
 		"key": "lg6",
 		"userId": "u6",
-		"communityId": "c6",
-		"title": "Docker Containerization Best Practices",
-		"description": "Create and manage Docker containers for applications, understand multi-stage builds and optimization.",
+		"communityId": "c36",
+		"title": "Docker Fundamentals",
+		"description": "Learn Docker basics, containers, images, and multi-stage builds for production applications.",
 		"tags": ["docker", "containers", "devops"],
 		"createdAt": "2026-04-12 14:00:00",
 		"updatedAt": "2026-04-12 14:00:00"
@@ -62,43 +62,44 @@
 	{
 		"key": "lg7",
 		"userId": "u7",
-		"communityId": "c7",
-		"title": "React Hooks Deep Dive",
-		"description": "Master useState, useEffect, useContext, useReducer, and custom hooks for complex React applications.",
-		"tags": ["react", "hooks", "state-management"],
+		"communityId": "c37",
+		"title": "React Components Deep Dive",
+		"description": "Master React components, hooks, and build modern interactive web applications.",
+		"tags": ["react", "components", "frontend"],
 		"createdAt": "2026-04-12 15:00:00",
 		"updatedAt": "2026-04-12 15:00:00"
 	},
 	{
 		"key": "lg8",
 		"userId": "u8",
-		"communityId": "c8",
-		"title": "Advanced TypeScript Patterns",
-		"description": "Master generics, conditional types, mapped types, and type-level programming in TypeScript.",
-		"tags": ["typescript", "advanced", "types"],
+		"communityId": "c38",
+		"title": "TypeScript Essentials",
+		"description": "Learn TypeScript basics, types, interfaces, and build type-safe React applications.",
+		"tags": ["typescript", "react", "types"],
 		"createdAt": "2026-04-12 16:00:00",
 		"updatedAt": "2026-04-12 16:00:00"
 	},
 	{
 		"key": "lg9",
 		"userId": "u9",
-		"communityId": "c9",
-		"title": "Event-Driven Architecture",
-		"description": "Build systems with message queues, event sourcing, and CQRS patterns for scalable applications.",
-		"tags": ["architecture", "events", "cqrs"],
+		"communityId": "c39",
+		"title": "Scalable Architecture Basics",
+		"description": "Understand system design principles, scalability patterns, and microservices basics.",
+		"tags": ["architecture", "system-design", "scalability"],
 		"createdAt": "2026-04-12 17:00:00",
 		"updatedAt": "2026-04-12 17:00:00"
 	},
 	{
 		"key": "lg10",
 		"userId": "u10",
-		"communityId": "c10",
-		"title": "Job Interview Preparation",
-		"description": "Prepare for technical interviews with coding challenges, system design questions, and behavioral prep.",
-		"tags": ["interviews", "coding", "career"],
+		"communityId": "c40",
+		"title": "Career Path Planning",
+		"description": "Plan your tech career, set goals, and prepare for advancement opportunities.",
+		"tags": ["career", "planning", "growth"],
 		"createdAt": "2026-04-12 18:00:00",
 		"updatedAt": "2026-04-12 18:00:00"
 	},
+	
 	{
 		"key": "lg11",
 		"userId": "u11",
@@ -698,5 +699,1105 @@
 		"tags": ["api", "rest", "backend"],
 		"createdAt": "2026-04-15 18:00:00",
 		"updatedAt": "2026-04-15 18:00:00"
+	},
+	{
+		"key": "lg71",
+		"userId": "u11",
+		"communityId": "c21",
+		"title": "Flutter Mobile Development",
+		"description": "Build cross-platform mobile apps with Flutter for iOS and Android using a single codebase.",
+		"tags": ["flutter", "mobile", "dart"],
+		"createdAt": "2026-04-16 09:00:00",
+		"updatedAt": "2026-04-16 09:00:00"
+	},
+	{
+		"key": "lg72",
+		"userId": "u11",
+		"communityId": "c24",
+		"title": "Apache Spark for Big Data",
+		"description": "Process large-scale data with Apache Spark, understand RDDs and DataFrames.",
+		"tags": ["spark", "big-data", "data-engineering"],
+		"createdAt": "2026-04-16 10:00:00",
+		"updatedAt": "2026-04-16 10:00:00"
+	},
+	{
+		"key": "lg73",
+		"userId": "u11",
+		"communityId": "c28",
+		"title": "Product Strategy Fundamentals",
+		"description": "Learn product roadmapping, prioritization frameworks, and user story creation.",
+		"tags": ["product", "strategy", "roadmap"],
+		"createdAt": "2026-04-16 11:00:00",
+		"updatedAt": "2026-04-16 11:00:00"
+	},
+	{
+		"key": "lg74",
+		"userId": "u12",
+		"communityId": "c21",
+		"title": "React Native Advanced Patterns",
+		"description": "Master advanced React Native patterns, native modules, and performance optimization.",
+		"tags": ["react-native", "mobile", "advanced"],
+		"createdAt": "2026-04-16 09:30:00",
+		"updatedAt": "2026-04-16 09:30:00"
+	},
+	{
+		"key": "lg75",
+		"userId": "u12",
+		"communityId": "c22",
+		"title": "Unity Game Development",
+		"description": "Create 2D and 3D games using Unity engine, C# scripting, and game physics.",
+		"tags": ["unity", "game-dev", "c#"],
+		"createdAt": "2026-04-16 10:30:00",
+		"updatedAt": "2026-04-16 10:30:00"
+	},
+	{
+		"key": "lg76",
+		"userId": "u12",
+		"communityId": "c27",
+		"title": "Figma Design Systems",
+		"description": "Build and maintain design systems in Figma, create components, and ensure consistency.",
+		"tags": ["figma", "design-system", "ui"],
+		"createdAt": "2026-04-16 11:30:00",
+		"updatedAt": "2026-04-16 11:30:00"
+	},
+	{
+		"key": "lg77",
+		"userId": "u12",
+		"communityId": "c32",
+		"title": "WebSocket API Development",
+		"description": "Build real-time APIs with WebSockets, implement bi-directional communication.",
+		"tags": ["websockets", "api", "real-time"],
+		"createdAt": "2026-04-16 12:30:00",
+		"updatedAt": "2026-04-16 12:30:00"
+	},
+	{
+		"key": "lg78",
+		"userId": "u13",
+		"communityId": "c23",
+		"title": "Network Security Fundamentals",
+		"description": "Learn network security, firewalls, VPNs, and securing network infrastructure.",
+		"tags": ["security", "networking", "firewall"],
+		"createdAt": "2026-04-16 10:00:00",
+		"updatedAt": "2026-04-16 10:00:00"
+	},
+	{
+		"key": "lg79",
+		"userId": "u13",
+		"communityId": "c25",
+		"title": "SRE Incident Response",
+		"description": "Master incident response, on-call best practices, and post-mortem analysis.",
+		"tags": ["sre", "incident-response", "monitoring"],
+		"createdAt": "2026-04-16 11:00:00",
+		"updatedAt": "2026-04-16 11:00:00"
+	},
+	{
+		"key": "lg80",
+		"userId": "u13",
+		"communityId": "c30",
+		"title": "Multi-Cloud Architecture",
+		"description": "Design systems across AWS, Azure, and GCP for redundancy and vendor independence.",
+		"tags": ["multi-cloud", "aws", "azure"],
+		"createdAt": "2026-04-16 12:00:00",
+		"updatedAt": "2026-04-16 12:00:00"
+	},
+	{
+		"key": "lg81",
+		"userId": "u13",
+		"communityId": "c31",
+		"title": "Service Mesh with Istio",
+		"description": "Implement service mesh with Istio for traffic management, security, and observability.",
+		"tags": ["istio", "service-mesh", "kubernetes"],
+		"createdAt": "2026-04-16 13:00:00",
+		"updatedAt": "2026-04-16 13:00:00"
+	},
+	{
+		"key": "lg82",
+		"userId": "u14",
+		"communityId": "c21",
+		"title": "Mobile App Architecture",
+		"description": "Design scalable mobile app architectures with proper state management and navigation.",
+		"tags": ["mobile", "architecture", "react-native"],
+		"createdAt": "2026-04-16 10:30:00",
+		"updatedAt": "2026-04-16 10:30:00"
+	},
+	{
+		"key": "lg83",
+		"userId": "u14",
+		"communityId": "c24",
+		"title": "ETL Pipeline Development",
+		"description": "Build robust ETL pipelines with Apache Spark, handle data transformations at scale.",
+		"tags": ["etl", "spark", "data-pipeline"],
+		"createdAt": "2026-04-16 11:30:00",
+		"updatedAt": "2026-04-16 11:30:00"
+	},
+	{
+		"key": "lg84",
+		"userId": "u14",
+		"communityId": "c33",
+		"title": "PostgreSQL Administration",
+		"description": "Manage PostgreSQL databases, optimize queries, configure replication and backups.",
+		"tags": ["postgresql", "database", "admin"],
+		"createdAt": "2026-04-16 12:30:00",
+		"updatedAt": "2026-04-16 12:30:00"
+	},
+	{
+		"key": "lg85",
+		"userId": "u14",
+		"communityId": "c35",
+		"title": "System Design Interviews",
+		"description": "Prepare for system design interviews, practice designing scalable systems.",
+		"tags": ["interviews", "system-design", "career"],
+		"createdAt": "2026-04-16 13:30:00",
+		"updatedAt": "2026-04-16 13:30:00"
+	},
+	{
+		"key": "lg86",
+		"userId": "u15",
+		"communityId": "c23",
+		"title": "Penetration Testing",
+		"description": "Learn ethical hacking, penetration testing methodologies, and vulnerability assessment.",
+		"tags": ["pen-testing", "security", "ethical-hacking"],
+		"createdAt": "2026-04-16 11:00:00",
+		"updatedAt": "2026-04-16 11:00:00"
+	},
+	{
+		"key": "lg87",
+		"userId": "u15",
+		"communityId": "c26",
+		"title": "Solidity Smart Contracts",
+		"description": "Write secure smart contracts in Solidity, understand EVM and gas optimization.",
+		"tags": ["solidity", "smart-contracts", "ethereum"],
+		"createdAt": "2026-04-16 12:00:00",
+		"updatedAt": "2026-04-16 12:00:00"
+	},
+	{
+		"key": "lg88",
+		"userId": "u15",
+		"communityId": "c28",
+		"title": "User Research Methods",
+		"description": "Conduct user interviews, surveys, and usability testing for product development.",
+		"tags": ["user-research", "product", "ux"],
+		"createdAt": "2026-04-16 13:00:00",
+		"updatedAt": "2026-04-16 13:00:00"
+	},
+	{
+		"key": "lg89",
+		"userId": "u15",
+		"communityId": "c29",
+		"title": "Fundraising Strategies",
+		"description": "Learn about VC funding, pitch decks, and navigating the startup fundraising process.",
+		"tags": ["startup", "fundraising", "vc"],
+		"createdAt": "2026-04-16 14:00:00",
+		"updatedAt": "2026-04-16 14:00:00"
+	},
+	{
+		"key": "lg90",
+		"userId": "u16",
+		"communityId": "c22",
+		"title": "Game Physics & Animation",
+		"description": "Implement game physics, collision detection, and animations in Unity or Unreal.",
+		"tags": ["game-dev", "physics", "animation"],
+		"createdAt": "2026-04-16 12:00:00",
+		"updatedAt": "2026-04-16 12:00:00"
+	},
+	{
+		"key": "lg91",
+		"userId": "u16",
+		"communityId": "c32",
+		"title": "API Versioning Strategies",
+		"description": "Implement API versioning for backwards compatibility and smooth migrations.",
+		"tags": ["api", "versioning", "rest"],
+		"createdAt": "2026-04-16 13:00:00",
+		"updatedAt": "2026-04-16 13:00:00"
+	},
+	{
+		"key": "lg92",
+		"userId": "u16",
+		"communityId": "c34",
+		"title": "Documentation Best Practices",
+		"description": "Write clear technical documentation, API docs, and developer guides.",
+		"tags": ["documentation", "technical-writing", "api-docs"],
+		"createdAt": "2026-04-16 14:00:00",
+		"updatedAt": "2026-04-16 14:00:00"
+	},
+	{
+		"key": "lg93",
+		"userId": "u16",
+		"communityId": "c35",
+		"title": "LeetCode Mastery",
+		"description": "Master data structures and algorithms through LeetCode practice problems.",
+		"tags": ["leetcode", "algorithms", "interviews"],
+		"createdAt": "2026-04-16 15:00:00",
+		"updatedAt": "2026-04-16 15:00:00"
+	},
+	{
+		"key": "lg94",
+		"userId": "u17",
+		"communityId": "c23",
+		"title": "Security Compliance & Audits",
+		"description": "Understand security compliance frameworks, SOC2, ISO 27001, and conduct audits.",
+		"tags": ["compliance", "security", "audit"],
+		"createdAt": "2026-04-16 13:00:00",
+		"updatedAt": "2026-04-16 13:00:00"
+	},
+	{
+		"key": "lg95",
+		"userId": "u17",
+		"communityId": "c26",
+		"title": "DeFi Protocol Development",
+		"description": "Build decentralized finance protocols, understand AMMs and lending platforms.",
+		"tags": ["defi", "blockchain", "finance"],
+		"createdAt": "2026-04-16 14:00:00",
+		"updatedAt": "2026-04-16 14:00:00"
+	},
+	{
+		"key": "lg96",
+		"userId": "u17",
+		"communityId": "c30",
+		"title": "Cloud Cost Optimization",
+		"description": "Optimize cloud spending, implement cost tracking, and reduce infrastructure expenses.",
+		"tags": ["cloud", "cost-optimization", "aws"],
+		"createdAt": "2026-04-16 15:00:00",
+		"updatedAt": "2026-04-16 15:00:00"
+	},
+	{
+		"key": "lg97",
+		"userId": "u17",
+		"communityId": "c31",
+		"title": "Helm Charts & Kustomize",
+		"description": "Create reusable Kubernetes deployments with Helm charts and Kustomize.",
+		"tags": ["helm", "kubernetes", "devops"],
+		"createdAt": "2026-04-16 16:00:00",
+		"updatedAt": "2026-04-16 16:00:00"
+	},
+	{
+		"key": "lg98",
+		"userId": "u18",
+		"communityId": "c21",
+		"title": "Flutter Widget Development",
+		"description": "Build beautiful Flutter UI with custom widgets, animations, and responsive layouts.",
+		"tags": ["flutter", "dart", "mobile-ui"],
+		"createdAt": "2026-04-16 14:00:00",
+		"updatedAt": "2026-04-16 14:00:00"
+	},
+	{
+		"key": "lg99",
+		"userId": "u18",
+		"communityId": "c22",
+		"title": "Godot Game Engine",
+		"description": "Create games using Godot engine with GDScript, learn 2D and 3D game development.",
+		"tags": ["godot", "game-dev", "gdscript"],
+		"createdAt": "2026-04-16 15:00:00",
+		"updatedAt": "2026-04-16 15:00:00"
+	},
+	{
+		"key": "lg100",
+		"userId": "u18",
+		"communityId": "c27",
+		"title": "Prototyping & Wireframing",
+		"description": "Create interactive prototypes and wireframes using Figma for user experience design.",
+		"tags": ["prototyping", "wireframing", "figma"],
+		"createdAt": "2026-04-16 16:00:00",
+		"updatedAt": "2026-04-16 16:00:00"
+	},
+	{
+		"key": "lg101",
+		"userId": "u18",
+		"communityId": "c35",
+		"title": "Behavioral Interview Prep",
+		"description": "Prepare for behavioral questions using the STAR method for job interviews.",
+		"tags": ["interviews", "behavioral", "career"],
+		"createdAt": "2026-04-16 17:00:00",
+		"updatedAt": "2026-04-16 17:00:00"
+	},
+	{
+		"key": "lg102",
+		"userId": "u19",
+		"communityId": "c22",
+		"title": "Unreal Engine Development",
+		"description": "Build 3D games with Unreal Engine, learn Blueprints and C++ game development.",
+		"tags": ["unreal", "game-dev", "3d"],
+		"createdAt": "2026-04-16 15:00:00",
+		"updatedAt": "2026-04-16 15:00:00"
+	},
+	{
+		"key": "lg103",
+		"userId": "u19",
+		"communityId": "c25",
+		"title": "Observability & Monitoring",
+		"description": "Implement observability with Prometheus, Grafana, and distributed tracing.",
+		"tags": ["monitoring", "observability", "prometheus"],
+		"createdAt": "2026-04-16 16:00:00",
+		"updatedAt": "2026-04-16 16:00:00"
+	},
+	{
+		"key": "lg104",
+		"userId": "u19",
+		"communityId": "c30",
+		"title": "Serverless Architecture Patterns",
+		"description": "Design serverless systems with AWS Lambda, step functions, and event-driven architectures.",
+		"tags": ["serverless", "aws", "architecture"],
+		"createdAt": "2026-04-16 17:00:00",
+		"updatedAt": "2026-04-16 17:00:00"
+	},
+	{
+		"key": "lg105",
+		"userId": "u19",
+		"communityId": "c31",
+		"title": "GitOps with ArgoCD",
+		"description": "Implement GitOps workflows with ArgoCD for Kubernetes deployments.",
+		"tags": ["gitops", "argocd", "kubernetes"],
+		"createdAt": "2026-04-16 18:00:00",
+		"updatedAt": "2026-04-16 18:00:00"
+	},
+	{
+		"key": "lg106",
+		"userId": "u20",
+		"communityId": "c23",
+		"title": "Application Security Testing",
+		"description": "Perform static and dynamic application security testing (SAST/DAST).",
+		"tags": ["security", "sast", "dast"],
+		"createdAt": "2026-04-16 15:30:00",
+		"updatedAt": "2026-04-16 15:30:00"
+	},
+	{
+		"key": "lg107",
+		"userId": "u20",
+		"communityId": "c25",
+		"title": "SRE Metrics & SLIs",
+		"description": "Define SLIs, SLOs, and error budgets for reliable system operations.",
+		"tags": ["sre", "metrics", "slos"],
+		"createdAt": "2026-04-16 16:30:00",
+		"updatedAt": "2026-04-16 16:30:00"
+	},
+	{
+		"key": "lg108",
+		"userId": "u20",
+		"communityId": "c33",
+		"title": "MongoDB Administration",
+		"description": "Manage MongoDB databases, implement sharding, and optimize query performance.",
+		"tags": ["mongodb", "database", "nosql"],
+		"createdAt": "2026-04-16 17:30:00",
+		"updatedAt": "2026-04-16 17:30:00"
+	},
+	{
+		"key": "lg109",
+		"userId": "u20",
+		"communityId": "c35",
+		"title": "Coding Interview Practice",
+		"description": "Practice coding problems from top tech companies for technical interviews.",
+		"tags": ["interviews", "coding", "algorithms"],
+		"createdAt": "2026-04-16 18:30:00",
+		"updatedAt": "2026-04-16 18:30:00"
+	},
+	{
+		"key": "lg110",
+		"userId": "u20",
+		"communityId": "c12",
+		"title": "Database Indexing Strategies",
+		"description": "Optimize database queries with proper indexing and query planning.",
+		"tags": ["database", "indexing", "performance"],
+		"createdAt": "2026-04-16 19:00:00",
+		"updatedAt": "2026-04-16 19:00:00"
+	},
+	{
+		"key": "lg111",
+		"userId": "u11",
+		"communityId": "c22",
+		"title": "iOS Development with Swift",
+		"description": "Build native iOS applications using Swift and SwiftUI for Apple platforms.",
+		"tags": ["ios", "swift", "mobile"],
+		"createdAt": "2026-04-17 08:00:00",
+		"updatedAt": "2026-04-17 08:00:00"
+	},
+	{
+		"key": "lg112",
+		"userId": "u11",
+		"communityId": "c26",
+		"title": "Web3 Development Basics",
+		"description": "Understand Web3 fundamentals, decentralized apps, and blockchain integration.",
+		"tags": ["web3", "blockchain", "dapp"],
+		"createdAt": "2026-04-17 09:00:00",
+		"updatedAt": "2026-04-17 09:00:00"
+	},
+	{
+		"key": "lg113",
+		"userId": "u11",
+		"communityId": "c27",
+		"title": "User Experience Design",
+		"description": "Learn UX design principles, user research, and creating user-centered designs.",
+		"tags": ["ux", "design", "user-experience"],
+		"createdAt": "2026-04-17 10:00:00",
+		"updatedAt": "2026-04-17 10:00:00"
+	},
+	{
+		"key": "lg114",
+		"userId": "u11",
+		"communityId": "c30",
+		"title": "AWS Solutions Architecture",
+		"description": "Design highly available, cost-efficient, fault-tolerant systems on AWS.",
+		"tags": ["aws", "architecture", "cloud"],
+		"createdAt": "2026-04-17 11:00:00",
+		"updatedAt": "2026-04-17 11:00:00"
+	},
+	{
+		"key": "lg115",
+		"userId": "u11",
+		"communityId": "c31",
+		"title": "Kubernetes Security",
+		"description": "Secure Kubernetes clusters, implement RBAC, network policies, and secrets management.",
+		"tags": ["kubernetes", "security", "rbac"],
+		"createdAt": "2026-04-17 12:00:00",
+		"updatedAt": "2026-04-17 12:00:00"
+	},
+	{
+		"key": "lg116",
+		"userId": "u12",
+		"communityId": "c23",
+		"title": "Threat Modeling",
+		"description": "Learn threat modeling methodologies like STRIDE and DREAD for security analysis.",
+		"tags": ["security", "threat-modeling", "appsec"],
+		"createdAt": "2026-04-17 08:30:00",
+		"updatedAt": "2026-04-17 08:30:00"
+	},
+	{
+		"key": "lg117",
+		"userId": "u12",
+		"communityId": "c25",
+		"title": "Chaos Engineering",
+		"description": "Implement chaos engineering to test system resilience with controlled experiments.",
+		"tags": ["chaos-engineering", "resilience", "sre"],
+		"createdAt": "2026-04-17 09:30:00",
+		"updatedAt": "2026-04-17 09:30:00"
+	},
+	{
+		"key": "lg118",
+		"userId": "u12",
+		"communityId": "c28",
+		"title": "A/B Testing & Experimentation",
+		"description": "Run A/B tests, analyze results, and make data-driven product decisions.",
+		"tags": ["ab-testing", "experimentation", "data"],
+		"createdAt": "2026-04-17 10:30:00",
+		"updatedAt": "2026-04-17 10:30:00"
+	},
+	{
+		"key": "lg119",
+		"userId": "u12",
+		"communityId": "c29",
+		"title": "MVP Development",
+		"description": "Build minimum viable products, validate ideas, and iterate based on feedback.",
+		"tags": ["mvp", "startup", "product"],
+		"createdAt": "2026-04-17 11:30:00",
+		"updatedAt": "2026-04-17 11:30:00"
+	},
+	{
+		"key": "lg120",
+		"userId": "u12",
+		"communityId": "c33",
+		"title": "Database Migration Strategies",
+		"description": "Plan and execute database migrations with minimal downtime.",
+		"tags": ["database", "migration", "postgresql"],
+		"createdAt": "2026-04-17 12:30:00",
+		"updatedAt": "2026-04-17 12:30:00"
+	},
+	{
+		"key": "lg121",
+		"userId": "u13",
+		"communityId": "c21",
+		"title": "Mobile App Testing",
+		"description": "Test mobile apps for functionality, performance, and compatibility across devices.",
+		"tags": ["mobile", "testing", "qa"],
+		"createdAt": "2026-04-17 09:00:00",
+		"updatedAt": "2026-04-17 09:00:00"
+	},
+	{
+		"key": "lg122",
+		"userId": "u13",
+		"communityId": "c24",
+		"title": "Stream Processing with Kafka",
+		"description": "Build real-time streaming pipelines with Apache Kafka and stream processing.",
+		"tags": ["kafka", "streaming", "data"],
+		"createdAt": "2026-04-17 10:00:00",
+		"updatedAt": "2026-04-17 10:00:00"
+	},
+	{
+		"key": "lg123",
+		"userId": "u13",
+		"communityId": "c26",
+		"title": "NFT Development",
+		"description": "Create and deploy NFTs on Ethereum, understand token standards and marketplaces.",
+		"tags": ["nft", "ethereum", "web3"],
+		"createdAt": "2026-04-17 11:00:00",
+		"updatedAt": "2026-04-17 11:00:00"
+	},
+	{
+		"key": "lg124",
+		"userId": "u13",
+		"communityId": "c29",
+		"title": "Business Model Canvas",
+		"description": "Use Business Model Canvas to validate and communicate business ideas.",
+		"tags": ["startup", "business-model", "strategy"],
+		"createdAt": "2026-04-17 12:00:00",
+		"updatedAt": "2026-04-17 12:00:00"
+	},
+	{
+		"key": "lg125",
+		"userId": "u13",
+		"communityId": "c34",
+		"title": "API Documentation Tools",
+		"description": "Master tools like Swagger, Postman, and Redoc for API documentation.",
+		"tags": ["api-docs", "swagger", "documentation"],
+		"createdAt": "2026-04-17 13:00:00",
+		"updatedAt": "2026-04-17 13:00:00"
+	},
+	{
+		"key": "lg126",
+		"userId": "u14",
+		"communityId": "c22",
+		"title": "Android Kotlin Development",
+		"description": "Build native Android apps using Kotlin and Jetpack Compose.",
+		"tags": ["android", "kotlin", "mobile"],
+		"createdAt": "2026-04-17 09:30:00",
+		"updatedAt": "2026-04-17 09:30:00"
+	},
+	{
+		"key": "lg127",
+		"userId": "u14",
+		"communityId": "c23",
+		"title": "Security Incident Response",
+		"description": "Respond to security incidents, conduct forensics, and implement remediation.",
+		"tags": ["incident-response", "security", "forensics"],
+		"createdAt": "2026-04-17 10:30:00",
+		"updatedAt": "2026-04-17 10:30:00"
+	},
+	{
+		"key": "lg128",
+		"userId": "u14",
+		"communityId": "c26",
+		"title": "Cross-Chain Development",
+		"description": "Build applications that work across multiple blockchain networks.",
+		"tags": ["cross-chain", "blockchain", "web3"],
+		"createdAt": "2026-04-17 11:30:00",
+		"updatedAt": "2026-04-17 11:30:00"
+	},
+	{
+		"key": "lg129",
+		"userId": "u14",
+		"communityId": "c27",
+		"title": "Interaction Design",
+		"description": "Learn interaction design principles for creating intuitive user interfaces.",
+		"tags": ["interaction-design", "ux", "ui"],
+		"createdAt": "2026-04-17 12:30:00",
+		"updatedAt": "2026-04-17 12:30:00"
+	},
+	{
+		"key": "lg130",
+		"userId": "u14",
+		"communityId": "c29",
+		"title": "Lean Startup Methodology",
+		"description": "Apply lean startup principles to build and test business hypotheses.",
+		"tags": ["lean-startup", "methodology", "product"],
+		"createdAt": "2026-04-17 13:30:00",
+		"updatedAt": "2026-04-17 13:30:00"
+	},
+	{
+		"key": "lg131",
+		"userId": "u15",
+		"communityId": "c21",
+		"title": "SwiftUI Fundamentals",
+		"description": "Build modern iOS interfaces with SwiftUI declarative framework.",
+		"tags": ["swiftui", "ios", "mobile"],
+		"createdAt": "2026-04-17 10:00:00",
+		"updatedAt": "2026-04-17 10:00:00"
+	},
+	{
+		"key": "lg132",
+		"userId": "u15",
+		"communityId": "c24",
+		"title": "Data Warehouse Design",
+		"description": "Design data warehouses with star and snowflake schemas for analytics.",
+		"tags": ["data-warehouse", "analytics", "etl"],
+		"createdAt": "2026-04-17 11:00:00",
+		"updatedAt": "2026-04-17 11:00:00"
+	},
+	{
+		"key": "lg133",
+		"userId": "u15",
+		"communityId": "c25",
+		"title": "SRE Team Operations",
+		"description": "Manage SRE teams, define operational processes, and handle incidents.",
+		"tags": ["sre", "team", "operations"],
+		"createdAt": "2026-04-17 12:00:00",
+		"updatedAt": "2026-04-17 12:00:00"
+	},
+	{
+		"key": "lg134",
+		"userId": "u15",
+		"communityId": "c31",
+		"title": "Container Orchestration",
+		"description": "Orchestrate containers at scale with Kubernetes and Docker Swarm.",
+		"tags": ["containers", "orchestration", "kubernetes"],
+		"createdAt": "2026-04-17 13:00:00",
+		"updatedAt": "2026-04-17 13:00:00"
+	},
+	{
+		"key": "lg135",
+		"userId": "u15",
+		"communityId": "c35",
+		"title": "System Design Principles",
+		"description": "Learn key system design principles for scalable applications.",
+		"tags": ["system-design", "architecture", "scalability"],
+		"createdAt": "2026-04-17 14:00:00",
+		"updatedAt": "2026-04-17 14:00:00"
+	},
+	{
+		"key": "lg136",
+		"userId": "u16",
+		"communityId": "c21",
+		"title": "React Native Navigation",
+		"description": "Implement complex navigation flows in React Native apps.",
+		"tags": ["react-native", "navigation", "mobile"],
+		"createdAt": "2026-04-17 11:00:00",
+		"updatedAt": "2026-04-17 11:00:00"
+	},
+	{
+		"key": "lg137",
+		"userId": "u16",
+		"communityId": "c23",
+		"title": "Cryptography Fundamentals",
+		"description": "Understand encryption, hashing, digital signatures, and cryptographic protocols.",
+		"tags": ["cryptography", "security", "encryption"],
+		"createdAt": "2026-04-17 12:00:00",
+		"updatedAt": "2026-04-17 12:00:00"
+	},
+	{
+		"key": "lg138",
+		"userId": "u16",
+		"communityId": "c24",
+		"title": "Snowflake Cloud Data Platform",
+		"description": "Use Snowflake for cloud data warehousing and analytics.",
+		"tags": ["snowflake", "data-warehouse", "cloud"],
+		"createdAt": "2026-04-17 13:00:00",
+		"updatedAt": "2026-04-17 13:00:00"
+	},
+	{
+		"key": "lg139",
+		"userId": "u16",
+		"communityId": "c25",
+		"title": "Alerting Strategies",
+		"description": "Design effective alerting systems that reduce alert fatigue.",
+		"tags": ["alerting", "monitoring", "sre"],
+		"createdAt": "2026-04-17 14:00:00",
+		"updatedAt": "2026-04-17 14:00:00"
+	},
+	{
+		"key": "lg140",
+		"userId": "u16",
+		"communityId": "c33",
+		"title": "SQL Query Optimization",
+		"description": "Optimize complex SQL queries and improve database performance.",
+		"tags": ["sql", "optimization", "performance"],
+		"createdAt": "2026-04-17 15:00:00",
+		"updatedAt": "2026-04-17 15:00:00"
+	},
+	{
+		"key": "lg141",
+		"userId": "u17",
+		"communityId": "c22",
+		"title": "Mobile Game Monetization",
+		"description": "Learn strategies for monetizing mobile games through ads and in-app purchases.",
+		"tags": ["mobile-games", "monetization", "business"],
+		"createdAt": "2026-04-17 12:00:00",
+		"updatedAt": "2026-04-17 12:00:00"
+	},
+	{
+		"key": "lg142",
+		"userId": "u17",
+		"communityId": "c24",
+		"title": "Real-Time Data Processing",
+		"description": "Process data in real-time with Apache Flink and similar technologies.",
+		"tags": ["real-time", "flink", "streaming"],
+		"createdAt": "2026-04-17 13:00:00",
+		"updatedAt": "2026-04-17 13:00:00"
+	},
+	{
+		"key": "lg143",
+		"userId": "u17",
+		"communityId": "c27",
+		"title": "Design Thinking",
+		"description": "Apply design thinking methodology to solve complex problems.",
+		"tags": ["design-thinking", "innovation", "ux"],
+		"createdAt": "2026-04-17 14:00:00",
+		"updatedAt": "2026-04-17 14:00:00"
+	},
+	{
+		"key": "lg144",
+		"userId": "u17",
+		"communityId": "c29",
+		"title": "Startup Legal Basics",
+		"description": "Understand legal requirements for startups, incorporation, and contracts.",
+		"tags": ["startup", "legal", "business"],
+		"createdAt": "2026-04-17 15:00:00",
+		"updatedAt": "2026-04-17 15:00:00"
+	},
+	{
+		"key": "lg145",
+		"userId": "u17",
+		"communityId": "c32",
+		"title": "GraphQL API Development",
+		"description": "Build APIs with GraphQL for flexible and efficient data fetching.",
+		"tags": ["graphql", "api", "backend"],
+		"createdAt": "2026-04-17 16:00:00",
+		"updatedAt": "2026-04-17 16:00:00"
+	},
+	{
+		"key": "lg146",
+		"userId": "u18",
+		"communityId": "c22",
+		"title": "Multiplayer Game Networking",
+		"description": "Implement multiplayer features, real-time networking, and lag compensation.",
+		"tags": ["multiplayer", "networking", "game-dev"],
+		"createdAt": "2026-04-17 13:00:00",
+		"updatedAt": "2026-04-17 13:00:00"
+	},
+	{
+		"key": "lg147",
+		"userId": "u18",
+		"communityId": "c23",
+		"title": "Secure Software Development",
+		"description": "Integrate security practices into the software development lifecycle.",
+		"tags": ["sdlc", "security", "devsecops"],
+		"createdAt": "2026-04-17 14:00:00",
+		"updatedAt": "2026-04-17 14:00:00"
+	},
+	{
+		"key": "lg148",
+		"userId": "u18",
+		"communityId": "c25",
+		"title": "Capacity Planning",
+		"description": "Plan infrastructure capacity for current and future workload demands.",
+		"tags": ["capacity-planning", "infrastructure", "sre"],
+		"createdAt": "2026-04-17 15:00:00",
+		"updatedAt": "2026-04-17 15:00:00"
+	},
+	{
+		"key": "lg149",
+		"userId": "u18",
+		"communityId": "c28",
+		"title": "Product Analytics",
+		"description": "Track and analyze user behavior to inform product decisions.",
+		"tags": ["product-analytics", "data", "metrics"],
+		"createdAt": "2026-04-17 16:00:00",
+		"updatedAt": "2026-04-17 16:00:00"
+	},
+	{
+		"key": "lg150",
+		"userId": "u18",
+		"communityId": "c34",
+		"title": "Developer Advocacy",
+		"description": "Build developer communities, create content, and advocate for products.",
+		"tags": ["devrel", "advocacy", "community"],
+		"createdAt": "2026-04-17 17:00:00",
+		"updatedAt": "2026-04-17 17:00:00"
+	},
+	{
+		"key": "lg151",
+		"userId": "u19",
+		"communityId": "c21",
+		"title": "Kotlin Multiplatform",
+		"description": "Build cross-platform mobile apps with Kotlin Multiplatform.",
+		"tags": ["kotlin", "multiplatform", "mobile"],
+		"createdAt": "2026-04-17 14:00:00",
+		"updatedAt": "2026-04-17 14:00:00"
+	},
+	{
+		"key": "lg152",
+		"userId": "u19",
+		"communityId": "c24",
+		"title": "Data Lake Architecture",
+		"description": "Design data lakes with Delta Lake, Iceberg for large-scale analytics.",
+		"tags": ["data-lake", "architecture", "big-data"],
+		"createdAt": "2026-04-17 15:00:00",
+		"updatedAt": "2026-04-17 15:00:00"
+	},
+	{
+		"key": "lg153",
+		"userId": "u19",
+		"communityId": "c26",
+		"title": "DAO Development",
+		"description": "Build Decentralized Autonomous Organizations on blockchain.",
+		"tags": ["dao", "blockchain", "governance"],
+		"createdAt": "2026-04-17 16:00:00",
+		"updatedAt": "2026-04-17 16:00:00"
+	},
+	{
+		"key": "lg154",
+		"userId": "u19",
+		"communityId": "c28",
+		"title": "Product Metrics & KPIs",
+		"description": "Define and track product metrics and KPIs for success measurement.",
+		"tags": ["metrics", "kpis", "product"],
+		"createdAt": "2026-04-17 17:00:00",
+		"updatedAt": "2026-04-17 17:00:00"
+	},
+	{
+		"key": "lg155",
+		"userId": "u19",
+		"communityId": "c33",
+		"title": "MySQL Cluster Administration",
+		"description": "Manage MySQL clusters, replication, and high availability.",
+		"tags": ["mysql", "cluster", "ha"],
+		"createdAt": "2026-04-17 18:00:00",
+		"updatedAt": "2026-04-17 18:00:00"
+	},
+	{
+		"key": "lg156",
+		"userId": "u20",
+		"communityId": "c21",
+		"title": "Cross-Platform Mobile Testing",
+		"description": "Test cross-platform mobile apps on iOS and Android devices.",
+		"tags": ["mobile-testing", "cross-platform", "qa"],
+		"createdAt": "2026-04-17 14:30:00",
+		"updatedAt": "2026-04-17 14:30:00"
+	},
+	{
+		"key": "lg157",
+		"userId": "u20",
+		"communityId": "c24",
+		"title": "Business Intelligence",
+		"description": "Build BI solutions with Power BI, Tableau for data visualization.",
+		"tags": ["bi", "visualization", "analytics"],
+		"createdAt": "2026-04-17 15:30:00",
+		"updatedAt": "2026-04-17 15:30:00"
+	},
+	{
+		"key": "lg158",
+		"userId": "u20",
+		"communityId": "c26",
+		"title": "Blockchain Governance",
+		"description": "Understand blockchain governance models and on-chain voting.",
+		"tags": ["blockchain", "governance", "dao"],
+		"createdAt": "2026-04-17 16:30:00",
+		"updatedAt": "2026-04-17 16:30:00"
+	},
+	{
+		"key": "lg159",
+		"userId": "u20",
+		"communityId": "c28",
+		"title": "Product Roadmap Planning",
+		"description": "Create and manage product roadmaps with agile methodologies.",
+		"tags": ["roadmap", "agile", "product"],
+		"createdAt": "2026-04-17 17:30:00",
+		"updatedAt": "2026-04-17 17:30:00"
+	},
+	{
+		"key": "lg160",
+		"userId": "u20",
+		"communityId": "c29",
+		"title": "Pitch Deck Creation",
+		"description": "Create compelling pitch decks for investors and stakeholders.",
+		"tags": ["pitch-deck", "startup", "fundraising"],
+		"createdAt": "2026-04-17 18:30:00",
+		"updatedAt": "2026-04-17 18:30:00"
+	},
+	{
+		"key": "lg161",
+		"userId": "u11",
+		"communityId": "c35",
+		"title": "Distributed Systems",
+		"description": "Understand distributed systems concepts like CAP theorem and consensus.",
+		"tags": ["distributed-systems", "architecture", "theory"],
+		"createdAt": "2026-04-18 08:00:00",
+		"updatedAt": "2026-04-18 08:00:00"
+	},
+	{
+		"key": "lg162",
+		"userId": "u12",
+		"communityId": "c34",
+		"title": "Content Strategy",
+		"description": "Develop content strategies for technical products and developer tools.",
+		"tags": ["content", "strategy", "devrel"],
+		"createdAt": "2026-04-18 09:00:00",
+		"updatedAt": "2026-04-18 09:00:00"
+	},
+	{
+		"key": "lg163",
+		"userId": "u13",
+		"communityId": "c32",
+		"title": "Microservices Patterns",
+		"description": "Learn microservices patterns like saga, CQRS, and event sourcing.",
+		"tags": ["microservices", "architecture", "patterns"],
+		"createdAt": "2026-04-18 10:00:00",
+		"updatedAt": "2026-04-18 10:00:00"
+	},
+	{
+		"key": "lg164",
+		"userId": "u14",
+		"communityId": "c35",
+		"title": "Scalability Patterns",
+		"description": "Learn patterns for scaling applications horizontally and vertically.",
+		"tags": ["scalability", "architecture", "patterns"],
+		"createdAt": "2026-04-18 11:00:00",
+		"updatedAt": "2026-04-18 11:00:00"
+	},
+	{
+		"key": "lg165",
+		"userId": "u15",
+		"communityId": "c32",
+		"title": "Event-Driven Architecture",
+		"description": "Build event-driven systems with message queues and event streaming.",
+		"tags": ["eda", "events", "architecture"],
+		"createdAt": "2026-04-18 12:00:00",
+		"updatedAt": "2026-04-18 12:00:00"
+	},
+	{
+		"key": "lg166",
+		"userId": "u16",
+		"communityId": "c34",
+		"title": "Technical Blog Writing",
+		"description": "Write compelling technical blog posts and articles.",
+		"tags": ["blogging", "technical-writing", "content"],
+		"createdAt": "2026-04-18 13:00:00",
+		"updatedAt": "2026-04-18 13:00:00"
+	},
+	{
+		"key": "lg167",
+		"userId": "u17",
+		"communityId": "c33",
+		"title": "Database Replication",
+		"description": "Implement database replication for high availability and read scaling.",
+		"tags": ["replication", "database", "ha"],
+		"createdAt": "2026-04-18 14:00:00",
+		"updatedAt": "2026-04-18 14:00:00"
+	},
+	{
+		"key": "lg168",
+		"userId": "u18",
+		"communityId": "c31",
+		"title": "Container Security",
+		"description": "Secure containerized applications and implement runtime security.",
+		"tags": ["container-security", "security", "docker"],
+		"createdAt": "2026-04-18 15:00:00",
+		"updatedAt": "2026-04-18 15:00:00"
+	},
+	{
+		"key": "lg169",
+		"userId": "u19",
+		"communityId": "c34",
+		"title": "Open Source Contribution",
+		"description": "Contribute to open source projects and build developer reputation.",
+		"tags": ["open-source", "contribution", "community"],
+		"createdAt": "2026-04-18 16:00:00",
+		"updatedAt": "2026-04-18 16:00:00"
+	},
+	{
+		"key": "lg170",
+		"userId": "u20",
+		"communityId": "c31",
+		"title": "CI/CD Pipeline Security",
+		"description": "Secure CI/CD pipelines and prevent supply chain attacks.",
+		"tags": ["ci-cd", "security", "devsecops"],
+		"createdAt": "2026-04-18 17:00:00",
+		"updatedAt": "2026-04-18 17:00:00"
+	},
+	{
+		"key": "lg171",
+		"userId": "u11",
+		"communityId": "c29",
+		"title": "Growth Hacking",
+		"description": "Learn growth hacking techniques for rapid user acquisition.",
+		"tags": ["growth", "marketing", "startup"],
+		"createdAt": "2026-04-18 08:30:00",
+		"updatedAt": "2026-04-18 08:30:00"
+	},
+	{
+		"key": "lg172",
+		"userId": "u12",
+		"communityId": "c30",
+		"title": "Azure Cloud Services",
+		"description": "Master Azure cloud services for application hosting and data processing.",
+		"tags": ["azure", "cloud", "microsoft"],
+		"createdAt": "2026-04-18 09:30:00",
+		"updatedAt": "2026-04-18 09:30:00"
+	},
+	{
+		"key": "lg173",
+		"userId": "u13",
+		"communityId": "c33",
+		"title": "Redis Cache Strategies",
+		"description": "Implement Redis caching for performance optimization.",
+		"tags": ["redis", "caching", "performance"],
+		"createdAt": "2026-04-18 10:30:00",
+		"updatedAt": "2026-04-18 10:30:00"
+	},
+	{
+		"key": "lg174",
+		"userId": "u14",
+		"communityId": "c32",
+		"title": "gRPC Development",
+		"description": "Build high-performance APIs with gRPC and protocol buffers.",
+		"tags": ["grpc", "api", "performance"],
+		"createdAt": "2026-04-18 11:30:00",
+		"updatedAt": "2026-04-18 11:30:00"
+	},
+	{
+		"key": "lg175",
+		"userId": "u15",
+		"communityId": "c35",
+		"title": "Load Balancing Strategies",
+		"description": "Implement load balancing for high availability and performance.",
+		"tags": ["load-balancing", "infrastructure", "performance"],
+		"createdAt": "2026-04-18 12:30:00",
+		"updatedAt": "2026-04-18 12:30:00"
+	},
+	{
+		"key": "lg176",
+		"userId": "u16",
+		"communityId": "c29",
+		"title": "Customer Development",
+		"description": "Validate product ideas through customer development interviews.",
+		"tags": ["customer-development", "startup", "validation"],
+		"createdAt": "2026-04-18 13:30:00",
+		"updatedAt": "2026-04-18 13:30:00"
+	},
+	{
+		"key": "lg177",
+		"userId": "u17",
+		"communityId": "c30",
+		"title": "GCP Cloud Architecture",
+		"description": "Design architectures on Google Cloud Platform for scalability.",
+		"tags": ["gcp", "cloud", "architecture"],
+		"createdAt": "2026-04-18 14:30:00",
+		"updatedAt": "2026-04-18 14:30:00"
+	},
+	{
+		"key": "lg178",
+		"userId": "u18",
+		"communityId": "c33",
+		"title": "Database Connection Pooling",
+		"description": "Optimize database connections with connection pooling strategies.",
+		"tags": ["database", "performance", "pooling"],
+		"createdAt": "2026-04-18 15:30:00",
+		"updatedAt": "2026-04-18 15:30:00"
+	},
+	{
+		"key": "lg179",
+		"userId": "u19",
+		"communityId": "c32",
+		"title": "Service Mesh Comparison",
+		"description": "Compare Istio, Linkerd, and other service mesh solutions.",
+		"tags": ["service-mesh", "istio", "linkerd"],
+		"createdAt": "2026-04-18 16:30:00",
+		"updatedAt": "2026-04-18 16:30:00"
+	},
+	{
+		"key": "lg180",
+		"userId": "u20",
+		"communityId": "c34",
+		"title": "Conference Speaking",
+		"description": "Prepare and deliver technical talks at conferences and meetups.",
+		"tags": ["speaking", "conference", "career"],
+		"createdAt": "2026-04-18 17:30:00",
+		"updatedAt": "2026-04-18 17:30:00"
 	}
 ]

@@ -10,8 +10,8 @@
 		"db:generate": "bun drizzle-kit generate",
 		"db:migrate": "bun drizzle-kit migrate",
 		"db:push": "bun drizzle-kit push",
-		"db:seed": "bun run ./db/seeds/index.ts",
-		"db:seed:users": "bun ./db/seeds/users.ts"
+		"db:studio": "bun drizzle-kit studio",
+		"db:seed": "bun run ./db/seeds/index.ts"
 	},
 	"dependencies": {
 		"@clerk/nextjs": "^7.3.3",

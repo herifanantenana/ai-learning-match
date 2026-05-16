@@ -1,7 +1,7 @@
 {
   "version": "8",
   "dialect": "postgres",
-  "id": "a58e8453-56e0-4420-a012-85550400f449",
+  "id": "ca28a7de-32ed-4ab8-adfb-d80b6f125187",
   "prevIds": [
     "00000000-0000-0000-0000-000000000000"
   ],
@@ -133,7 +133,7 @@
       "default": null,
       "generated": null,
       "identity": null,
-      "name": "author_id",
+      "name": "owner_id",
       "entityType": "columns",
       "schema": "public",
       "table": "communities"
@@ -714,7 +714,7 @@
       "nameExplicit": true,
       "columns": [
         {
-          "value": "author_id",
+          "value": "owner_id",
           "isExpression": false,
           "asc": true,
           "nullsFirst": false,
@@ -726,7 +726,7 @@
       "with": "",
       "method": "btree",
       "concurrently": false,
-      "name": "communities_author_id_idx",
+      "name": "communities_owner_id_idx",
       "entityType": "indexes",
       "schema": "public",
       "table": "communities"
@@ -965,7 +965,7 @@
     {
       "nameExplicit": true,
       "columns": [
-        "author_id"
+        "owner_id"
       ],
       "schemaTo": "public",
       "tableTo": "users",
@@ -974,7 +974,7 @@
       ],
       "onUpdate": "CASCADE",
       "onDelete": "CASCADE",
-      "name": "communities_author_id_fk",
+      "name": "communities_owner_id_fk",
       "entityType": "fks",
       "schema": "public",
       "table": "communities"

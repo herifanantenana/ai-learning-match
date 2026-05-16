@@ -40,25 +40,6 @@
 		"generatedAt": "2026-04-28 15:30:00"
 	},
 	{
-		"key": "cs3",
-		"conversationId": "conv5",
-		"summary": "Sarah Johnson connected with James Chen about building portfolio projects in Ankita's Tech Community. Sarah is building a task management app with React and Firebase, seeking UX patterns advice. James recommended Zustand for state management, noting its simpler API compared to Redux. They discussed making portfolios stand out to recruiters through clean UI, performance, and mobile responsiveness.",
-		"actionItems": [
-			"Learn Zustand for state management",
-			"Research portfolio best practices"
-		],
-		"keyPoints": [
-			"Zustand has simpler API and less boilerplate than Redux",
-			"Clean UI and performance are key for professional portfolios",
-			"Writing about learning process adds value to portfolios"
-		],
-		"nextSteps": [
-			"Replace current state solution with Zustand",
-			"Review portfolio from recruiter perspective"
-		],
-		"generatedAt": "2026-04-27 18:00:00"
-	},
-	{
 		"key": "cs4",
 		"conversationId": "conv6",
 		"summary": "James Chen and Olivia Davis discussed advanced Next.js topics including the new App Router features, server actions, and SEO optimization. Both are building production applications - James an e-commerce platform, Olivia a SaaS starter kit. They explored the metadata API for SEO and discussed collaborating on open source SEO tools.",
@@ -211,25 +192,6 @@
 		"generatedAt": "2026-04-28 08:00:00"
 	},
 	{
-		"key": "cs12",
-		"conversationId": "conv17",
-		"summary": "James Chen and Alexander Lee explored NLP and transformer models for sentiment analysis. James is moving from traditional NLP methods to BERT for better accuracy, using the Hugging Face library. They discussed fine-tuning BERT for domain-specific data and handling class imbalance through oversampling or class weights.",
-		"actionItems": [
-			"Fine-tune BERT model on domain data",
-			"Implement class imbalance handling"
-		],
-		"keyPoints": [
-			"Fine-tuning BERT significantly improves domain-specific accuracy",
-			"Hugging Face library simplifies transformer implementation",
-			"Class weights or oversampling handle imbalance effectively"
-		],
-		"nextSteps": [
-			"Prepare domain-specific training dataset",
-			"Run fine-tuning experiment"
-		],
-		"generatedAt": "2026-04-28 07:30:00"
-	},
-	{
 		"key": "cs13",
 		"conversationId": "conv18",
 		"summary": "Marcus Thompson and William Brown discussed AWS services and serverless architecture. They covered Lambda and API Gateway for serverless APIs, the challenge of cold starts and solutions like provisioned concurrency, and Infrastructure as Code with Terraform. Both are building scalable cloud applications.",
@@ -249,25 +211,6 @@
 		"generatedAt": "2026-04-28 14:00:00"
 	},
 	{
-		"key": "cs14",
-		"conversationId": "conv19",
-		"summary": "Marcus Thompson and Benjamin Martinez explored scalability patterns including caching, load balancing, and database scaling. They discussed Redis for caching and Redis Streams for task queues, read replicas for database performance, and query optimization with proper indexing. Both work on high-traffic applications.",
-		"actionItems": [
-			"Implement Redis caching strategy",
-			"Optimize slow database queries"
-		],
-		"keyPoints": [
-			"Redis Streams simpler than Kafka for small projects",
-			"Read replicas easiest starting point for database scaling",
-			"Proper indexes can dramatically improve query performance"
-		],
-		"nextSteps": [
-			"Add Redis caching to current application",
-			"Analyze slow queries and add indexes"
-		],
-		"generatedAt": "2026-04-28 13:00:00"
-	},
-	{
 		"key": "cs15",
 		"conversationId": "conv20",
 		"summary": "William Brown and Benjamin Martinez discussed leadership skills, focusing on effective 1:1s and giving constructive feedback. They covered the SBI (Situation, Behavior, Impact) model for objective feedback, strategies for resolving team conflicts, and approaches to mentoring junior developers.",
@@ -285,5 +228,193 @@
 			"Apply feedback model in next code review"
 		],
 		"generatedAt": "2026-04-28 12:30:00"
+	},
+	{
+		"key": "cs16",
+		"conversationId": "conv59",
+		"summary": "Discussion about product management and user research",
+		"topics": ["User Research", "Jobs to be Done", "Product Strategy"],
+		"keyInsights": [
+			"User research is foundational to product success",
+			"Jobs to be Done framework helps understand customer motivations",
+			"Practice user interview techniques regularly"
+		],
+		"actionItems": ["Conduct user interviews", "Document customer pain points"],
+		"nextSteps": [
+			"Share research findings with team",
+			"Create user persona documents"
+		],
+		"generatedAt": "2026-04-28 13:00:00"
+	},
+	{
+		"key": "cs17",
+		"conversationId": "conv60",
+		"summary": "React Native development patterns and best practices",
+		"topics": ["React Native", "Custom Hooks", "Compound Components"],
+		"keyInsights": [
+			"Custom hooks enable reusable logic across components",
+			"Compound components provide flexible APIs",
+			"Code sharing improves maintainability"
+		],
+		"actionItems": [
+			"Refactor components to use custom hooks",
+			"Create shared component library"
+		],
+		"nextSteps": [
+			"Share code examples via repository",
+			"Review patterns together"
+		],
+		"generatedAt": "2026-04-28 13:30:00"
+	},
+	{
+		"key": "cs18",
+		"conversationId": "conv62",
+		"summary": "Data engineering with Spark and Kafka best practices",
+		"topics": ["Apache Spark", "Kafka", "Stream Processing"],
+		"keyInsights": [
+			"Spark Structured Streaming enables exactly-once processing",
+			"Exchange best practices regularly",
+			"Document pipeline patterns"
+		],
+		"actionItems": [
+			"Set up knowledge sharing sessions",
+			"Create pipeline templates"
+		],
+		"nextSteps": ["Review each other's code", "Document common patterns"],
+		"generatedAt": "2026-04-28 14:00:00"
+	},
+	{
+		"key": "cs19",
+		"conversationId": "conv64",
+		"summary": "Game development with different engines",
+		"topics": ["Unity", "Godot", "Game Design"],
+		"keyInsights": [
+			"Godot is great for 2D and lightweight projects",
+			"Node system in Godot is intuitive",
+			"Each engine has strengths for different game types"
+		],
+		"actionItems": [
+			"Try Godot for next 2D project",
+			"Share engine-specific tips"
+		],
+		"nextSteps": [
+			"Collaborate on a small game",
+			"Compare performance across engines"
+		],
+		"generatedAt": "2026-04-28 14:30:00"
+	},
+	{
+		"key": "cs20",
+		"conversationId": "conv65",
+		"summary": "Real-time multiplayer game infrastructure",
+		"topics": ["Node.js", "Socket.io", "Game Networking"],
+		"keyInsights": [
+			"WebSockets essential for real-time gaming",
+			"Lag compensation is a key challenge",
+			"Backend architecture impacts player experience"
+		],
+		"actionItems": [
+			"Research lag compensation techniques",
+			"Design scalable backend architecture"
+		],
+		"nextSteps": [
+			"Share networking code examples",
+			"Discuss scalability approaches"
+		],
+		"generatedAt": "2026-04-28 15:00:00"
+	},
+	{
+		"key": "cs21",
+		"conversationId": "conv66",
+		"summary": "Security threat modeling and SRE practices",
+		"topics": ["STRIDE", "Threat Modeling", "Security"],
+		"keyInsights": [
+			"STRIDE framework helps identify system threats",
+			"Security should be integrated early in development",
+			"EXPLAIN ANALYZE useful for database optimization"
+		],
+		"actionItems": [
+			"Apply STRIDE to current projects",
+			"Share security resources"
+		],
+		"nextSteps": [
+			"Conduct threat modeling workshop",
+			"Document security patterns"
+		],
+		"generatedAt": "2026-04-28 15:30:00"
+	},
+	{
+		"key": "cs22",
+		"conversationId": "conv67",
+		"summary": "DeFi interface design and blockchain UX",
+		"topics": ["DeFi", "UX Design", "Blockchain"],
+		"keyInsights": [
+			"Complex financial data needs clear design",
+			"User trust crucial in DeFi applications",
+			"Collaboration between design and development valuable"
+		],
+		"actionItems": [
+			"Explore blockchain UI patterns",
+			"Research DeFi user behavior"
+		],
+		"nextSteps": [
+			"Design a DeFi dashboard together",
+			"Test interfaces with users"
+		],
+		"generatedAt": "2026-04-28 16:00:00"
+	},
+	{
+		"key": "cs23",
+		"conversationId": "conv68",
+		"summary": "Database optimization techniques",
+		"topics": ["PostgreSQL", "Query Optimization", "Indexing"],
+		"keyInsights": [
+			"Indexing strategies critical for performance",
+			"Query plan analysis reveals optimization opportunities",
+			"EXPLAIN ANALYZE essential for debugging"
+		],
+		"actionItems": ["Review slow queries", "Implement proper indexing"],
+		"nextSteps": [
+			"Exchange queries for review",
+			"Document optimization patterns"
+		],
+		"generatedAt": "2026-04-28 16:30:00"
+	},
+	{
+		"key": "cs24",
+		"conversationId": "conv69",
+		"summary": "Multi-cloud architecture strategies",
+		"topics": ["AWS", "GCP", "Azure", "Serverless"],
+		"keyInsights": [
+			"Each cloud provider has unique strengths",
+			"Serverless architectures offer great scalability",
+			"Cross-cloud skills are valuable"
+		],
+		"actionItems": [
+			"Explore serverless on different platforms",
+			"Compare cloud services"
+		],
+		"nextSteps": ["Build multi-cloud demo", "Share learning resources"],
+		"generatedAt": "2026-04-28 17:00:00"
+	},
+	{
+		"key": "cs25",
+		"conversationId": "conv70",
+		"summary": "Design systems for games and UI components",
+		"topics": ["Storybook", "Figma", "Design Systems"],
+		"keyInsights": [
+			"Consistency in gaming UI improves player experience",
+			"Storybook excellent for component documentation",
+			"Figma and Storybook work well together"
+		],
+		"actionItems": [
+			"Set up Storybook for team",
+			"Create design system components"
+		],
+		"nextSteps": [
+			"Build shared component library",
+			"Document usage guidelines"
+		],
+		"generatedAt": "2026-04-28 17:30:00"
 	}
 ]
