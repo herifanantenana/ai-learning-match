@@ -1,0 +1,362 @@
+[
+	{
+		"key": "cm1",
+		"userId": "u1",
+		"communityId": "c1",
+		"joinedAt": "2026-04-06 09:00:00"
+	},
+	{
+		"key": "cm2",
+		"userId": "u2",
+		"communityId": "c2",
+		"joinedAt": "2026-04-06 09:30:00"
+	},
+	{
+		"key": "cm3",
+		"userId": "u3",
+		"communityId": "c3",
+		"joinedAt": "2026-04-06 10:00:00"
+	},
+	{
+		"key": "cm4",
+		"userId": "u4",
+		"communityId": "c4",
+		"joinedAt": "2026-04-06 10:30:00"
+	},
+	{
+		"key": "cm5",
+		"userId": "u5",
+		"communityId": "c5",
+		"joinedAt": "2026-04-06 11:00:00"
+	},
+	{
+		"key": "cm6",
+		"userId": "u6",
+		"communityId": "c6",
+		"joinedAt": "2026-04-06 11:30:00"
+	},
+	{
+		"key": "cm7",
+		"userId": "u7",
+		"communityId": "c7",
+		"joinedAt": "2026-04-06 12:00:00"
+	},
+	{
+		"key": "cm8",
+		"userId": "u8",
+		"communityId": "c8",
+		"joinedAt": "2026-04-06 12:30:00"
+	},
+	{
+		"key": "cm9",
+		"userId": "u9",
+		"communityId": "c9",
+		"joinedAt": "2026-04-06 13:00:00"
+	},
+	{
+		"key": "cm10",
+		"userId": "u10",
+		"communityId": "c10",
+		"joinedAt": "2026-04-06 13:30:00"
+	},
+	{
+		"key": "cm11",
+		"userId": "u11",
+		"communityId": "c1",
+		"joinedAt": "2026-04-07 09:00:00"
+	},
+	{
+		"key": "cm12",
+		"userId": "u11",
+		"communityId": "c2",
+		"joinedAt": "2026-04-07 09:30:00"
+	},
+	{
+		"key": "cm13",
+		"userId": "u11",
+		"communityId": "c7",
+		"joinedAt": "2026-04-07 10:00:00"
+	},
+	{
+		"key": "cm14",
+		"userId": "u11",
+		"communityId": "c14",
+		"joinedAt": "2026-04-07 10:30:00"
+	},
+	{
+		"key": "cm15",
+		"userId": "u11",
+		"communityId": "c17",
+		"joinedAt": "2026-04-07 11:00:00"
+	},
+	{
+		"key": "cm16",
+		"userId": "u12",
+		"communityId": "c2",
+		"joinedAt": "2026-04-07 11:30:00"
+	},
+	{
+		"key": "cm17",
+		"userId": "u12",
+		"communityId": "c7",
+		"joinedAt": "2026-04-07 12:00:00"
+	},
+	{
+		"key": "cm18",
+		"userId": "u12",
+		"communityId": "c8",
+		"joinedAt": "2026-04-07 12:30:00"
+	},
+	{
+		"key": "cm19",
+		"userId": "u12",
+		"communityId": "c17",
+		"joinedAt": "2026-04-07 13:00:00"
+	},
+	{
+		"key": "cm20",
+		"userId": "u13",
+		"communityId": "c1",
+		"joinedAt": "2026-04-07 13:30:00"
+	},
+	{
+		"key": "cm21",
+		"userId": "u13",
+		"communityId": "c6",
+		"joinedAt": "2026-04-07 14:00:00"
+	},
+	{
+		"key": "cm22",
+		"userId": "u13",
+		"communityId": "c9",
+		"joinedAt": "2026-04-07 14:30:00"
+	},
+	{
+		"key": "cm23",
+		"userId": "u13",
+		"communityId": "c16",
+		"joinedAt": "2026-04-07 15:00:00"
+	},
+	{
+		"key": "cm24",
+		"userId": "u14",
+		"communityId": "c3",
+		"joinedAt": "2026-04-07 15:30:00"
+	},
+	{
+		"key": "cm25",
+		"userId": "u14",
+		"communityId": "c5",
+		"joinedAt": "2026-04-07 16:00:00"
+	},
+	{
+		"key": "cm26",
+		"userId": "u14",
+		"communityId": "c13",
+		"joinedAt": "2026-04-07 16:30:00"
+	},
+	{
+		"key": "cm27",
+		"userId": "u14",
+		"communityId": "c18",
+		"joinedAt": "2026-04-07 17:00:00"
+	},
+	{
+		"key": "cm28",
+		"userId": "u15",
+		"communityId": "c4",
+		"joinedAt": "2026-04-08 09:00:00"
+	},
+	{
+		"key": "cm29",
+		"userId": "u15",
+		"communityId": "c6",
+		"joinedAt": "2026-04-08 09:30:00"
+	},
+	{
+		"key": "cm30",
+		"userId": "u15",
+		"communityId": "c9",
+		"joinedAt": "2026-04-08 10:00:00"
+	},
+	{
+		"key": "cm31",
+		"userId": "u15",
+		"communityId": "c15",
+		"joinedAt": "2026-04-08 10:30:00"
+	},
+	{
+		"key": "cm32",
+		"userId": "u15",
+		"communityId": "c20",
+		"joinedAt": "2026-04-08 11:00:00"
+	},
+	{
+		"key": "cm33",
+		"userId": "u16",
+		"communityId": "c1",
+		"joinedAt": "2026-04-08 11:30:00"
+	},
+	{
+		"key": "cm34",
+		"userId": "u16",
+		"communityId": "c8",
+		"joinedAt": "2026-04-08 12:00:00"
+	},
+	{
+		"key": "cm35",
+		"userId": "u16",
+		"communityId": "c17",
+		"joinedAt": "2026-04-08 12:30:00"
+	},
+	{
+		"key": "cm36",
+		"userId": "u16",
+		"communityId": "c20",
+		"joinedAt": "2026-04-08 13:00:00"
+	},
+	{
+		"key": "cm37",
+		"userId": "u17",
+		"communityId": "c4",
+		"joinedAt": "2026-04-08 13:30:00"
+	},
+	{
+		"key": "cm38",
+		"userId": "u17",
+		"communityId": "c9",
+		"joinedAt": "2026-04-08 14:00:00"
+	},
+	{
+		"key": "cm39",
+		"userId": "u17",
+		"communityId": "c12",
+		"joinedAt": "2026-04-08 14:30:00"
+	},
+	{
+		"key": "cm40",
+		"userId": "u17",
+		"communityId": "c18",
+		"joinedAt": "2026-04-08 15:00:00"
+	},
+	{
+		"key": "cm41",
+		"userId": "u18",
+		"communityId": "c3",
+		"joinedAt": "2026-04-08 15:30:00"
+	},
+	{
+		"key": "cm42",
+		"userId": "u18",
+		"communityId": "c5",
+		"joinedAt": "2026-04-08 16:00:00"
+	},
+	{
+		"key": "cm43",
+		"userId": "u18",
+		"communityId": "c10",
+		"joinedAt": "2026-04-08 16:30:00"
+	},
+	{
+		"key": "cm44",
+		"userId": "u18",
+		"communityId": "c19",
+		"joinedAt": "2026-04-08 17:00:00"
+	},
+	{
+		"key": "cm45",
+		"userId": "u19",
+		"communityId": "c1",
+		"joinedAt": "2026-04-09 09:00:00"
+	},
+	{
+		"key": "cm46",
+		"userId": "u19",
+		"communityId": "c5",
+		"joinedAt": "2026-04-09 09:30:00"
+	},
+	{
+		"key": "cm47",
+		"userId": "u19",
+		"communityId": "c6",
+		"joinedAt": "2026-04-09 10:00:00"
+	},
+	{
+		"key": "cm48",
+		"userId": "u19",
+		"communityId": "c11",
+		"joinedAt": "2026-04-09 10:30:00"
+	},
+	{
+		"key": "cm49",
+		"userId": "u20",
+		"communityId": "c2",
+		"joinedAt": "2026-04-09 11:00:00"
+	},
+	{
+		"key": "cm50",
+		"userId": "u20",
+		"communityId": "c4",
+		"joinedAt": "2026-04-09 11:30:00"
+	},
+	{
+		"key": "cm51",
+		"userId": "u20",
+		"communityId": "c12",
+		"joinedAt": "2026-04-09 12:00:00"
+	},
+	{
+		"key": "cm52",
+		"userId": "u20",
+		"communityId": "c20",
+		"joinedAt": "2026-04-09 12:30:00"
+	},
+	{
+		"key": "cm53",
+		"userId": "u11",
+		"communityId": "c3",
+		"joinedAt": "2026-04-10 09:00:00"
+	},
+	{
+		"key": "cm54",
+		"userId": "u12",
+		"communityId": "c3",
+		"joinedAt": "2026-04-10 09:30:00"
+	},
+	{
+		"key": "cm55",
+		"userId": "u13",
+		"communityId": "c4",
+		"joinedAt": "2026-04-10 10:00:00"
+	},
+	{
+		"key": "cm56",
+		"userId": "u14",
+		"communityId": "c4",
+		"joinedAt": "2026-04-10 10:30:00"
+	},
+	{
+		"key": "cm57",
+		"userId": "u16",
+		"communityId": "c7",
+		"joinedAt": "2026-04-10 11:00:00"
+	},
+	{
+		"key": "cm58",
+		"userId": "u17",
+		"communityId": "c17",
+		"joinedAt": "2026-04-10 11:30:00"
+	},
+	{
+		"key": "cm59",
+		"userId": "u18",
+		"communityId": "c18",
+		"joinedAt": "2026-04-10 12:00:00"
+	},
+	{
+		"key": "cm60",
+		"userId": "u19",
+		"communityId": "c19",
+		"joinedAt": "2026-04-10 12:30:00"
+	}
+]

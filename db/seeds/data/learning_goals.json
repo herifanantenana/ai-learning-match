@@ -1,0 +1,702 @@
+[
+	{
+		"key": "lg1",
+		"userId": "u1",
+		"communityId": "c1",
+		"title": "Master Next.js 15 App Router & Server Components",
+		"description": "Deep dive into Next.js 15 App Router, learn Server Components, Server Actions, and build performant full-stack applications.",
+		"tags": ["nextjs", "react", "server-components", "typescript"],
+		"createdAt": "2026-04-12 09:00:00",
+		"updatedAt": "2026-04-12 09:00:00"
+	},
+	{
+		"key": "lg2",
+		"userId": "u2",
+		"communityId": "c2",
+		"title": "Modern Web Development Fundamentals",
+		"description": "Learn HTML5, CSS3, JavaScript ES6+, and modern frontend frameworks from scratch.",
+		"tags": ["html", "css", "javascript", "frontend"],
+		"createdAt": "2026-04-12 10:00:00",
+		"updatedAt": "2026-04-12 10:00:00"
+	},
+	{
+		"key": "lg3",
+		"userId": "u3",
+		"communityId": "c3",
+		"title": "NumPy Arrays and Vectorized Operations",
+		"description": "Learn NumPy for efficient numerical computations, array operations, and vectorized calculations.",
+		"tags": ["python", "numpy", "data-science"],
+		"createdAt": "2026-04-12 11:00:00",
+		"updatedAt": "2026-04-12 11:00:00"
+	},
+	{
+		"key": "lg4",
+		"userId": "u4",
+		"communityId": "c4",
+		"title": "Technical Leadership Skills",
+		"description": "Learn to guide technical decisions, mentor junior developers, and lead engineering initiatives.",
+		"tags": ["leadership", "mentoring", "management"],
+		"createdAt": "2026-04-12 12:00:00",
+		"updatedAt": "2026-04-12 12:00:00"
+	},
+	{
+		"key": "lg5",
+		"userId": "u5",
+		"communityId": "c5",
+		"title": "TensorFlow and Keras Deep Learning",
+		"description": "Build deep learning models using TensorFlow and Keras for image classification and prediction.",
+		"tags": ["tensorflow", "deep-learning", "keras"],
+		"createdAt": "2026-04-12 13:00:00",
+		"updatedAt": "2026-04-12 13:00:00"
+	},
+	{
+		"key": "lg6",
+		"userId": "u6",
+		"communityId": "c6",
+		"title": "Docker Containerization Best Practices",
+		"description": "Create and manage Docker containers for applications, understand multi-stage builds and optimization.",
+		"tags": ["docker", "containers", "devops"],
+		"createdAt": "2026-04-12 14:00:00",
+		"updatedAt": "2026-04-12 14:00:00"
+	},
+	{
+		"key": "lg7",
+		"userId": "u7",
+		"communityId": "c7",
+		"title": "React Hooks Deep Dive",
+		"description": "Master useState, useEffect, useContext, useReducer, and custom hooks for complex React applications.",
+		"tags": ["react", "hooks", "state-management"],
+		"createdAt": "2026-04-12 15:00:00",
+		"updatedAt": "2026-04-12 15:00:00"
+	},
+	{
+		"key": "lg8",
+		"userId": "u8",
+		"communityId": "c8",
+		"title": "Advanced TypeScript Patterns",
+		"description": "Master generics, conditional types, mapped types, and type-level programming in TypeScript.",
+		"tags": ["typescript", "advanced", "types"],
+		"createdAt": "2026-04-12 16:00:00",
+		"updatedAt": "2026-04-12 16:00:00"
+	},
+	{
+		"key": "lg9",
+		"userId": "u9",
+		"communityId": "c9",
+		"title": "Event-Driven Architecture",
+		"description": "Build systems with message queues, event sourcing, and CQRS patterns for scalable applications.",
+		"tags": ["architecture", "events", "cqrs"],
+		"createdAt": "2026-04-12 17:00:00",
+		"updatedAt": "2026-04-12 17:00:00"
+	},
+	{
+		"key": "lg10",
+		"userId": "u10",
+		"communityId": "c10",
+		"title": "Job Interview Preparation",
+		"description": "Prepare for technical interviews with coding challenges, system design questions, and behavioral prep.",
+		"tags": ["interviews", "coding", "career"],
+		"createdAt": "2026-04-12 18:00:00",
+		"updatedAt": "2026-04-12 18:00:00"
+	},
+	{
+		"key": "lg11",
+		"userId": "u11",
+		"communityId": "c1",
+		"title": "Build Type-Safe APIs with Route Handlers",
+		"description": "Create robust API routes in Next.js with proper validation, authentication, and error handling.",
+		"tags": ["nextjs", "api", "typescript"],
+		"createdAt": "2026-04-13 09:00:00",
+		"updatedAt": "2026-04-13 09:00:00"
+	},
+	{
+		"key": "lg12",
+		"userId": "u11",
+		"communityId": "c2",
+		"title": "Building Real-World Portfolio Projects",
+		"description": "Create complete portfolio projects that demonstrate full-stack development skills.",
+		"tags": ["portfolio", "projects", "practical"],
+		"createdAt": "2026-04-13 10:00:00",
+		"updatedAt": "2026-04-13 10:00:00"
+	},
+	{
+		"key": "lg13",
+		"userId": "u11",
+		"communityId": "c7",
+		"title": "React State Management with Redux",
+		"description": "Master Redux, Redux Toolkit, and Zustand for managing complex state in React applications.",
+		"tags": ["react", "redux", "state-management"],
+		"createdAt": "2026-04-13 11:00:00",
+		"updatedAt": "2026-04-13 11:00:00"
+	},
+	{
+		"key": "lg14",
+		"userId": "u11",
+		"communityId": "c14",
+		"title": "Open Source Contributions",
+		"description": "Contribute to open source projects, learn GitHub collaboration, and build developer reputation.",
+		"tags": ["open-source", "github", "collaboration"],
+		"createdAt": "2026-04-13 12:00:00",
+		"updatedAt": "2026-04-13 12:00:00"
+	},
+	{
+		"key": "lg15",
+		"userId": "u11",
+		"communityId": "c17",
+		"title": "Apollo GraphQL Server",
+		"description": "Build production-ready GraphQL APIs with Apollo Server, schema stitching, and caching strategies.",
+		"tags": ["graphql", "apollo", "backend"],
+		"createdAt": "2026-04-13 13:00:00",
+		"updatedAt": "2026-04-13 13:00:00"
+	},
+	{
+		"key": "lg16",
+		"userId": "u11",
+		"communityId": "c3",
+		"title": "Pandas Data Manipulation",
+		"description": "Master pandas DataFrames, data cleaning, filtering, grouping, and merging datasets for analysis.",
+		"tags": ["python", "pandas", "data-analysis"],
+		"createdAt": "2026-04-14 09:00:00",
+		"updatedAt": "2026-04-14 09:00:00"
+	},
+	{
+		"key": "lg17",
+		"userId": "u12",
+		"communityId": "c2",
+		"title": "Content Creation Tips",
+		"description": "Learn to create tech content, build audience, and share knowledge through blogging and videos.",
+		"tags": ["content-creation", "youtube", "blogging"],
+		"createdAt": "2026-04-13 09:30:00",
+		"updatedAt": "2026-04-13 09:30:00"
+	},
+	{
+		"key": "lg18",
+		"userId": "u12",
+		"communityId": "c7",
+		"title": "React Context & Custom Hooks",
+		"description": "Master React Context for state management and create custom hooks for reusable logic.",
+		"tags": ["react", "hooks", "context"],
+		"createdAt": "2026-04-13 10:30:00",
+		"updatedAt": "2026-04-13 10:30:00"
+	},
+	{
+		"key": "lg19",
+		"userId": "u12",
+		"communityId": "c8",
+		"title": "TypeScript Generics Deep Dive",
+		"description": "Master TypeScript generics for reusable, type-safe code and advanced patterns.",
+		"tags": ["typescript", "generics", "advanced"],
+		"createdAt": "2026-04-13 11:30:00",
+		"updatedAt": "2026-04-13 11:30:00"
+	},
+	{
+		"key": "lg20",
+		"userId": "u12",
+		"communityId": "c17",
+		"title": "GraphQL Schema Design",
+		"description": "Design efficient GraphQL schemas, use directives, and implement federated graphs.",
+		"tags": ["graphql", "schema", "design"],
+		"createdAt": "2026-04-13 12:30:00",
+		"updatedAt": "2026-04-13 12:30:00"
+	},
+	{
+		"key": "lg21",
+		"userId": "u12",
+		"communityId": "c3",
+		"title": "Machine Learning Fundamentals",
+		"description": "Understand supervised and unsupervised learning, model training, and evaluation metrics.",
+		"tags": ["machine-learning", "python", "data-science"],
+		"createdAt": "2026-04-14 10:00:00",
+		"updatedAt": "2026-04-14 10:00:00"
+	},
+	{
+		"key": "lg22",
+		"userId": "u13",
+		"communityId": "c1",
+		"title": "Authentication with Clerk",
+		"description": "Implement secure user authentication and authorization using Clerk in Next.js applications.",
+		"tags": ["authentication", "clerk", "nextjs"],
+		"createdAt": "2026-04-13 10:00:00",
+		"updatedAt": "2026-04-13 10:00:00"
+	},
+	{
+		"key": "lg23",
+		"userId": "u13",
+		"communityId": "c6",
+		"title": "Kubernetes Orchestration",
+		"description": "Deploy and scale applications with Kubernetes, understand pods, services, and deployments.",
+		"tags": ["kubernetes", "devops", "orchestration"],
+		"createdAt": "2026-04-13 11:00:00",
+		"updatedAt": "2026-04-13 11:00:00"
+	},
+	{
+		"key": "lg24",
+		"userId": "u13",
+		"communityId": "c9",
+		"title": "System Design Principles",
+		"description": "Learn to design scalable systems, understand CAP theorem, load balancing, and caching strategies.",
+		"tags": ["system-design", "architecture", "scalability"],
+		"createdAt": "2026-04-13 12:00:00",
+		"updatedAt": "2026-04-13 12:00:00"
+	},
+	{
+		"key": "lg25",
+		"userId": "u13",
+		"communityId": "c16",
+		"title": "Security Audits & Best Practices",
+		"description": "Perform security audits, identify vulnerabilities, and implement security best practices.",
+		"tags": ["security", "audit", "best-practices"],
+		"createdAt": "2026-04-13 13:00:00",
+		"updatedAt": "2026-04-13 13:00:00"
+	},
+	{
+		"key": "lg26",
+		"userId": "u13",
+		"communityId": "c4",
+		"title": "Engineering Team Management",
+		"description": "Learn to manage engineering teams, set goals, conduct performance reviews, and lead effectively.",
+		"tags": ["management", "leadership", "team"],
+		"createdAt": "2026-04-14 09:00:00",
+		"updatedAt": "2026-04-14 09:00:00"
+	},
+	{
+		"key": "lg27",
+		"userId": "u14",
+		"communityId": "c3",
+		"title": "Data Visualization with Matplotlib",
+		"description": "Create compelling charts and visualizations with Matplotlib and Seaborn for data storytelling.",
+		"tags": ["python", "visualization", "matplotlib"],
+		"createdAt": "2026-04-13 10:30:00",
+		"updatedAt": "2026-04-13 10:30:00"
+	},
+	{
+		"key": "lg28",
+		"userId": "u14",
+		"communityId": "c5",
+		"title": "Computer Vision Basics",
+		"description": "Work with image recognition and classification using deep learning techniques.",
+		"tags": ["computer-vision", "deep-learning", "image-processing"],
+		"createdAt": "2026-04-13 11:30:00",
+		"updatedAt": "2026-04-13 11:30:00"
+	},
+	{
+		"key": "lg29",
+		"userId": "u14",
+		"communityId": "c13",
+		"title": "React Native Development",
+		"description": "Build cross-platform mobile apps with React Native for iOS and Android.",
+		"tags": ["react-native", "mobile", "cross-platform"],
+		"createdAt": "2026-04-13 12:30:00",
+		"updatedAt": "2026-04-13 12:30:00"
+	},
+	{
+		"key": "lg30",
+		"userId": "u14",
+		"communityId": "c18",
+		"title": "Smart Contract Development",
+		"description": "Write smart contracts in Solidity, understand EVM, and build DeFi applications.",
+		"tags": ["solidity", "blockchain", "smart-contracts"],
+		"createdAt": "2026-04-13 13:30:00",
+		"updatedAt": "2026-04-13 13:30:00"
+	},
+	{
+		"key": "lg31",
+		"userId": "u14",
+		"communityId": "c4",
+		"title": "Building Engineering Culture",
+		"description": "Foster a culture of learning, collaboration, and excellence in engineering teams.",
+		"tags": ["leadership", "culture", "team-building"],
+		"createdAt": "2026-04-14 10:30:00",
+		"updatedAt": "2026-04-14 10:30:00"
+	},
+	{
+		"key": "lg32",
+		"userId": "u15",
+		"communityId": "c4",
+		"title": "Code Review Best Practices",
+		"description": "Conduct effective code reviews that improve team quality and foster learning.",
+		"tags": ["leadership", "code-review", "team-workflow"],
+		"createdAt": "2026-04-13 11:00:00",
+		"updatedAt": "2026-04-13 11:00:00"
+	},
+	{
+		"key": "lg33",
+		"userId": "u15",
+		"communityId": "c6",
+		"title": "AWS Services Overview",
+		"description": "Work with EC2, S3, Lambda, and other AWS services for cloud deployment.",
+		"tags": ["aws", "cloud", "devops"],
+		"createdAt": "2026-04-13 12:00:00",
+		"updatedAt": "2026-04-13 12:00:00"
+	},
+	{
+		"key": "lg34",
+		"userId": "u15",
+		"communityId": "c9",
+		"title": "Scalable Architecture Patterns",
+		"description": "Design scalable systems with caching, load balancing, and horizontal scaling strategies.",
+		"tags": ["architecture", "scalability", "patterns"],
+		"createdAt": "2026-04-13 13:00:00",
+		"updatedAt": "2026-04-13 13:00:00"
+	},
+	{
+		"key": "lg35",
+		"userId": "u15",
+		"communityId": "c15",
+		"title": "Product-Market Fit Validation",
+		"description": "Learn to validate product ideas, gather user feedback, and iterate on MVPs.",
+		"tags": ["startup", "product", "validation"],
+		"createdAt": "2026-04-13 14:00:00",
+		"updatedAt": "2026-04-13 14:00:00"
+	},
+	{
+		"key": "lg36",
+		"userId": "u15",
+		"communityId": "c20",
+		"title": "End-to-End Testing with Cypress",
+		"description": "Write E2E tests with Cypress, automate testing workflows, and ensure quality.",
+		"tags": ["testing", "cypress", "e2e"],
+		"createdAt": "2026-04-13 15:00:00",
+		"updatedAt": "2026-04-13 15:00:00"
+	},
+	{
+		"key": "lg37",
+		"userId": "u16",
+		"communityId": "c1",
+		"title": "Next.js Deployment & CI/CD",
+		"description": "Deploy Next.js apps to Vercel and set up automated CI/CD pipelines with GitHub Actions.",
+		"tags": ["nextjs", "vercel", "ci-cd"],
+		"createdAt": "2026-04-13 11:30:00",
+		"updatedAt": "2026-04-13 11:30:00"
+	},
+	{
+		"key": "lg38",
+		"userId": "u16",
+		"communityId": "c8",
+		"title": "TypeScript Decorators",
+		"description": "Use TypeScript decorators for metadata, validation, and code generation.",
+		"tags": ["typescript", "decorators", "metadata"],
+		"createdAt": "2026-04-13 12:30:00",
+		"updatedAt": "2026-04-13 12:30:00"
+	},
+	{
+		"key": "lg39",
+		"userId": "u16",
+		"communityId": "c17",
+		"title": "GraphQL Subscriptions",
+		"description": "Implement real-time GraphQL subscriptions with WebSockets for live data updates.",
+		"tags": ["graphql", "subscriptions", "real-time"],
+		"createdAt": "2026-04-13 13:30:00",
+		"updatedAt": "2026-04-13 13:30:00"
+	},
+	{
+		"key": "lg40",
+		"userId": "u16",
+		"communityId": "c20",
+		"title": "Test-Driven Development",
+		"description": "Practice TDD with red-green-refactor cycle, write tests before implementation.",
+		"tags": ["tdd", "testing", "methodology"],
+		"createdAt": "2026-04-13 14:30:00",
+		"updatedAt": "2026-04-13 14:30:00"
+	},
+	{
+		"key": "lg41",
+		"userId": "u16",
+		"communityId": "c7",
+		"title": "React Performance Optimization",
+		"description": "Optimize React apps with useMemo, useCallback, React.memo, and profiling techniques.",
+		"tags": ["react", "performance", "optimization"],
+		"createdAt": "2026-04-14 11:00:00",
+		"updatedAt": "2026-04-14 11:00:00"
+	},
+	{
+		"key": "lg42",
+		"userId": "u17",
+		"communityId": "c4",
+		"title": "Team Communication & Conflict Resolution",
+		"description": "Master stakeholder communication, give and receive feedback, and resolve team conflicts.",
+		"tags": ["leadership", "communication", "soft-skills"],
+		"createdAt": "2026-04-13 12:00:00",
+		"updatedAt": "2026-04-13 12:00:00"
+	},
+	{
+		"key": "lg43",
+		"userId": "u17",
+		"communityId": "c9",
+		"title": "Distributed Systems Architecture",
+		"description": "Design and understand distributed systems, microservices, and event-driven architectures.",
+		"tags": ["architecture", "microservices", "distributed"],
+		"createdAt": "2026-04-13 13:00:00",
+		"updatedAt": "2026-04-13 13:00:00"
+	},
+	{
+		"key": "lg44",
+		"userId": "u17",
+		"communityId": "c12",
+		"title": "Database Design Patterns",
+		"description": "Design efficient database schemas, indexes, and implement proper normalization.",
+		"tags": ["database", "design", "postgresql"],
+		"createdAt": "2026-04-13 14:00:00",
+		"updatedAt": "2026-04-13 14:00:00"
+	},
+	{
+		"key": "lg45",
+		"userId": "u17",
+		"communityId": "c18",
+		"title": "DeFi Protocols & Economics",
+		"description": "Understand decentralized finance protocols, liquidity pools, and token economics.",
+		"tags": ["defi", "blockchain", "economics"],
+		"createdAt": "2026-04-13 15:00:00",
+		"updatedAt": "2026-04-13 15:00:00"
+	},
+	{
+		"key": "lg46",
+		"userId": "u17",
+		"communityId": "c17",
+		"title": "API Caching Strategies",
+		"description": "Implement caching with Redis, understand cache invalidation and performance optimization.",
+		"tags": ["api", "caching", "performance"],
+		"createdAt": "2026-04-14 12:00:00",
+		"updatedAt": "2026-04-14 12:00:00"
+	},
+	{
+		"key": "lg47",
+		"userId": "u18",
+		"communityId": "c3",
+		"title": "Introduction to Scikit-learn",
+		"description": "Build basic machine learning models for classification and regression with scikit-learn.",
+		"tags": ["python", "scikit-learn", "machine-learning"],
+		"createdAt": "2026-04-13 12:30:00",
+		"updatedAt": "2026-04-13 12:30:00"
+	},
+	{
+		"key": "lg48",
+		"userId": "u18",
+		"communityId": "c5",
+		"title": "Natural Language Processing",
+		"description": "Process and analyze text data with NLP techniques, sentiment analysis, and text classification.",
+		"tags": ["nlp", "machine-learning", "text-analysis"],
+		"createdAt": "2026-04-13 13:30:00",
+		"updatedAt": "2026-04-13 13:30:00"
+	},
+	{
+		"key": "lg49",
+		"userId": "u18",
+		"communityId": "c10",
+		"title": "Resume Building & Personal Brand",
+		"description": "Create compelling resumes, build LinkedIn presence, and establish personal brand in tech.",
+		"tags": ["career", "resume", "personal-brand"],
+		"createdAt": "2026-04-13 14:30:00",
+		"updatedAt": "2026-04-13 14:30:00"
+	},
+	{
+		"key": "lg50",
+		"userId": "u18",
+		"communityId": "c19",
+		"title": "Core Web Vitals Optimization",
+		"description": "Optimize LCP, FID, and CLS metrics to improve website performance and user experience.",
+		"tags": ["performance", "web-vitals", "optimization"],
+		"createdAt": "2026-04-13 15:30:00",
+		"updatedAt": "2026-04-13 15:30:00"
+	},
+	{
+		"key": "lg51",
+		"userId": "u18",
+		"communityId": "c18",
+		"title": "Web3 Development Fundamentals",
+		"description": "Understand blockchain fundamentals, wallets, and build basic dApp interfaces.",
+		"tags": ["web3", "blockchain", "development"],
+		"createdAt": "2026-04-14 13:00:00",
+		"updatedAt": "2026-04-14 13:00:00"
+	},
+	{
+		"key": "lg52",
+		"userId": "u19",
+		"communityId": "c1",
+		"title": "Server Components Deep Dive",
+		"description": "Master React Server Components, streaming, and suspense for optimal performance.",
+		"tags": ["react", "server-components", "nextjs"],
+		"createdAt": "2026-04-13 13:00:00",
+		"updatedAt": "2026-04-13 13:00:00"
+	},
+	{
+		"key": "lg53",
+		"userId": "u19",
+		"communityId": "c5",
+		"title": "PyTorch Deep Learning",
+		"description": "Build deep learning models using PyTorch, understand autograd and neural network architectures.",
+		"tags": ["pytorch", "deep-learning", "neural-networks"],
+		"createdAt": "2026-04-13 14:00:00",
+		"updatedAt": "2026-04-13 14:00:00"
+	},
+	{
+		"key": "lg54",
+		"userId": "u19",
+		"communityId": "c6",
+		"title": "AWS Lambda & Serverless",
+		"description": "Build serverless applications with AWS Lambda, API Gateway, and serverless framework.",
+		"tags": ["aws", "serverless", "lambda"],
+		"createdAt": "2026-04-13 15:00:00",
+		"updatedAt": "2026-04-13 15:00:00"
+	},
+	{
+		"key": "lg55",
+		"userId": "u19",
+		"communityId": "c11",
+		"title": "CSS Animations & Transitions",
+		"description": "Create smooth animations and transitions for better user experience and engagement.",
+		"tags": ["css", "animations", "ux"],
+		"createdAt": "2026-04-13 16:00:00",
+		"updatedAt": "2026-04-13 16:00:00"
+	},
+	{
+		"key": "lg56",
+		"userId": "u19",
+		"communityId": "c19",
+		"title": "Lighthouse Performance Auditing",
+		"description": "Conduct Lighthouse audits, identify performance bottlenecks, and optimize web vitals.",
+		"tags": ["performance", "lighthouse", "auditing"],
+		"createdAt": "2026-04-14 14:00:00",
+		"updatedAt": "2026-04-14 14:00:00"
+	},
+	{
+		"key": "lg57",
+		"userId": "u20",
+		"communityId": "c2",
+		"title": "Career Growth & Job Hunting",
+		"description": "Navigate job search, prepare for interviews, and advance career in tech industry.",
+		"tags": ["career", "job-search", "interviews"],
+		"createdAt": "2026-04-13 13:30:00",
+		"updatedAt": "2026-04-13 13:30:00"
+	},
+	{
+		"key": "lg58",
+		"userId": "u20",
+		"communityId": "c4",
+		"title": "Project Planning & Estimation",
+		"description": "Break down projects, estimate timelines accurately, and manage stakeholder expectations.",
+		"tags": ["leadership", "planning", "estimation"],
+		"createdAt": "2026-04-13 14:30:00",
+		"updatedAt": "2026-04-13 14:30:00"
+	},
+	{
+		"key": "lg59",
+		"userId": "u20",
+		"communityId": "c12",
+		"title": "GraphQL API Development",
+		"description": "Build efficient GraphQL APIs with Apollo Server, schema design, and resolver patterns.",
+		"tags": ["graphql", "api", "backend"],
+		"createdAt": "2026-04-13 15:30:00",
+		"updatedAt": "2026-04-13 15:30:00"
+	},
+	{
+		"key": "lg60",
+		"userId": "u20",
+		"communityId": "c20",
+		"title": "Unit Testing with Jest",
+		"description": "Write comprehensive unit tests with Jest, understand mocking and test-driven development.",
+		"tags": ["testing", "jest", "tdd"],
+		"createdAt": "2026-04-13 16:30:00",
+		"updatedAt": "2026-04-13 16:30:00"
+	},
+	{
+		"key": "lg61",
+		"userId": "u11",
+		"communityId": "c3",
+		"title": "Data Cleaning & Preprocessing",
+		"description": "Master data cleaning techniques, handling missing values, and feature engineering.",
+		"tags": ["data-science", "data-cleaning", "preprocessing"],
+		"createdAt": "2026-04-15 09:00:00",
+		"updatedAt": "2026-04-15 09:00:00"
+	},
+	{
+		"key": "lg62",
+		"userId": "u12",
+		"communityId": "c7",
+		"title": "Component Design Patterns",
+		"description": "Learn compound components, render props, and HOCs for flexible React architectures.",
+		"tags": ["react", "patterns", "architecture"],
+		"createdAt": "2026-04-15 10:00:00",
+		"updatedAt": "2026-04-15 10:00:00"
+	},
+	{
+		"key": "lg63",
+		"userId": "u13",
+		"communityId": "c6",
+		"title": "CI/CD with GitHub Actions",
+		"description": "Automate testing and deployment pipelines with GitHub Actions workflows.",
+		"tags": ["ci-cd", "github-actions", "devops"],
+		"createdAt": "2026-04-15 11:00:00",
+		"updatedAt": "2026-04-15 11:00:00"
+	},
+	{
+		"key": "lg64",
+		"userId": "u14",
+		"communityId": "c5",
+		"title": "Neural Networks Fundamentals",
+		"description": "Understand backpropagation, gradient descent, and build neural networks from scratch.",
+		"tags": ["machine-learning", "neural-networks", "deep-learning"],
+		"createdAt": "2026-04-15 12:00:00",
+		"updatedAt": "2026-04-15 12:00:00"
+	},
+	{
+		"key": "lg65",
+		"userId": "u15",
+		"communityId": "c6",
+		"title": "Infrastructure as Code with Terraform",
+		"description": "Manage infrastructure with Terraform, write reusable modules and configurations.",
+		"tags": ["terraform", "iac", "devops"],
+		"createdAt": "2026-04-15 13:00:00",
+		"updatedAt": "2026-04-15 13:00:00"
+	},
+	{
+		"key": "lg66",
+		"userId": "u16",
+		"communityId": "c1",
+		"title": "Server Actions in Next.js",
+		"description": "Master Next.js Server Actions for form handling, mutations, and data mutations.",
+		"tags": ["nextjs", "server-actions", "forms"],
+		"createdAt": "2026-04-15 14:00:00",
+		"updatedAt": "2026-04-15 14:00:00"
+	},
+	{
+		"key": "lg67",
+		"userId": "u17",
+		"communityId": "c12",
+		"title": "Message Queues & Event Bus",
+		"description": "Implement message queues with RabbitMQ, Kafka, or Redis for async processing.",
+		"tags": ["messaging", "queues", "async"],
+		"createdAt": "2026-04-15 15:00:00",
+		"updatedAt": "2026-04-15 15:00:00"
+	},
+	{
+		"key": "lg68",
+		"userId": "u18",
+		"communityId": "c3",
+		"title": "ML Model Deployment",
+		"description": "Deploy machine learning models to production with Flask, FastAPI, and cloud services.",
+		"tags": ["ml", "deployment", "production"],
+		"createdAt": "2026-04-15 16:00:00",
+		"updatedAt": "2026-04-15 16:00:00"
+	},
+	{
+		"key": "lg69",
+		"userId": "u19",
+		"communityId": "c6",
+		"title": "Docker Compose for Development",
+		"description": "Use Docker Compose for local development environments and multi-container setups.",
+		"tags": ["docker", "compose", "development"],
+		"createdAt": "2026-04-15 17:00:00",
+		"updatedAt": "2026-04-15 17:00:00"
+	},
+	{
+		"key": "lg70",
+		"userId": "u20",
+		"communityId": "c12",
+		"title": "REST API Design Best Practices",
+		"description": "Design scalable REST APIs with proper authentication, versioning, and documentation.",
+		"tags": ["api", "rest", "backend"],
+		"createdAt": "2026-04-15 18:00:00",
+		"updatedAt": "2026-04-15 18:00:00"
+	}
+]

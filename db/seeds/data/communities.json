@@ -1,0 +1,182 @@
+[
+	{
+		"key": "c1",
+		"name": "Modern Full Stack Next.js",
+		"description": "Build production-ready full-stack applications with Next.js 15, React 19, TypeScript, and modern tooling. Learn server components, route handlers, and deployment strategies.",
+		"imageUrl": "https://images.unsplash.com/photo-1633356122544-f134324a6cee?w=400",
+		"ownerId": "u11",
+		"createdAt": "2026-04-04 09:00:00",
+		"updatedAt": "2026-04-04 09:00:00"
+	},
+	{
+		"key": "c2",
+		"name": "Ankita's Tech Community",
+		"description": "Learn web development, coding tips, career advice, and build real-world projects together. Perfect for beginners to intermediate developers.",
+		"imageUrl": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=400",
+		"ownerId": "u11",
+		"createdAt": "2026-04-04 10:30:00",
+		"updatedAt": "2026-04-04 10:30:00"
+	},
+	{
+		"key": "c3",
+		"name": "Python for Data Science",
+		"description": "Master Python, pandas, NumPy, matplotlib, and machine learning fundamentals. Build real data analysis projects and visualizations.",
+		"imageUrl": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=400",
+		"ownerId": "u14",
+		"createdAt": "2026-04-04 11:45:00",
+		"updatedAt": "2026-04-04 11:45:00"
+	},
+	{
+		"key": "c4",
+		"name": "Developer to Leader",
+		"description": "Transition from senior developer to tech lead and engineering manager. Learn team management, communication, and strategic planning.",
+		"imageUrl": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=400",
+		"ownerId": "u15",
+		"createdAt": "2026-04-04 13:00:00",
+		"updatedAt": "2026-04-04 13:00:00"
+	},
+	{
+		"key": "c5",
+		"name": "AI & Machine Learning",
+		"description": "Deep learning, neural networks, NLP, computer vision, and practical AI applications. Build and deploy ML models to production.",
+		"imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=400",
+		"ownerId": "u19",
+		"createdAt": "2026-04-04 14:15:00",
+		"updatedAt": "2026-04-04 14:15:00"
+	},
+	{
+		"key": "c6",
+		"name": "Cloud & DevOps",
+		"description": "AWS, Azure, Docker, Kubernetes, CI/CD pipelines, and infrastructure as code. Master cloud deployment and automation.",
+		"imageUrl": "https://images.unsplash.com/photo-1667372393119-3d4c48d07fc9?w=400",
+		"ownerId": "u13",
+		"createdAt": "2026-04-04 15:30:00",
+		"updatedAt": "2026-04-04 15:30:00"
+	},
+	{
+		"key": "c7",
+		"name": "React Mastery",
+		"description": "Deep dive into React 19, hooks, context, state management with Redux and Zustand. Build complex React applications from scratch.",
+		"imageUrl": "https://images.unsplash.com/photo-1633356122102-3fe601e05bd2?w=400",
+		"ownerId": "u12",
+		"createdAt": "2026-04-05 09:00:00",
+		"updatedAt": "2026-04-05 09:00:00"
+	},
+	{
+		"key": "c8",
+		"name": "TypeScript Pros",
+		"description": "Advanced TypeScript patterns, generics, decorators, and type-safe architecture. Write bulletproof TypeScript applications.",
+		"imageUrl": "https://images.unsplash.com/photo-1516116216624-53e697fedbea?w=400",
+		"ownerId": "u16",
+		"createdAt": "2026-04-05 10:15:00",
+		"updatedAt": "2026-04-05 10:15:00"
+	},
+	{
+		"key": "c9",
+		"name": "System Design",
+		"description": "Learn system architecture, design patterns, scalability principles, and how to design large-scale distributed systems.",
+		"imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=400",
+		"ownerId": "u17",
+		"createdAt": "2026-04-05 11:30:00",
+		"updatedAt": "2026-04-05 11:30:00"
+	},
+	{
+		"key": "c10",
+		"name": "Career Growth",
+		"description": "Interview preparation, resume building, salary negotiation, and career progression strategies for software engineers.",
+		"imageUrl": "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=400",
+		"ownerId": "u18",
+		"createdAt": "2026-04-05 12:45:00",
+		"updatedAt": "2026-04-05 12:45:00"
+	},
+	{
+		"key": "c11",
+		"name": "Frontend Masters",
+		"description": "CSS architecture, animations, performance optimization, accessibility, and modern frontend tooling. Build beautiful, accessible web apps.",
+		"imageUrl": "https://images.unsplash.com/photo-1559028012-481c04fa762d?w=400",
+		"ownerId": "u19",
+		"createdAt": "2026-04-05 14:00:00",
+		"updatedAt": "2026-04-05 14:00:00"
+	},
+	{
+		"key": "c12",
+		"name": "Backend Architecture",
+		"description": "REST and GraphQL APIs, database design, caching strategies, message queues, and microservices architecture patterns.",
+		"imageUrl": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=400",
+		"ownerId": "u20",
+		"createdAt": "2026-04-05 15:15:00",
+		"updatedAt": "2026-04-05 15:15:00"
+	},
+	{
+		"key": "c13",
+		"name": "Mobile Development",
+		"description": "React Native and Flutter cross-platform development. Build iOS and Android apps with a single codebase.",
+		"imageUrl": "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=400",
+		"ownerId": "u14",
+		"createdAt": "2026-04-05 16:30:00",
+		"updatedAt": "2026-04-05 16:30:00"
+	},
+	{
+		"key": "c14",
+		"name": "Open Source Contributions",
+		"description": "Contribute to open source projects, GitHub collaboration, code review skills, and building your developer reputation.",
+		"imageUrl": "https://images.unsplash.com/photo-1556075798-4825dfaaf498?w=400",
+		"ownerId": "u11",
+		"createdAt": "2026-04-05 17:45:00",
+		"updatedAt": "2026-04-05 17:45:00"
+	},
+	{
+		"key": "c15",
+		"name": "Startup Founders",
+		"description": "Technical entrepreneurship, MVP building, product-market fit, fundraising, and scaling engineering teams.",
+		"imageUrl": "https://images.unsplash.com/photo-1559136555-9303baea8ebd?w=400",
+		"ownerId": "u15",
+		"createdAt": "2026-04-06 09:00:00",
+		"updatedAt": "2026-04-06 09:00:00"
+	},
+	{
+		"key": "c16",
+		"name": "Security Best Practices",
+		"description": "OAuth 2.0, JWT, security audits, penetration testing, and protecting applications from common vulnerabilities.",
+		"imageUrl": "https://images.unsplash.com/photo-1563986768609-322da13575f3?w=400",
+		"ownerId": "u13",
+		"createdAt": "2026-04-06 10:15:00",
+		"updatedAt": "2026-04-06 10:15:00"
+	},
+	{
+		"key": "c17",
+		"name": "GraphQL Ecosystem",
+		"description": "Apollo Server/Client, schema design, federation, subscriptions, and building efficient GraphQL APIs.",
+		"imageUrl": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400",
+		"ownerId": "u16",
+		"createdAt": "2026-04-06 11:30:00",
+		"updatedAt": "2026-04-06 11:30:00"
+	},
+	{
+		"key": "c18",
+		"name": "Web3 & Blockchain",
+		"description": "Smart contracts, Solidity, DeFi protocols, NFTs, and building decentralized applications on Ethereum.",
+		"imageUrl": "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=400",
+		"ownerId": "u17",
+		"createdAt": "2026-04-06 12:45:00",
+		"updatedAt": "2026-04-06 12:45:00"
+	},
+	{
+		"key": "c19",
+		"name": "Performance Optimization",
+		"description": "Lighthouse audits, Core Web Vitals, bundle optimization, lazy loading, and making applications lightning fast.",
+		"imageUrl": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400",
+		"ownerId": "u18",
+		"createdAt": "2026-04-06 14:00:00",
+		"updatedAt": "2026-04-06 14:00:00"
+	},
+	{
+		"key": "c20",
+		"name": "Testing Best Practices",
+		"description": "Jest, Cypress, Playwright, unit tests, integration tests, E2E testing, and test-driven development methodologies.",
+		"imageUrl": "https://images.unsplash.com/photo-1576444356170-66073046b1bc?w=400",
+		"ownerId": "u20",
+		"createdAt": "2026-04-06 15:15:00",
+		"updatedAt": "2026-04-06 15:15:00"
+	}
+]

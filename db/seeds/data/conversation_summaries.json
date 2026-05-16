@@ -1,0 +1,289 @@
+[
+	{
+		"key": "cs1",
+		"conversationId": "conv1",
+		"summary": "John Smith connected with James Chen about Next.js 15 App Router and Server Components. They discussed the differences between client and server components, when to use 'use client' directive, and performance optimization techniques like streaming and Suspense. John is building a dashboard and seeking advice on refactoring to use more server components. James shared resources and offered to do a code review session.",
+		"actionItems": [
+			"Refactor dashboard to use more Server Components",
+			"Schedule a code review session for Thursday",
+			"Share resources on React Server Components"
+		],
+		"keyPoints": [
+			"Server Components reduce bundle size significantly",
+			"Use 'use client' only when browser APIs or hooks are needed",
+			"Streaming and Suspense improve perceived performance"
+		],
+		"nextSteps": [
+			"Refactor one component to Server Component pattern",
+			"Test performance before and after changes",
+			"Set up Thursday pairing session"
+		],
+		"generatedAt": "2026-04-28 16:00:00"
+	},
+	{
+		"key": "cs2",
+		"conversationId": "conv2",
+		"summary": "John Smith and Marcus Thompson discussed building full-stack applications with Drizzle ORM and Clerk authentication. Both are using PostgreSQL and impressed by Drizzle's type safety. Marcus shared tips on using Clerk webhooks for server-side user management. They compared deployment options and agreed Vercel provides the best Next.js experience with zero-config deployments.",
+		"actionItems": [
+			"Explore Clerk webhook integration",
+			"Compare deployment platforms for Next.js"
+		],
+		"keyPoints": [
+			"Drizzle provides excellent type safety compared to other ORMs",
+			"Clerk webhooks simplify server-side user management",
+			"Vercel + Next.js offers seamless deployment experience"
+		],
+		"nextSteps": [
+			"Set up a test Clerk webhook endpoint",
+			"Deploy current project to Vercel"
+		],
+		"generatedAt": "2026-04-28 15:30:00"
+	},
+	{
+		"key": "cs3",
+		"conversationId": "conv5",
+		"summary": "Sarah Johnson connected with James Chen about building portfolio projects in Ankita's Tech Community. Sarah is building a task management app with React and Firebase, seeking UX patterns advice. James recommended Zustand for state management, noting its simpler API compared to Redux. They discussed making portfolios stand out to recruiters through clean UI, performance, and mobile responsiveness.",
+		"actionItems": [
+			"Learn Zustand for state management",
+			"Research portfolio best practices"
+		],
+		"keyPoints": [
+			"Zustand has simpler API and less boilerplate than Redux",
+			"Clean UI and performance are key for professional portfolios",
+			"Writing about learning process adds value to portfolios"
+		],
+		"nextSteps": [
+			"Replace current state solution with Zustand",
+			"Review portfolio from recruiter perspective"
+		],
+		"generatedAt": "2026-04-27 18:00:00"
+	},
+	{
+		"key": "cs4",
+		"conversationId": "conv6",
+		"summary": "James Chen and Olivia Davis discussed advanced Next.js topics including the new App Router features, server actions, and SEO optimization. Both are building production applications - James an e-commerce platform, Olivia a SaaS starter kit. They explored the metadata API for SEO and discussed collaborating on open source SEO tools.",
+		"actionItems": [
+			"Explore server actions for form handling",
+			"Collaborate on SEO tools project"
+		],
+		"keyPoints": [
+			"Server Actions eliminate need for API routes in many cases",
+			"Metadata API makes SEO implementation straightforward",
+			"JSON-LD support enhances search result appearance"
+		],
+		"nextSteps": [
+			"Implement server actions in e-commerce project",
+			"Outline open source SEO tool requirements"
+		],
+		"generatedAt": "2026-04-28 12:00:00"
+	},
+	{
+		"key": "cs5",
+		"conversationId": "conv8",
+		"summary": "James Chen and Sophia Rodriguez discussed machine learning projects, focusing on customer churn prediction. James shared his progress using logistic regression and random forests, while Sophia recommended XGBoost for better accuracy. They discussed using scikit-learn pipelines to prevent data leakage and keep code organized.",
+		"actionItems": [
+			"Try XGBoost for churn prediction model",
+			"Implement scikit-learn pipeline"
+		],
+		"keyPoints": [
+			"XGBoost often provides better accuracy than random forests",
+			"Pipelines prevent data leakage and improve code organization",
+			"Feature importance analysis helps understand model decisions"
+		],
+		"nextSteps": [
+			"Install and test XGBoost library",
+			"Refactor current ML code into pipeline"
+		],
+		"generatedAt": "2026-04-28 10:00:00"
+	},
+	{
+		"key": "cs6",
+		"conversationId": "conv10",
+		"summary": "Emily Brown connected with William Brown about technical leadership and team management. Emily is improving her code review skills and learning to delegate effectively. William shared insights on giving constructive feedback by focusing on code rather than person, using questions instead of demands, and starting with positive feedback before criticism.",
+		"actionItems": [
+			"Practice code reviews with focus on code not person",
+			"Delegate outcomes not tasks to team members"
+		],
+		"keyPoints": [
+			"Use questions instead of demands in code reviews",
+			"Always start feedback with something positive",
+			"Delegate outcomes not specific tasks - trust the team"
+		],
+		"nextSteps": [
+			"Apply new feedback approach in next code review",
+			"Practice delegating a complete feature to team member"
+		],
+		"generatedAt": "2026-04-27 14:00:00"
+	},
+	{
+		"key": "cs7",
+		"conversationId": "conv12",
+		"summary": "David Lee and Isabella Kim discussed deep learning with TensorFlow, specifically image classification. David is building a flower classifier using transfer learning with MobileNet. Isabella recommended data augmentation and early stopping to improve accuracy. They discussed dropout for preventing overfitting and planned to share model results.",
+		"actionItems": [
+			"Implement data augmentation techniques",
+			"Add early stopping to training"
+		],
+		"keyPoints": [
+			"Transfer learning significantly reduces training time",
+			"Data augmentation improves model generalization",
+			"Dropout and early stopping prevent overfitting"
+		],
+		"nextSteps": [
+			"Train model with augmented dataset",
+			"Compare accuracy with and without augmentation"
+		],
+		"generatedAt": "2026-04-27 19:00:00"
+	},
+	{
+		"key": "cs8",
+		"conversationId": "conv13",
+		"summary": "Jessica Taylor and James Chen explored React hooks and performance optimization. Jessica struggles with useEffect dependencies while James recommended using custom hooks to encapsulate complex logic. They discussed useReducer for complex state, React.memo for expensive components, and useMemo/useCallback for memoization.",
+		"actionItems": [
+			"Create custom hooks for complex logic",
+			"Optimize slow components with React.memo"
+		],
+		"keyPoints": [
+			"Custom hooks make logic reusable and testable",
+			"useReducer better for complex state logic",
+			"useMemo/useCallback prevent unnecessary re-renders"
+		],
+		"nextSteps": [
+			"Refactor a complex component into custom hooks",
+			"Profile app for optimization opportunities"
+		],
+		"generatedAt": "2026-04-27 15:00:00"
+	},
+	{
+		"key": "cs9",
+		"conversationId": "conv14",
+		"summary": "Amanda White and Olivia Davis discussed advanced TypeScript patterns, focusing on API type definitions and when to use type vs interface. Olivia recommended using Zod for runtime validation alongside TypeScript for compile-time safety. They covered the satisfies operator, interface vs type differences, and how to handle complex API response types.",
+		"actionItems": [
+			"Learn Zod for runtime validation",
+			"Decide on type vs interface usage guidelines"
+		],
+		"keyPoints": [
+			"Zod + TypeScript provides both compile-time and runtime safety",
+			"satisfies operator validates shapes while keeping inference",
+			"Use interface for public APIs, type for unions/intersections"
+		],
+		"nextSteps": [
+			"Add Zod to API response validation",
+			"Create type system guidelines document"
+		],
+		"generatedAt": "2026-04-27 17:30:00"
+	},
+	{
+		"key": "cs10",
+		"conversationId": "conv15",
+		"summary": "Ryan Martinez and Benjamin Martinez explored system design patterns, particularly microservices and event-driven architectures. They discussed the Saga pattern for distributed transactions, message queues (RabbitMQ vs Kafka), and when to use synchronous vs asynchronous communication. Ryan is exploring message queues for distributed transaction handling.",
+		"actionItems": [
+			"Study Saga pattern implementation",
+			"Compare RabbitMQ and Kafka for project needs"
+		],
+		"keyPoints": [
+			"Saga pattern handles distributed transactions elegantly",
+			"RabbitMQ for general messaging, Kafka for high throughput",
+			"Use sync for critical ops, async for everything else"
+		],
+		"nextSteps": [
+			"Implement message queue in current project",
+			"Design event-driven architecture for new service"
+		],
+		"generatedAt": "2026-04-26 19:00:00"
+	},
+	{
+		"key": "cs11",
+		"conversationId": "conv16",
+		"summary": "Mia Thompson and Charlotte Wilson discussed ML model deployment with FastAPI and Docker. They covered monitoring model performance with Prometheus and Grafana, handling model drift through automated retraining, and implementing A/B testing with feature flags. Both are working on production ML systems.",
+		"actionItems": [
+			"Set up Prometheus metrics for deployed model",
+			"Implement automated retraining pipeline"
+		],
+		"keyPoints": [
+			"Prometheus + Grafana for comprehensive monitoring",
+			"Track prediction latency and model drift",
+			"Feature flags enable easy A/B testing in production"
+		],
+		"nextSteps": [
+			"Deploy model with monitoring setup",
+			"Define retraining trigger conditions"
+		],
+		"generatedAt": "2026-04-28 08:00:00"
+	},
+	{
+		"key": "cs12",
+		"conversationId": "conv17",
+		"summary": "James Chen and Alexander Lee explored NLP and transformer models for sentiment analysis. James is moving from traditional NLP methods to BERT for better accuracy, using the Hugging Face library. They discussed fine-tuning BERT for domain-specific data and handling class imbalance through oversampling or class weights.",
+		"actionItems": [
+			"Fine-tune BERT model on domain data",
+			"Implement class imbalance handling"
+		],
+		"keyPoints": [
+			"Fine-tuning BERT significantly improves domain-specific accuracy",
+			"Hugging Face library simplifies transformer implementation",
+			"Class weights or oversampling handle imbalance effectively"
+		],
+		"nextSteps": [
+			"Prepare domain-specific training dataset",
+			"Run fine-tuning experiment"
+		],
+		"generatedAt": "2026-04-28 07:30:00"
+	},
+	{
+		"key": "cs13",
+		"conversationId": "conv18",
+		"summary": "Marcus Thompson and William Brown discussed AWS services and serverless architecture. They covered Lambda and API Gateway for serverless APIs, the challenge of cold starts and solutions like provisioned concurrency, and Infrastructure as Code with Terraform. Both are building scalable cloud applications.",
+		"actionItems": [
+			"Implement provisioned concurrency for critical endpoints",
+			"Start learning Terraform for infrastructure"
+		],
+		"keyPoints": [
+			"Provisioned concurrency solves cold start latency issues",
+			"AWS SAM CLI enables easy local development",
+			"Terraform is industry standard for IaC"
+		],
+		"nextSteps": [
+			"Configure provisioned concurrency for production API",
+			"Create first Terraform configuration"
+		],
+		"generatedAt": "2026-04-28 14:00:00"
+	},
+	{
+		"key": "cs14",
+		"conversationId": "conv19",
+		"summary": "Marcus Thompson and Benjamin Martinez explored scalability patterns including caching, load balancing, and database scaling. They discussed Redis for caching and Redis Streams for task queues, read replicas for database performance, and query optimization with proper indexing. Both work on high-traffic applications.",
+		"actionItems": [
+			"Implement Redis caching strategy",
+			"Optimize slow database queries"
+		],
+		"keyPoints": [
+			"Redis Streams simpler than Kafka for small projects",
+			"Read replicas easiest starting point for database scaling",
+			"Proper indexes can dramatically improve query performance"
+		],
+		"nextSteps": [
+			"Add Redis caching to current application",
+			"Analyze slow queries and add indexes"
+		],
+		"generatedAt": "2026-04-28 13:00:00"
+	},
+	{
+		"key": "cs15",
+		"conversationId": "conv20",
+		"summary": "William Brown and Benjamin Martinez discussed leadership skills, focusing on effective 1:1s and giving constructive feedback. They covered the SBI (Situation, Behavior, Impact) model for objective feedback, strategies for resolving team conflicts, and approaches to mentoring junior developers.",
+		"actionItems": [
+			"Prepare 1:1 structure using discussed format",
+			"Practice SBI feedback model"
+		],
+		"keyPoints": [
+			"SBI model keeps feedback objective and actionable",
+			"Open-ended questions and listening in 1:1s",
+			"Focus on shared goals when resolving conflicts"
+		],
+		"nextSteps": [
+			"Schedule and prepare for next 1:1",
+			"Apply feedback model in next code review"
+		],
+		"generatedAt": "2026-04-28 12:30:00"
+	}
+]

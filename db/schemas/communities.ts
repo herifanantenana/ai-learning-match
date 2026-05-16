@@ -1,10 +1,10 @@
 import {
-    foreignKey,
-    index,
-    pgTable,
-    text,
-    uuid,
-    varchar,
+	foreignKey,
+	index,
+	pgTable,
+	text,
+	uuid,
+	varchar,
 } from "drizzle-orm/pg-core";
 import { id } from "./_shared/id";
 import { createdAt, updatedAt } from "./_shared/timestamp";
@@ -17,7 +17,7 @@ export const communitiesTable = pgTable(
 		name: varchar("name", { length: 50 }).notNull(),
 		description: text("description"),
 		imageUrl: text("image_url"),
-		ownerId: uuid("author_id").notNull(),
+		ownerId: uuid("owner_id").notNull(),
 		createdAt,
 		updatedAt,
 	},
@@ -25,11 +25,11 @@ export const communitiesTable = pgTable(
 		foreignKey({
 			columns: [table.ownerId],
 			foreignColumns: [usersTable.id],
-			name: "communities_author_id_fk",
+			name: "communities_owner_id_fk",
 		})
 			.onUpdate("cascade")
 			.onDelete("cascade"),
 
-		index("communities_author_id_idx").on(table.ownerId),
+		index("communities_owner_id_idx").on(table.ownerId),
 	],
 );

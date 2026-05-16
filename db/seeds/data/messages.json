@@ -1,0 +1,1440 @@
+[
+	{
+		"key": "msg1",
+		"conversationId": "conv1",
+		"senderId": "u1",
+		"content": "Hey! I saw you're also learning Next.js. I'm currently working on Server Components and it's quite challenging.",
+		"createdAt": "2026-04-20 09:20:00"
+	},
+	{
+		"key": "msg2",
+		"conversationId": "conv1",
+		"senderId": "u11",
+		"content": "Hi John! Yes, I'm diving deep into Server Components too. Have you tried using the 'use client' directive yet?",
+		"createdAt": "2026-04-20 09:45:00"
+	},
+	{
+		"key": "msg3",
+		"conversationId": "conv1",
+		"senderId": "u1",
+		"content": "Yes! I used it for a component that needs client-side interactivity. But I'm confused about when to use it vs keeping everything server-side.",
+		"createdAt": "2026-04-20 10:10:00"
+	},
+	{
+		"key": "msg4",
+		"conversationId": "conv1",
+		"senderId": "u11",
+		"content": "Great question! You should only add 'use client' when you need browser APIs, hooks, or event handlers. Everything else can stay server-side for better performance.",
+		"createdAt": "2026-04-20 10:30:00"
+	},
+	{
+		"key": "msg5",
+		"conversationId": "conv1",
+		"senderId": "u1",
+		"content": "That makes sense! I've been building a dashboard and probably overused client components. Any tips for optimizing?",
+		"createdAt": "2026-04-20 11:00:00"
+	},
+	{
+		"key": "msg6",
+		"conversationId": "conv1",
+		"senderId": "u11",
+		"content": "Try using React Server Components for data fetching, and only hydrate interactive parts. Also check out streaming and Suspense for better UX!",
+		"createdAt": "2026-04-20 11:30:00"
+	},
+	{
+		"key": "msg7",
+		"conversationId": "conv1",
+		"senderId": "u1",
+		"content": "Thanks! I'll refactor my dashboard. Would love to share code and get your feedback sometime.",
+		"createdAt": "2026-04-20 12:00:00"
+	},
+	{
+		"key": "msg8",
+		"conversationId": "conv1",
+		"senderId": "u11",
+		"content": "Absolutely! Let's set up a call this week. I can also share some resources I've been using.",
+		"createdAt": "2026-04-20 12:30:00"
+	},
+	{
+		"key": "msg9",
+		"conversationId": "conv1",
+		"senderId": "u1",
+		"content": "Perfect! I'm free Wednesday or Thursday evening. Does that work for you?",
+		"createdAt": "2026-04-20 14:00:00"
+	},
+	{
+		"key": "msg10",
+		"conversationId": "conv1",
+		"senderId": "u11",
+		"content": "Thursday works! I'll send you a calendar invite. Excited to collaborate!",
+		"createdAt": "2026-04-20 15:00:00"
+	},
+
+	{
+		"key": "msg11",
+		"conversationId": "conv2",
+		"senderId": "u1",
+		"content": "Hi! I noticed you're also in the Next.js community. What are you building?",
+		"createdAt": "2026-04-20 09:50:00"
+	},
+	{
+		"key": "msg12",
+		"conversationId": "conv2",
+		"senderId": "u13",
+		"content": "Hey! I'm working on a full-stack app with authentication and database integration. How about you?",
+		"createdAt": "2026-04-20 10:20:00"
+	},
+	{
+		"key": "msg13",
+		"conversationId": "conv2",
+		"senderId": "u1",
+		"content": "Nice! I'm building a portfolio site with dynamic content. Using Drizzle ORM for the first time.",
+		"createdAt": "2026-04-20 10:50:00"
+	},
+	{
+		"key": "msg14",
+		"conversationId": "conv2",
+		"senderId": "u13",
+		"content": "Drizzle is great! I've been using it too. The type safety is amazing compared to other ORMs.",
+		"createdAt": "2026-04-20 11:20:00"
+	},
+	{
+		"key": "msg15",
+		"conversationId": "conv2",
+		"senderId": "u1",
+		"content": "Totally agree! Also implementing Clerk for auth. The integration with Next.js has been smooth.",
+		"createdAt": "2026-04-20 12:00:00"
+	},
+	{
+		"key": "msg16",
+		"conversationId": "conv2",
+		"senderId": "u13",
+		"content": "Clerk is excellent. I used it on my last project. Their webhooks make server-side user management super easy.",
+		"createdAt": "2026-04-20 12:30:00"
+	},
+	{
+		"key": "msg17",
+		"conversationId": "conv2",
+		"senderId": "u1",
+		"content": "That's helpful to know! Are you deploying to Vercel or somewhere else?",
+		"createdAt": "2026-04-20 13:00:00"
+	},
+	{
+		"key": "msg18",
+		"conversationId": "conv2",
+		"senderId": "u13",
+		"content": "Vercel all the way! The Next.js + Vercel combo is unbeatable. Zero config deployments are a game changer.",
+		"createdAt": "2026-04-20 13:30:00"
+	},
+
+	{
+		"key": "msg19",
+		"conversationId": "conv3",
+		"senderId": "u1",
+		"content": "Hey John! Great to connect. I see we're both interested in Next.js and TypeScript.",
+		"createdAt": "2026-04-20 10:50:00"
+	},
+	{
+		"key": "msg20",
+		"conversationId": "conv3",
+		"senderId": "u19",
+		"content": "Hi! Yes, been focusing on improving my TypeScript skills lately. The type system is so powerful.",
+		"createdAt": "2026-04-20 11:20:00"
+	},
+	{
+		"key": "msg21",
+		"conversationId": "conv3",
+		"senderId": "u1",
+		"content": "Absolutely! I've been learning advanced patterns like conditional types and generics.",
+		"createdAt": "2026-04-20 11:50:00"
+	},
+	{
+		"key": "msg22",
+		"conversationId": "conv3",
+		"senderId": "u19",
+		"content": "Generics are a game changer for reusable code. Have you tried using the satisfies operator?",
+		"createdAt": "2026-04-20 12:20:00"
+	},
+	{
+		"key": "msg23",
+		"conversationId": "conv3",
+		"senderId": "u1",
+		"content": "Yes! It's perfect for maintaining precise types while keeping inference. Huge time saver.",
+		"createdAt": "2026-04-20 12:50:00"
+	},
+	{
+		"key": "msg24",
+		"conversationId": "conv3",
+		"senderId": "u19",
+		"content": "We should pair on some TypeScript exercises. I found some great challenges on Exercism.",
+		"createdAt": "2026-04-20 13:30:00"
+	},
+	{
+		"key": "msg25",
+		"conversationId": "conv3",
+		"senderId": "u1",
+		"content": "That sounds great! Let's schedule a coding session this weekend.",
+		"createdAt": "2026-04-20 14:00:00"
+	},
+	{
+		"key": "msg26",
+		"conversationId": "conv3",
+		"senderId": "u19",
+		"content": "Perfect! Saturday morning works for me. I'll share some resources beforehand.",
+		"createdAt": "2026-04-20 15:00:00"
+	},
+
+	{
+		"key": "msg27",
+		"conversationId": "conv4",
+		"senderId": "u11",
+		"content": "Hi James! Long time no talk. How's the learning going?",
+		"createdAt": "2026-04-20 11:20:00"
+	},
+	{
+		"key": "msg28",
+		"conversationId": "conv4",
+		"senderId": "u13",
+		"content": "Hey! Pretty good, been diving deep into Kubernetes lately. How about you?",
+		"createdAt": "2026-04-20 11:50:00"
+	},
+	{
+		"key": "msg29",
+		"conversationId": "conv4",
+		"senderId": "u11",
+		"content": "I've been exploring GraphQL with Apollo. The schema stitching is amazing!",
+		"createdAt": "2026-04-20 12:20:00"
+	},
+	{
+		"key": "msg30",
+		"conversationId": "conv4",
+		"senderId": "u13",
+		"content": "GraphQL is great for complex frontends. I've used it with React Native apps.",
+		"createdAt": "2026-04-20 13:00:00"
+	},
+	{
+		"key": "msg31",
+		"conversationId": "conv4",
+		"senderId": "u11",
+		"content": "Nice! I haven't tried React Native yet. How's the performance compared to native apps?",
+		"createdAt": "2026-04-20 13:30:00"
+	},
+	{
+		"key": "msg32",
+		"conversationId": "conv4",
+		"senderId": "u13",
+		"content": "Actually quite good for most use cases! The expo ecosystem makes development really smooth.",
+		"createdAt": "2026-04-20 14:00:00"
+	},
+	{
+		"key": "msg33",
+		"conversationId": "conv4",
+		"senderId": "u11",
+		"content": "Maybe I should try it for my next side project. Any good tutorials you'd recommend?",
+		"createdAt": "2026-04-20 15:00:00"
+	},
+	{
+		"key": "msg34",
+		"conversationId": "conv4",
+		"senderId": "u13",
+		"content": "The official docs are great, and the Expo blog has awesome tutorials. I'll send you some links!",
+		"createdAt": "2026-04-20 16:00:00"
+	},
+
+	{
+		"key": "msg35",
+		"conversationId": "conv5",
+		"senderId": "u11",
+		"content": "Hi Sarah! I saw you're in Ankita's community. I'm also trying to build my portfolio.",
+		"createdAt": "2026-04-20 13:20:00"
+	},
+	{
+		"key": "msg36",
+		"conversationId": "conv5",
+		"senderId": "u16",
+		"content": "Hey! Great to meet another portfolio builder. What kind of projects are you working on?",
+		"createdAt": "2026-04-20 13:50:00"
+	},
+	{
+		"key": "msg37",
+		"conversationId": "conv5",
+		"senderId": "u11",
+		"content": "I'm building a task management app with React and Firebase. Still figuring out the best UX patterns.",
+		"createdAt": "2026-04-20 14:20:00"
+	},
+	{
+		"key": "msg38",
+		"conversationId": "conv5",
+		"senderId": "u16",
+		"content": "Nice! Task apps are great for learning. Have you looked into using Zustand for state management?",
+		"createdAt": "2026-04-20 15:00:00"
+	},
+	{
+		"key": "msg39",
+		"conversationId": "conv5",
+		"senderId": "u11",
+		"content": "I've heard of it but haven't tried. Is it better than Redux for simple apps?",
+		"createdAt": "2026-04-20 15:30:00"
+	},
+	{
+		"key": "msg40",
+		"conversationId": "conv5",
+		"senderId": "u16",
+		"content": "Much simpler API and less boilerplate. Perfect for small to medium apps. I'll share a tutorial!",
+		"createdAt": "2026-04-20 16:00:00"
+	},
+	{
+		"key": "msg41",
+		"conversationId": "conv5",
+		"senderId": "u11",
+		"content": "That would be amazing! Also, do you have tips for making my portfolio stand out to recruiters?",
+		"createdAt": "2026-04-20 17:00:00"
+	},
+	{
+		"key": "msg42",
+		"conversationId": "conv5",
+		"senderId": "u16",
+		"content": "Focus on clean UI, performance, and mobile responsiveness. Also write about your learning process!",
+		"createdAt": "2026-04-20 18:00:00"
+	},
+
+	{
+		"key": "msg43",
+		"conversationId": "conv6",
+		"senderId": "u16",
+		"content": "Hey! Both working on Next.js projects. What are you building?",
+		"createdAt": "2026-04-20 12:50:00"
+	},
+	{
+		"key": "msg44",
+		"conversationId": "conv6",
+		"senderId": "u19",
+		"content": "Building a SaaS starter kit with authentication, payments, and dashboard. How about you?",
+		"createdAt": "2026-04-20 13:20:00"
+	},
+	{
+		"key": "msg45",
+		"conversationId": "conv6",
+		"senderId": "u16",
+		"content": "I'm working on an e-commerce platform with Drizzle and Stripe integration.",
+		"createdAt": "2026-04-20 13:50:00"
+	},
+	{
+		"key": "msg46",
+		"conversationId": "conv6",
+		"senderId": "u19",
+		"content": "That's awesome! I've been using the new App Router features. The server actions are game changing.",
+		"createdAt": "2026-04-20 14:20:00"
+	},
+	{
+		"key": "msg47",
+		"conversationId": "conv6",
+		"senderId": "u16",
+		"content": "Yes! No more API routes for simple form submissions. So much cleaner.",
+		"createdAt": "2026-04-20 15:00:00"
+	},
+	{
+		"key": "msg48",
+		"conversationId": "conv6",
+		"senderId": "u19",
+		"content": "Exactly! Also the metadata API for SEO is super easy now. Have you optimized yours?",
+		"createdAt": "2026-04-20 15:30:00"
+	},
+	{
+		"key": "msg49",
+		"conversationId": "conv6",
+		"senderId": "u16",
+		"content": "I'm using the new JSON-LD support. Would love to compare notes on SEO strategies!",
+		"createdAt": "2026-04-20 16:00:00"
+	},
+	{
+		"key": "msg50",
+		"conversationId": "conv6",
+		"senderId": "u19",
+		"content": "Let's do it! Maybe we can collaborate on some open source SEO tools.",
+		"createdAt": "2026-04-20 17:00:00"
+	},
+
+	{
+		"key": "msg51",
+		"conversationId": "conv7",
+		"senderId": "u2",
+		"content": "Hi! I see you're also learning NumPy. Are you working on any data projects?",
+		"createdAt": "2026-04-20 09:55:00"
+	},
+	{
+		"key": "msg52",
+		"conversationId": "conv7",
+		"senderId": "u11",
+		"content": "Hey! Yes, I'm analyzing some customer data for a portfolio project. Python is so powerful!",
+		"createdAt": "2026-04-20 10:25:00"
+	},
+	{
+		"key": "msg53",
+		"conversationId": "conv7",
+		"senderId": "u2",
+		"content": "Same here! The vectorized operations are so much faster than regular loops.",
+		"createdAt": "2026-04-20 10:55:00"
+	},
+	{
+		"key": "msg54",
+		"conversationId": "conv7",
+		"senderId": "u11",
+		"content": "Exactly! I reduced my processing time from hours to minutes. Pandas is amazing too.",
+		"createdAt": "2026-04-20 11:25:00"
+	},
+	{
+		"key": "msg55",
+		"conversationId": "conv7",
+		"senderId": "u2",
+		"content": "I've been learning Pandas too. Any tips for handling missing data effectively?",
+		"createdAt": "2026-04-20 12:00:00"
+	},
+	{
+		"key": "msg56",
+		"conversationId": "conv7",
+		"senderId": "u11",
+		"content": "Use fillna() with appropriate strategies, or drop if the missing percentage is high. Imputation is also an option.",
+		"createdAt": "2026-04-20 12:30:00"
+	},
+	{
+		"key": "msg57",
+		"conversationId": "conv7",
+		"senderId": "u2",
+		"content": "Great tips! I'm visualizing my data with Matplotlib now. The plots are looking good!",
+		"createdAt": "2026-04-20 13:00:00"
+	},
+	{
+		"key": "msg58",
+		"conversationId": "conv7",
+		"senderId": "u11",
+		"content": "Nice! Try Seaborn too for prettier statistical plots. It's built on Matplotlib.",
+		"createdAt": "2026-04-20 13:30:00"
+	},
+
+	{
+		"key": "msg59",
+		"conversationId": "conv8",
+		"senderId": "u2",
+		"content": "Hey! Both Python data enthusiasts here. What are you analyzing?",
+		"createdAt": "2026-04-20 10:00:00"
+	},
+	{
+		"key": "msg60",
+		"conversationId": "conv8",
+		"senderId": "u12",
+		"content": "I'm working on a sales dataset, trying to find trends and insights. How about you?",
+		"createdAt": "2026-04-20 10:30:00"
+	},
+	{
+		"key": "msg61",
+		"conversationId": "conv8",
+		"senderId": "u2",
+		"content": "I'm analyzing user behavior data for an app. Trying to predict churn rates.",
+		"createdAt": "2026-04-20 11:00:00"
+	},
+	{
+		"key": "msg62",
+		"conversationId": "conv8",
+		"senderId": "u12",
+		"content": "Interesting! Machine learning for churn prediction is a great project. Which algorithms are you using?",
+		"createdAt": "2026-04-20 11:30:00"
+	},
+	{
+		"key": "msg63",
+		"conversationId": "conv8",
+		"senderId": "u2",
+		"content": "Started with logistic regression, now trying random forests. The feature importance is insightful.",
+		"createdAt": "2026-04-20 12:00:00"
+	},
+	{
+		"key": "msg64",
+		"conversationId": "conv8",
+		"senderId": "u12",
+		"content": "Random forests are great! Have you tried XGBoost? It's usually even more accurate.",
+		"createdAt": "2026-04-20 12:30:00"
+	},
+	{
+		"key": "msg65",
+		"conversationId": "conv8",
+		"senderId": "u2",
+		"content": "I'll try it! Also need to work on data preprocessing. Do you use scikit-learn pipelines?",
+		"createdAt": "2026-04-20 13:00:00"
+	},
+	{
+		"key": "msg66",
+		"conversationId": "conv8",
+		"senderId": "u12",
+		"content": "Yes! Pipelines make your code much cleaner and prevent data leakage. Game changer!",
+		"createdAt": "2026-04-20 14:00:00"
+	},
+
+	{
+		"key": "msg67",
+		"conversationId": "conv9",
+		"senderId": "u2",
+		"content": "Hi! Another data science learner. I'm focusing on pandas and NumPy.",
+		"createdAt": "2026-04-20 10:10:00"
+	},
+	{
+		"key": "msg68",
+		"conversationId": "conv9",
+		"senderId": "u20",
+		"content": "Hey! That's my focus too. The data manipulation capabilities are incredible.",
+		"createdAt": "2026-04-20 10:40:00"
+	},
+	{
+		"key": "msg69",
+		"conversationId": "conv9",
+		"senderId": "u2",
+		"content": "Right? I've been cleaning a messy dataset and pandas makes it so much easier.",
+		"createdAt": "2026-04-20 11:10:00"
+	},
+	{
+		"key": "msg70",
+		"conversationId": "conv9",
+		"senderId": "u20",
+		"content": "What kind of cleaning are you doing? I'm dealing with lots of duplicated rows.",
+		"createdAt": "2026-04-20 11:40:00"
+	},
+	{
+		"key": "msg71",
+		"conversationId": "conv9",
+		"senderId": "u2",
+		"content": "I use drop_duplicates() for that. Also dealing with inconsistent date formats.",
+		"createdAt": "2026-04-20 12:10:00"
+	},
+	{
+		"key": "msg72",
+		"conversationId": "conv9",
+		"senderId": "u20",
+		"content": "Try pd.to_datetime() with format='mixed' - handles mixed formats beautifully!",
+		"createdAt": "2026-04-20 12:40:00"
+	},
+	{
+		"key": "msg73",
+		"conversationId": "conv9",
+		"senderId": "u2",
+		"content": "That's exactly what I needed! Thanks! Any visualization tips?",
+		"createdAt": "2026-04-20 13:30:00"
+	},
+	{
+		"key": "msg74",
+		"conversationId": "conv9",
+		"senderId": "u20",
+		"content": "Start with simple line and bar charts, then try Seaborn for more complex visualizations.",
+		"createdAt": "2026-04-20 14:00:00"
+	},
+
+	{
+		"key": "msg75",
+		"conversationId": "conv10",
+		"senderId": "u11",
+		"content": "Hi! Both focused on Python and Data Science. I'm working on ML models.",
+		"createdAt": "2026-04-20 15:20:00"
+	},
+	{
+		"key": "msg76",
+		"conversationId": "conv10",
+		"senderId": "u20",
+		"content": "Hey! That's my focus too. Building some prediction models right now.",
+		"createdAt": "2026-04-20 15:50:00"
+	},
+	{
+		"key": "msg77",
+		"conversationId": "conv10",
+		"senderId": "u11",
+		"content": "I'm using scikit-learn for classification. The preprocessing tools are really helpful.",
+		"createdAt": "2026-04-20 16:20:00"
+	},
+	{
+		"key": "msg78",
+		"conversationId": "conv10",
+		"senderId": "u20",
+		"content": "Same here! I've been experimenting with feature engineering techniques.",
+		"createdAt": "2026-04-20 16:50:00"
+	},
+	{
+		"key": "msg79",
+		"conversationId": "conv10",
+		"senderId": "u11",
+		"content": "Cross-validation is crucial. I've been using K-fold to evaluate model performance.",
+		"createdAt": "2026-04-20 17:20:00"
+	},
+	{
+		"key": "msg80",
+		"conversationId": "conv10",
+		"senderId": "u20",
+		"content": "Absolutely! Also important to track metrics like precision, recall, and F1 score.",
+		"createdAt": "2026-04-20 17:50:00"
+	},
+	{
+		"key": "msg81",
+		"conversationId": "conv10",
+		"senderId": "u11",
+		"content": "We should collaborate on a project! Maybe build something with real-world data.",
+		"createdAt": "2026-04-20 18:20:00"
+	},
+	{
+		"key": "msg82",
+		"conversationId": "conv10",
+		"senderId": "u20",
+		"content": "Great idea! I know some public datasets we could use for practice.",
+		"createdAt": "2026-04-20 18:50:00"
+	},
+
+	{
+		"key": "msg83",
+		"conversationId": "conv11",
+		"senderId": "u12",
+		"content": "Hi! Both focused on Python and data. What ML projects are you working on?",
+		"createdAt": "2026-04-20 15:40:00"
+	},
+	{
+		"key": "msg84",
+		"conversationId": "conv11",
+		"senderId": "u20",
+		"content": "Hey! Building recommendation systems. How about you?",
+		"createdAt": "2026-04-20 16:10:00"
+	},
+	{
+		"key": "msg85",
+		"conversationId": "conv11",
+		"senderId": "u12",
+		"content": "I'm doing sentiment analysis on customer reviews. Using BERT for better accuracy.",
+		"createdAt": "2026-04-20 16:40:00"
+	},
+	{
+		"key": "msg86",
+		"conversationId": "conv11",
+		"senderId": "u20",
+		"content": "That's great! Transformer models are so powerful for NLP tasks.",
+		"createdAt": "2026-04-20 17:10:00"
+	},
+	{
+		"key": "msg87",
+		"conversationId": "conv11",
+		"senderId": "u12",
+		"content": "The Hugging Face library makes it so easy to get started. Highly recommend!",
+		"createdAt": "2026-04-20 17:40:00"
+	},
+	{
+		"key": "msg88",
+		"conversationId": "conv11",
+		"senderId": "u20",
+		"content": "I've been using it too. The pre-trained models save so much training time.",
+		"createdAt": "2026-04-20 18:10:00"
+	},
+	{
+		"key": "msg89",
+		"conversationId": "conv11",
+		"senderId": "u12",
+		"content": "Have you tried fine-tuning models for your specific domain?",
+		"createdAt": "2026-04-20 18:40:00"
+	},
+	{
+		"key": "msg90",
+		"conversationId": "conv11",
+		"senderId": "u20",
+		"content": "Yes! Fine-tuning significantly improves performance for domain-specific tasks.",
+		"createdAt": "2026-04-20 19:10:00"
+	},
+
+	{
+		"key": "msg91",
+		"conversationId": "conv12",
+		"senderId": "u3",
+		"content": "Hi! I see you're working on Python and Data Science. I'm just getting started.",
+		"createdAt": "2026-04-20 16:20:00"
+	},
+	{
+		"key": "msg92",
+		"conversationId": "conv12",
+		"senderId": "u11",
+		"content": "Hey! Great to have you. What aspects are you most interested in?",
+		"createdAt": "2026-04-20 16:50:00"
+	},
+	{
+		"key": "msg93",
+		"conversationId": "conv12",
+		"senderId": "u3",
+		"content": "I want to learn pandas and data visualization first. Any resources?",
+		"createdAt": "2026-04-20 17:20:00"
+	},
+	{
+		"key": "msg94",
+		"conversationId": "conv12",
+		"senderId": "u11",
+		"content": "Check out the official pandas documentation and Kaggle courses. They're excellent!",
+		"createdAt": "2026-04-20 17:50:00"
+	},
+	{
+		"key": "msg95",
+		"conversationId": "conv12",
+		"senderId": "u3",
+		"content": "Thanks! Also thinking about learning NumPy. When should I use it vs pandas?",
+		"createdAt": "2026-04-20 18:20:00"
+	},
+	{
+		"key": "msg96",
+		"conversationId": "conv12",
+		"senderId": "u11",
+		"content": "NumPy for numerical operations, pandas for tabular data. They're complementary!",
+		"createdAt": "2026-04-20 18:50:00"
+	},
+	{
+		"key": "msg97",
+		"conversationId": "conv12",
+		"senderId": "u3",
+		"content": "That makes sense. How long did it take you to get comfortable with these?",
+		"createdAt": "2026-04-20 19:20:00"
+	},
+	{
+		"key": "msg98",
+		"conversationId": "conv12",
+		"senderId": "u11",
+		"content": "A few months of practice. Build small projects and you'll learn fast!",
+		"createdAt": "2026-04-20 19:50:00"
+	},
+
+	{
+		"key": "msg99",
+		"conversationId": "conv13",
+		"senderId": "u3",
+		"content": "Hi! Both learning machine learning. I'm starting with scikit-learn.",
+		"createdAt": "2026-04-20 17:05:00"
+	},
+	{
+		"key": "msg100",
+		"conversationId": "conv13",
+		"senderId": "u14",
+		"content": "Hey! Great choice. It's a fantastic library for getting started with ML.",
+		"createdAt": "2026-04-20 17:35:00"
+	},
+	{
+		"key": "msg101",
+		"conversationId": "conv13",
+		"senderId": "u3",
+		"content": "Working on a classification problem. What algorithms would you recommend?",
+		"createdAt": "2026-04-20 18:05:00"
+	},
+	{
+		"key": "msg102",
+		"conversationId": "conv13",
+		"senderId": "u14",
+		"content": "Start with logistic regression, then try random forests and gradient boosting.",
+		"createdAt": "2026-04-20 18:35:00"
+	},
+	{
+		"key": "msg103",
+		"conversationId": "conv13",
+		"senderId": "u3",
+		"content": "Good advice! How do I handle class imbalance in my dataset?",
+		"createdAt": "2026-04-20 19:05:00"
+	},
+	{
+		"key": "msg104",
+		"conversationId": "conv13",
+		"senderId": "u14",
+		"content": "Use SMOTE for oversampling, or adjust class weights in your model.",
+		"createdAt": "2026-04-20 19:35:00"
+	},
+	{
+		"key": "msg105",
+		"conversationId": "conv13",
+		"senderId": "u3",
+		"content": "Thanks! Any tips for hyperparameter tuning?",
+		"createdAt": "2026-04-20 20:05:00"
+	},
+	{
+		"key": "msg106",
+		"conversationId": "conv13",
+		"senderId": "u14",
+		"content": "GridSearchCV is good, but try RandomizedSearchCV for faster results!",
+		"createdAt": "2026-04-20 20:35:00"
+	},
+
+	{
+		"key": "msg107",
+		"conversationId": "conv14",
+		"senderId": "u3",
+		"content": "Hi! Both working on Python projects. What are you focusing on?",
+		"createdAt": "2026-04-20 17:50:00"
+	},
+	{
+		"key": "msg108",
+		"conversationId": "conv14",
+		"senderId": "u18",
+		"content": "Hey! I'm diving deep into pandas and data analysis. You?",
+		"createdAt": "2026-04-20 18:20:00"
+	},
+	{
+		"key": "msg109",
+		"conversationId": "conv14",
+		"senderId": "u3",
+		"content": "I'm learning data visualization with Matplotlib and Seaborn. Beautiful charts!",
+		"createdAt": "2026-04-20 18:50:00"
+	},
+	{
+		"key": "msg110",
+		"conversationId": "conv14",
+		"senderId": "u18",
+		"content": "Seaborn is amazing for statistical visualizations. Makes analysis so much easier.",
+		"createdAt": "2026-04-20 19:20:00"
+	},
+	{
+		"key": "msg111",
+		"conversationId": "conv14",
+		"senderId": "u3",
+		"content": "What kind of datasets are you working with?",
+		"createdAt": "2026-04-20 19:50:00"
+	},
+	{
+		"key": "msg112",
+		"conversationId": "conv14",
+		"senderId": "u18",
+		"content": "Sales data and user behavior logs. Trying to find patterns for business insights.",
+		"createdAt": "2026-04-20 20:20:00"
+	},
+	{
+		"key": "msg113",
+		"conversationId": "conv14",
+		"senderId": "u3",
+		"content": "Interesting! GroupBy and pivot tables are great for that kind of analysis.",
+		"createdAt": "2026-04-20 20:50:00"
+	},
+	{
+		"key": "msg114",
+		"conversationId": "conv14",
+		"senderId": "u18",
+		"content": "Absolutely! Also use merge and join for combining multiple data sources.",
+		"createdAt": "2026-04-20 21:20:00"
+	},
+
+	{
+		"key": "msg115",
+		"conversationId": "conv15",
+		"senderId": "u11",
+		"content": "Hi! Both exploring Python and ML. What projects are you building?",
+		"createdAt": "2026-04-20 18:50:00"
+	},
+	{
+		"key": "msg116",
+		"conversationId": "conv15",
+		"senderId": "u18",
+		"content": "Hey! Working on a machine learning pipeline. Trying to automate model training.",
+		"createdAt": "2026-04-20 19:20:00"
+	},
+	{
+		"key": "msg117",
+		"conversationId": "conv15",
+		"senderId": "u11",
+		"content": "That's great! I've been using scikit-learn pipelines. They make workflow so clean.",
+		"createdAt": "2026-04-20 19:50:00"
+	},
+	{
+		"key": "msg118",
+		"conversationId": "conv15",
+		"senderId": "u18",
+		"content": "Yes! I'm also exploring MLflow for model versioning and tracking.",
+		"createdAt": "2026-04-20 20:20:00"
+	},
+	{
+		"key": "msg119",
+		"conversationId": "conv15",
+		"senderId": "u11",
+		"content": "MLflow is excellent for experiment tracking. I've been using it too.",
+		"createdAt": "2026-04-20 20:50:00"
+	},
+	{
+		"key": "msg120",
+		"conversationId": "conv15",
+		"senderId": "u18",
+		"content": "What about model deployment? Any frameworks you recommend?",
+		"createdAt": "2026-04-20 21:20:00"
+	},
+	{
+		"key": "msg121",
+		"conversationId": "conv15",
+		"senderId": "u11",
+		"content": "FastAPI with Docker. Simple to set up and scales well.",
+		"createdAt": "2026-04-20 21:50:00"
+	},
+	{
+		"key": "msg122",
+		"conversationId": "conv15",
+		"senderId": "u18",
+		"content": "Great suggestion! I'll check it out. Thanks for the tips!",
+		"createdAt": "2026-04-20 22:20:00"
+	},
+
+	{
+		"key": "msg123",
+		"conversationId": "conv16",
+		"senderId": "u12",
+		"content": "Hi! Both Python enthusiasts. What are you working on?",
+		"createdAt": "2026-04-21 09:10:00"
+	},
+	{
+		"key": "msg124",
+		"conversationId": "conv16",
+		"senderId": "u14",
+		"content": "Hey! Building data analysis scripts with pandas. You?",
+		"createdAt": "2026-04-21 09:40:00"
+	},
+	{
+		"key": "msg125",
+		"conversationId": "conv16",
+		"senderId": "u12",
+		"content": "I'm creating visualizations and dashboards. Matplotlib is really powerful!",
+		"createdAt": "2026-04-21 10:10:00"
+	},
+	{
+		"key": "msg126",
+		"conversationId": "conv16",
+		"senderId": "u14",
+		"content": "What kind of dashboards are you building? Streamlit or Dash?",
+		"createdAt": "2026-04-21 10:40:00"
+	},
+	{
+		"key": "msg127",
+		"conversationId": "conv16",
+		"senderId": "u12",
+		"content": "Using Streamlit! It's so fast to prototype with. Love it.",
+		"createdAt": "2026-04-21 11:10:00"
+	},
+	{
+		"key": "msg128",
+		"conversationId": "conv16",
+		"senderId": "u14",
+		"content": "Streamlit is amazing! I use it for quick data apps all the time.",
+		"createdAt": "2026-04-21 11:40:00"
+	},
+	{
+		"key": "msg129",
+		"conversationId": "conv16",
+		"senderId": "u12",
+		"content": "We should collaborate on a data project sometime!",
+		"createdAt": "2026-04-21 12:10:00"
+	},
+	{
+		"key": "msg130",
+		"conversationId": "conv16",
+		"senderId": "u14",
+		"content": "Absolutely! I know some interesting public datasets we could explore.",
+		"createdAt": "2026-04-21 12:40:00"
+	},
+
+	{
+		"key": "msg131",
+		"conversationId": "conv17",
+		"senderId": "u14",
+		"content": "Hi! Both working on Python and ML. What are you building?",
+		"createdAt": "2026-04-21 09:40:00"
+	},
+	{
+		"key": "msg132",
+		"conversationId": "conv17",
+		"senderId": "u18",
+		"content": "Hey! Creating recommendation algorithms. Fascinating stuff!",
+		"createdAt": "2026-04-21 10:10:00"
+	},
+	{
+		"key": "msg133",
+		"conversationId": "conv17",
+		"senderId": "u14",
+		"content": "That's cool! I'm working on clustering algorithms for customer segmentation.",
+		"createdAt": "2026-04-21 10:40:00"
+	},
+	{
+		"key": "msg134",
+		"conversationId": "conv17",
+		"senderId": "u18",
+		"content": "K-means or hierarchical? I've used both for different projects.",
+		"createdAt": "2026-04-21 11:10:00"
+	},
+	{
+		"key": "msg135",
+		"conversationId": "conv17",
+		"senderId": "u14",
+		"content": "Using K-means. It's simple and works well for my data.",
+		"createdAt": "2026-04-21 11:40:00"
+	},
+	{
+		"key": "msg136",
+		"conversationId": "conv17",
+		"senderId": "u18",
+		"content": "Good choice! Remember to normalize your features first though.",
+		"createdAt": "2026-04-21 12:10:00"
+	},
+	{
+		"key": "msg137",
+		"conversationId": "conv17",
+		"senderId": "u14",
+		"content": "Great tip! How do you determine the optimal number of clusters?",
+		"createdAt": "2026-04-21 12:40:00"
+	},
+	{
+		"key": "msg138",
+		"conversationId": "conv17",
+		"senderId": "u18",
+		"content": "Use the elbow method or silhouette score. Both work well!",
+		"createdAt": "2026-04-21 13:10:00"
+	},
+
+	{
+		"key": "msg139",
+		"conversationId": "conv18",
+		"senderId": "u4",
+		"content": "Hi! I see you're also interested in leadership. Great to connect!",
+		"createdAt": "2026-04-21 10:15:00"
+	},
+	{
+		"key": "msg140",
+		"conversationId": "conv18",
+		"senderId": "u13",
+		"content": "Hey! Yes, been focusing on team management and mentoring. How about you?",
+		"createdAt": "2026-04-21 10:45:00"
+	},
+	{
+		"key": "msg141",
+		"conversationId": "conv18",
+		"senderId": "u4",
+		"content": "I'm trying to improve my code review skills. Any tips?",
+		"createdAt": "2026-04-21 11:15:00"
+	},
+	{
+		"key": "msg142",
+		"conversationId": "conv18",
+		"senderId": "u13",
+		"content": "Focus on the code, not the person. Ask questions instead of making demands.",
+		"createdAt": "2026-04-21 11:45:00"
+	},
+	{
+		"key": "msg143",
+		"conversationId": "conv18",
+		"senderId": "u4",
+		"content": "That's great advice! I've been struggling with difficult conversations.",
+		"createdAt": "2026-04-21 12:15:00"
+	},
+	{
+		"key": "msg144",
+		"conversationId": "conv18",
+		"senderId": "u13",
+		"content": "It gets easier with practice. Also, always start with something positive.",
+		"createdAt": "2026-04-21 12:45:00"
+	},
+	{
+		"key": "msg145",
+		"conversationId": "conv18",
+		"senderId": "u4",
+		"content": "I'll try that! How do you handle disagreements with team members?",
+		"createdAt": "2026-04-21 13:15:00"
+	},
+	{
+		"key": "msg146",
+		"conversationId": "conv18",
+		"senderId": "u13",
+		"content": "Focus on shared goals. Find common ground and work from there.",
+		"createdAt": "2026-04-21 13:45:00"
+	},
+
+	{
+		"key": "msg147",
+		"conversationId": "conv19",
+		"senderId": "u4",
+		"content": "Hi! Both interested in leadership. What aspects are you focusing on?",
+		"createdAt": "2026-04-21 11:20:00"
+	},
+	{
+		"key": "msg148",
+		"conversationId": "conv19",
+		"senderId": "u15",
+		"content": "Hey! Working on delegation and mentoring junior developers.",
+		"createdAt": "2026-04-21 11:50:00"
+	},
+	{
+		"key": "msg149",
+		"conversationId": "conv19",
+		"senderId": "u4",
+		"content": "Delegation is so hard! How do you decide what to delegate?",
+		"createdAt": "2026-04-21 12:20:00"
+	},
+	{
+		"key": "msg150",
+		"conversationId": "conv19",
+		"senderId": "u15",
+		"content": "Delegate outcomes, not tasks. Focus on what needs to be done, not how.",
+		"createdAt": "2026-04-21 12:50:00"
+	},
+	{
+		"key": "msg151",
+		"conversationId": "conv19",
+		"senderId": "u4",
+		"content": "That's helpful! How do you build trust with your team?",
+		"createdAt": "2026-04-21 13:20:00"
+	},
+	{
+		"key": "msg152",
+		"conversationId": "conv19",
+		"senderId": "u15",
+		"content": "Be consistent, keep promises, and show genuine interest in their growth.",
+		"createdAt": "2026-04-21 13:50:00"
+	},
+	{
+		"key": "msg153",
+		"conversationId": "conv19",
+		"senderId": "u4",
+		"content": "Great advice! Any recommended books on leadership?",
+		"createdAt": "2026-04-21 14:20:00"
+	},
+	{
+		"key": "msg154",
+		"conversationId": "conv19",
+		"senderId": "u15",
+		"content": "Try 'The Manager's Path' - excellent for technical leaders!",
+		"createdAt": "2026-04-21 14:50:00"
+	},
+
+	{
+		"key": "msg155",
+		"conversationId": "conv20",
+		"senderId": "u4",
+		"content": "Hi! Both in the leadership community. What challenges are you facing?",
+		"createdAt": "2026-04-21 11:50:00"
+	},
+	{
+		"key": "msg156",
+		"conversationId": "conv20",
+		"senderId": "u17",
+		"content": "Hey! Balancing technical work with team leadership. It's a tough balance!",
+		"createdAt": "2026-04-21 12:20:00"
+	},
+	{
+		"key": "msg157",
+		"conversationId": "conv20",
+		"senderId": "u4",
+		"content": "Exactly! I struggle with finding time to code vs managing.",
+		"createdAt": "2026-04-21 12:50:00"
+	},
+	{
+		"key": "msg158",
+		"conversationId": "conv20",
+		"senderId": "u17",
+		"content": "Block dedicated time for both. Protect your coding time fiercely!",
+		"createdAt": "2026-04-21 13:20:00"
+	},
+	{
+		"key": "msg159",
+		"conversationId": "conv20",
+		"senderId": "u4",
+		"content": "That's a good idea! How do you handle performance reviews?",
+		"createdAt": "2026-04-21 13:50:00"
+	},
+	{
+		"key": "msg160",
+		"conversationId": "conv20",
+		"senderId": "u17",
+		"content": "Prepare thoroughly, gather feedback from peers, and focus on growth.",
+		"createdAt": "2026-04-21 14:20:00"
+	},
+	{
+		"key": "msg161",
+		"conversationId": "conv20",
+		"senderId": "u4",
+		"content": "What about difficult feedback conversations?",
+		"createdAt": "2026-04-21 14:50:00"
+	},
+	{
+		"key": "msg162",
+		"conversationId": "conv20",
+		"senderId": "u17",
+		"content": "Be direct but compassionate. Focus on behaviors, not personality.",
+		"createdAt": "2026-04-21 15:20:00"
+	},
+
+	{
+		"key": "msg163",
+		"conversationId": "conv21",
+		"senderId": "u4",
+		"content": "Hi! Both interested in leadership. What skills are you developing?",
+		"createdAt": "2026-04-21 12:20:00"
+	},
+	{
+		"key": "msg164",
+		"conversationId": "conv21",
+		"senderId": "u20",
+		"content": "Hey! Working on strategic planning and stakeholder management.",
+		"createdAt": "2026-04-21 12:50:00"
+	},
+	{
+		"key": "msg165",
+		"conversationId": "conv21",
+		"senderId": "u4",
+		"content": "Stakeholder management is crucial! Any tips for handling difficult ones?",
+		"createdAt": "2026-04-21 13:20:00"
+	},
+	{
+		"key": "msg166",
+		"conversationId": "conv21",
+		"senderId": "u20",
+		"content": "Understand their motivations. Find common ground and align on goals.",
+		"createdAt": "2026-04-21 13:50:00"
+	},
+	{
+		"key": "msg167",
+		"conversationId": "conv21",
+		"senderId": "u4",
+		"content": "Great approach! How do you prioritize when everyone needs something?",
+		"createdAt": "2026-04-21 14:20:00"
+	},
+	{
+		"key": "msg168",
+		"conversationId": "conv21",
+		"senderId": "u20",
+		"content": "Use impact-effort matrix. Focus on high impact, low effort items first.",
+		"createdAt": "2026-04-21 14:50:00"
+	},
+	{
+		"key": "msg169",
+		"conversationId": "conv21",
+		"senderId": "u4",
+		"content": "That's practical! How do you communicate priorities to the team?",
+		"createdAt": "2026-04-21 15:20:00"
+	},
+	{
+		"key": "msg170",
+		"conversationId": "conv21",
+		"senderId": "u20",
+		"content": "Regular town halls and transparent OKR sharing. Everyone stays aligned!",
+		"createdAt": "2026-04-21 15:50:00"
+	},
+
+	{
+		"key": "msg171",
+		"conversationId": "conv22",
+		"senderId": "u15",
+		"content": "Hi! Both working on leadership and tech. Great to connect!",
+		"createdAt": "2026-04-21 13:20:00"
+	},
+	{
+		"key": "msg172",
+		"conversationId": "conv22",
+		"senderId": "u17",
+		"content": "Hey! Yes, balancing technical decisions with team management. Tricky but rewarding!",
+		"createdAt": "2026-04-21 13:50:00"
+	},
+	{
+		"key": "msg173",
+		"conversationId": "conv22",
+		"senderId": "u15",
+		"content": "How do you handle technical disagreements in your team?",
+		"createdAt": "2026-04-21 14:20:00"
+	},
+	{
+		"key": "msg174",
+		"conversationId": "conv22",
+		"senderId": "u17",
+		"content": "Let data guide decisions. If unclear, prototype both approaches!",
+		"createdAt": "2026-04-21 14:50:00"
+	},
+	{
+		"key": "msg175",
+		"conversationId": "conv22",
+		"senderId": "u15",
+		"content": "That's smart! What about when someone is resistant to change?",
+		"createdAt": "2026-04-21 15:20:00"
+	},
+	{
+		"key": "msg176",
+		"conversationId": "conv22",
+		"senderId": "u17",
+		"content": "Understand their concerns, show the benefits, and give them time to adapt.",
+		"createdAt": "2026-04-21 15:50:00"
+	},
+	{
+		"key": "msg177",
+		"conversationId": "conv22",
+		"senderId": "u15",
+		"content": "Great advice! How do you keep your team motivated?",
+		"createdAt": "2026-04-21 16:20:00"
+	},
+	{
+		"key": "msg178",
+		"conversationId": "conv22",
+		"senderId": "u17",
+		"content": "Recognition, growth opportunities, and inclusive team culture!",
+		"createdAt": "2026-04-21 16:50:00"
+	},
+
+	{
+		"key": "msg179",
+		"conversationId": "conv23",
+		"senderId": "u17",
+		"content": "Hi! Both exploring leadership and architecture. What are you working on?",
+		"createdAt": "2026-04-21 13:40:00"
+	},
+	{
+		"key": "msg180",
+		"conversationId": "conv23",
+		"senderId": "u20",
+		"content": "Hey! Designing API strategies and building scalable systems. You?",
+		"createdAt": "2026-04-21 14:10:00"
+	},
+	{
+		"key": "msg181",
+		"conversationId": "conv23",
+		"senderId": "u17",
+		"content": "I'm focusing on distributed system patterns and microservices.",
+		"createdAt": "2026-04-21 14:40:00"
+	},
+	{
+		"key": "msg182",
+		"conversationId": "conv23",
+		"senderId": "u20",
+		"content": "What's your approach to microservices vs monolith?",
+		"createdAt": "2026-04-21 15:10:00"
+	},
+	{
+		"key": "msg183",
+		"conversationId": "conv23",
+		"senderId": "u17",
+		"content": "Start monolith, extract services when needed. Don't over-engineer!",
+		"createdAt": "2026-04-21 15:40:00"
+	},
+	{
+		"key": "msg184",
+		"conversationId": "conv23",
+		"senderId": "u20",
+		"content": "Agreed! Complexity grows quickly. Keep it simple initially.",
+		"createdAt": "2026-04-21 16:10:00"
+	},
+	{
+		"key": "msg185",
+		"conversationId": "conv23",
+		"senderId": "u17",
+		"content": "How do you handle data consistency across services?",
+		"createdAt": "2026-04-21 16:40:00"
+	},
+	{
+		"key": "msg186",
+		"conversationId": "conv23",
+		"senderId": "u20",
+		"content": "Saga pattern or event sourcing. Depends on the use case!",
+		"createdAt": "2026-04-21 17:10:00"
+	},
+
+	{
+		"key": "msg187",
+		"conversationId": "conv24",
+		"senderId": "u5",
+		"content": "Hi! I see you're working on AI and ML. I'm just getting started.",
+		"createdAt": "2026-04-21 14:20:00"
+	},
+	{
+		"key": "msg188",
+		"conversationId": "conv24",
+		"senderId": "u14",
+		"content": "Hey! Great to have you. What aspect interests you most?",
+		"createdAt": "2026-04-21 14:50:00"
+	},
+	{
+		"key": "msg189",
+		"conversationId": "conv24",
+		"senderId": "u5",
+		"content": "Neural networks and deep learning. The concepts seem fascinating!",
+		"createdAt": "2026-04-21 15:20:00"
+	},
+	{
+		"key": "msg190",
+		"conversationId": "conv24",
+		"senderId": "u14",
+		"content": "Start with the fundamentals. Learn about gradients and backpropagation first.",
+		"createdAt": "2026-04-21 15:50:00"
+	},
+	{
+		"key": "msg191",
+		"conversationId": "conv24",
+		"senderId": "u5",
+		"content": "Good advice! Any frameworks you'd recommend for beginners?",
+		"createdAt": "2026-04-21 16:20:00"
+	},
+	{
+		"key": "msg192",
+		"conversationId": "conv24",
+		"senderId": "u14",
+		"content": "PyTorch is beginner-friendly and widely used in research. Keras is great too!",
+		"createdAt": "2026-04-21 16:50:00"
+	},
+	{
+		"key": "msg193",
+		"conversationId": "conv24",
+		"senderId": "u5",
+		"content": "I'll start with PyTorch. Any good learning resources?",
+		"createdAt": "2026-04-21 17:20:00"
+	},
+	{
+		"key": "msg194",
+		"conversationId": "conv24",
+		"senderId": "u14",
+		"content": "Check out Fast.ai courses. They're excellent for beginners!",
+		"createdAt": "2026-04-21 17:50:00"
+	},
+
+	{
+		"key": "msg195",
+		"conversationId": "conv25",
+		"senderId": "u14",
+		"content": "Hi! Both working on AI projects. What are you building?",
+		"createdAt": "2026-04-21 15:50:00"
+	},
+	{
+		"key": "msg196",
+		"conversationId": "conv25",
+		"senderId": "u18",
+		"content": "Hey! Creating image classification models. Using transfer learning.",
+		"createdAt": "2026-04-21 16:20:00"
+	},
+	{
+		"key": "msg197",
+		"conversationId": "conv25",
+		"senderId": "u14",
+		"content": "Transfer learning is so powerful! Which pre-trained models do you use?",
+		"createdAt": "2026-04-21 16:50:00"
+	},
+	{
+		"key": "msg198",
+		"conversationId": "conv25",
+		"senderId": "u18",
+		"content": "ResNet and EfficientNet. Both perform great on various tasks.",
+		"createdAt": "2026-04-21 17:20:00"
+	},
+	{
+		"key": "msg199",
+		"conversationId": "conv25",
+		"senderId": "u14",
+		"content": "Nice! I'm working on natural language processing models.",
+		"createdAt": "2026-04-21 17:50:00"
+	},
+	{
+		"key": "msg200",
+		"conversationId": "conv25",
+		"senderId": "u18",
+		"content": "NLP is fascinating! Are you using BERT or GPT models?",
+		"createdAt": "2026-04-21 18:20:00"
+	},
+	{
+		"key": "msg201",
+		"conversationId": "conv25",
+		"senderId": "u14",
+		"content": "Starting with BERT for text classification. It's working great!",
+		"createdAt": "2026-04-21 18:50:00"
+	},
+	{
+		"key": "msg202",
+		"conversationId": "conv25",
+		"senderId": "u18",
+		"content": "BERT is perfect for that. Fine-tuning is key for best results!",
+		"createdAt": "2026-04-21 19:20:00"
+	}
+]

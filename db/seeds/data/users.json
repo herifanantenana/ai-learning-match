@@ -1,0 +1,202 @@
+[
+	{
+		"key": "u1",
+		"clerkId": "free_001",
+		"email": "john.smith@gmail.com",
+		"name": "John Smith",
+		"imageUrl": "https://i.pravatar.cc/150?u=johnsmith",
+		"subscriptionTier": "free",
+		"createdAt": "2026-04-01 09:15:00",
+		"updatedAt": "2026-04-01 09:15:00"
+	},
+	{
+		"key": "u2",
+		"clerkId": "free_002",
+		"email": "sarah.johnson@yahoo.com",
+		"name": "Sarah Johnson",
+		"imageUrl": "https://i.pravatar.cc/150?u=sarahjohnson",
+		"subscriptionTier": "free",
+		"createdAt": "2026-04-01 10:30:00",
+		"updatedAt": "2026-04-01 10:30:00"
+	},
+	{
+		"key": "u3",
+		"clerkId": "free_003",
+		"email": "mike.wilson@outlook.com",
+		"name": "Mike Wilson",
+		"imageUrl": "https://i.pravatar.cc/150?u=mikewilson",
+		"subscriptionTier": "free",
+		"createdAt": "2026-04-01 11:45:00",
+		"updatedAt": "2026-04-01 11:45:00"
+	},
+	{
+		"key": "u4",
+		"clerkId": "free_004",
+		"email": "emily.brown@gmail.com",
+		"name": "Emily Brown",
+		"imageUrl": "https://i.pravatar.cc/150?u=emilybrown",
+		"subscriptionTier": "free",
+		"createdAt": "2026-04-02 08:20:00",
+		"updatedAt": "2026-04-02 08:20:00"
+	},
+	{
+		"key": "u5",
+		"clerkId": "free_005",
+		"email": "david.lee@outlook.com",
+		"name": "David Lee",
+		"imageUrl": "https://i.pravatar.cc/150?u=davidlee",
+		"subscriptionTier": "free",
+		"createdAt": "2026-04-02 09:35:00",
+		"updatedAt": "2026-04-02 09:35:00"
+	},
+	{
+		"key": "u6",
+		"clerkId": "free_006",
+		"email": "jessica.taylor@gmail.com",
+		"name": "Jessica Taylor",
+		"imageUrl": "https://i.pravatar.cc/150?u=jessicataylor",
+		"subscriptionTier": "free",
+		"createdAt": "2026-04-02 10:50:00",
+		"updatedAt": "2026-04-02 10:50:00"
+	},
+	{
+		"key": "u7",
+		"clerkId": "free_007",
+		"email": "chris.anderson@yahoo.com",
+		"name": "Chris Anderson",
+		"imageUrl": "https://i.pravatar.cc/150?u=chrisanderson",
+		"subscriptionTier": "free",
+		"createdAt": "2026-04-02 12:05:00",
+		"updatedAt": "2026-04-02 12:05:00"
+	},
+	{
+		"key": "u8",
+		"clerkId": "free_008",
+		"email": "amanda.white@outlook.com",
+		"name": "Amanda White",
+		"imageUrl": "https://i.pravatar.cc/150?u=amandawhite",
+		"subscriptionTier": "free",
+		"createdAt": "2026-04-02 13:20:00",
+		"updatedAt": "2026-04-02 13:20:00"
+	},
+	{
+		"key": "u9",
+		"clerkId": "free_009",
+		"email": "ryan.martinez@gmail.com",
+		"name": "Ryan Martinez",
+		"imageUrl": "https://i.pravatar.cc/150?u=ryanmartinez",
+		"subscriptionTier": "free",
+		"createdAt": "2026-04-02 14:35:00",
+		"updatedAt": "2026-04-02 14:35:00"
+	},
+	{
+		"key": "u10",
+		"clerkId": "free_010",
+		"email": "laura.garcia@yahoo.com",
+		"name": "Laura Garcia",
+		"imageUrl": "https://i.pravatar.cc/150?u=lauragarcia",
+		"subscriptionTier": "free",
+		"createdAt": "2026-04-02 15:50:00",
+		"updatedAt": "2026-04-02 15:50:00"
+	},
+	{
+		"key": "u11",
+		"clerkId": "pro_011",
+		"email": "james.chen@proton.me",
+		"name": "James Chen",
+		"imageUrl": "https://i.pravatar.cc/150?u=jameschen",
+		"subscriptionTier": "pro",
+		"createdAt": "2026-04-03 09:00:00",
+		"updatedAt": "2026-04-03 09:00:00"
+	},
+	{
+		"key": "u12",
+		"clerkId": "pro_012",
+		"email": "sophia.rodriguez@techmail.io",
+		"name": "Sophia Rodriguez",
+		"imageUrl": "https://i.pravatar.cc/150?u=sophiarodriguez",
+		"subscriptionTier": "pro",
+		"createdAt": "2026-04-03 10:15:00",
+		"updatedAt": "2026-04-03 10:15:00"
+	},
+	{
+		"key": "u13",
+		"clerkId": "pro_013",
+		"email": "marcus.thompson@devmail.io",
+		"name": "Marcus Thompson",
+		"imageUrl": "https://i.pravatar.cc/150?u=marcusthompson",
+		"subscriptionTier": "pro",
+		"createdAt": "2026-04-03 11:30:00",
+		"updatedAt": "2026-04-03 11:30:00"
+	},
+	{
+		"key": "u14",
+		"clerkId": "pro_014",
+		"email": "isabella.kim@codemail.dev",
+		"name": "Isabella Kim",
+		"imageUrl": "https://i.pravatar.cc/150?u=isabellakim",
+		"subscriptionTier": "pro",
+		"createdAt": "2026-04-03 12:45:00",
+		"updatedAt": "2026-04-03 12:45:00"
+	},
+	{
+		"key": "u15",
+		"clerkId": "pro_015",
+		"email": "william.brown@engineermail.io",
+		"name": "William Brown",
+		"imageUrl": "https://i.pravatar.cc/150?u=williambrown",
+		"subscriptionTier": "pro",
+		"createdAt": "2026-04-03 14:00:00",
+		"updatedAt": "2026-04-03 14:00:00"
+	},
+	{
+		"key": "u16",
+		"clerkId": "pro_016",
+		"email": "olivia.davis@buildmail.io",
+		"name": "Olivia Davis",
+		"imageUrl": "https://i.pravatar.cc/150?u=oliviadavis",
+		"subscriptionTier": "pro",
+		"createdAt": "2026-04-03 15:15:00",
+		"updatedAt": "2026-04-03 15:15:00"
+	},
+	{
+		"key": "u17",
+		"clerkId": "pro_017",
+		"email": "benjamin.martinez@createmail.dev",
+		"name": "Benjamin Martinez",
+		"imageUrl": "https://i.pravatar.cc/150?u=benjaminmartinez",
+		"subscriptionTier": "pro",
+		"createdAt": "2026-04-03 16:30:00",
+		"updatedAt": "2026-04-03 16:30:00"
+	},
+	{
+		"key": "u18",
+		"clerkId": "pro_018",
+		"email": "mia.thompson@devmail.io",
+		"name": "Mia Thompson",
+		"imageUrl": "https://i.pravatar.cc/150?u=miathompson",
+		"subscriptionTier": "pro",
+		"createdAt": "2026-04-03 17:45:00",
+		"updatedAt": "2026-04-03 17:45:00"
+	},
+	{
+		"key": "u19",
+		"clerkId": "pro_019",
+		"email": "alex.lee@techmail.com",
+		"name": "Alexander Lee",
+		"imageUrl": "https://i.pravatar.cc/150?u=alexanderlee",
+		"subscriptionTier": "pro",
+		"createdAt": "2026-04-03 19:00:00",
+		"updatedAt": "2026-04-03 19:00:00"
+	},
+	{
+		"key": "u20",
+		"clerkId": "pro_020",
+		"email": "charlotte.wilson@proton.me",
+		"name": "Charlotte Wilson",
+		"imageUrl": "https://i.pravatar.cc/150?u=charlottewilson",
+		"subscriptionTier": "pro",
+		"createdAt": "2026-04-03 20:15:00",
+		"updatedAt": "2026-04-03 20:15:00"
+	}
+]

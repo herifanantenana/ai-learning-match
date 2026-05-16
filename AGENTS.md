@@ -89,3 +89,5 @@ npx shadcn@latest add <component-name>
 - All routes are private by default via `clerkMiddleware()`
 - Public routes need explicit configuration in middleware
 - Webhook endpoints must be public (they use HMAC, not Clerk sessions)
+- Drizzle migrations output to `./drizzle/migrations` (configured in `drizzle.config.ts`)
+- No typecheck script (run `bun run build` to catch type errors)
