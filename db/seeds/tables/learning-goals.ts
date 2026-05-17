@@ -1,6 +1,6 @@
-import { db } from "@/db";
 import { learningGoalsTable } from "@/db/schemas";
 import { BaseSeeder } from "@/db/seeds/base";
+import { NodePgDatabase } from "drizzle-orm/node-postgres";
 import { CommunitiesSeeder } from "./communities";
 import { UsersSeeder } from "./users";
 
@@ -15,21 +15,15 @@ interface ILearningGoal {
 	updatedAt: Date;
 }
 
-export class LearningGoalsSeeder extends BaseSeeder<ILearningGoal, typeof db> {
+export class LearningGoalsSeeder extends BaseSeeder<ILearningGoal> {
 	constructor(
 		private usersSeeder: UsersSeeder,
 		private communitiesSeeder: CommunitiesSeeder,
 	) {
 		super("./data/learning-goals.json");
 	}
-	async clean(tx: typeof db): Promise<void> {
-		console.log("🚬 - Cleaning learning goals...");
-		await tx.delete(learningGoalsTable);
-		console.log("🔔 - Learning goals cleaned.");
-	}
 
-	async seed(tx: typeof db): Promise<void> {
-		await this.clean(tx);
+	async seed(tx: NodePgDatabase): Promise<void> {
 		await this.loadData();
 		console.log(`🥁 - Seeding ${this.dataJson?.length ?? 0} learning goals...`);
 		if (!this.dataJson || this.dataJson.length === 0) {

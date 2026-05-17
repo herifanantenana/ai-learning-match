@@ -1,7 +1,7 @@
-import { db } from "@/db";
 import { usersTable } from "@/db/schemas";
 import { ESubscriptionTier } from "@/db/schemas/_shared/type";
 import { BaseSeeder } from "@/db/seeds/base";
+import { NodePgDatabase } from "drizzle-orm/node-postgres";
 
 export interface IUser {
 	key: string;
@@ -14,19 +14,12 @@ export interface IUser {
 	updatedAt: Date;
 }
 
-export class UsersSeeder extends BaseSeeder<IUser, typeof db> {
+export class UsersSeeder extends BaseSeeder<IUser> {
 	constructor() {
 		super("./data/users.json");
 	}
 
-	async clean(tx: typeof db): Promise<void> {
-		console.log("🚬 - Cleaning users...");
-		await tx.delete(usersTable);
-		console.log("🔔 - Users cleaned.");
-	}
-
-	async seed(tx: typeof db): Promise<void> {
-		await this.clean(tx);
+	async seed(tx: NodePgDatabase): Promise<void> {
 		await this.loadData();
 		console.log(`🥁 - Seeding ${this.dataJson?.length ?? 0} users...`);
 		if (!this.dataJson || this.dataJson.length === 0) {

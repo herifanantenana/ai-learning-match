@@ -1,9 +1,10 @@
 export type TKeyIdMap = Map<string, string>;
+import { NodePgDatabase } from "drizzle-orm/node-postgres";
 import fs from "fs";
 import path from "path";
 import { loadJsonFile } from "./utils";
 
-export abstract class BaseSeeder<T, TBD = unknown> {
+export abstract class BaseSeeder<T> {
 	protected dataJson: T[] | null = null;
 	protected keyIdMap: TKeyIdMap = new Map();
 
@@ -41,6 +42,5 @@ export abstract class BaseSeeder<T, TBD = unknown> {
 		console.log("====================================");
 	}
 
-	abstract clean(tx: TBD): Promise<void>;
-	abstract seed(tx: TBD): Promise<void>;
+	abstract seed(tx: NodePgDatabase): Promise<void>;
 }

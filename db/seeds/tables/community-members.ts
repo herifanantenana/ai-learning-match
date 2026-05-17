@@ -1,8 +1,8 @@
-import { db } from "@/db";
 import { communityMembersTable } from "@/db/schemas";
 import { BaseSeeder } from "@/db/seeds/base";
 import { CommunitiesSeeder } from "./communities";
 import { UsersSeeder } from "./users";
+import { NodePgDatabase } from "drizzle-orm/node-postgres";
 
 export interface ICommunityMember {
 	key: string;
@@ -11,10 +11,7 @@ export interface ICommunityMember {
 	joinedAt: Date;
 }
 
-export class CommunityMembersSeeder extends BaseSeeder<
-	ICommunityMember,
-	typeof db
-> {
+export class CommunityMembersSeeder extends BaseSeeder<ICommunityMember> {
 	constructor(
 		private usersSeeder: UsersSeeder,
 		private communitiesSeeder: CommunitiesSeeder,
@@ -22,14 +19,7 @@ export class CommunityMembersSeeder extends BaseSeeder<
 		super("./data/community-members.json");
 	}
 
-	async clean(tx: typeof db): Promise<void> {
-		console.log("🚬 - Cleaning community members...");
-		await tx.delete(communityMembersTable);
-		console.log("🔔 - Community members cleaned.");
-	}
-
-	async seed(tx: typeof db): Promise<void> {
-		await this.clean(tx);
+	async seed(tx: NodePgDatabase): Promise<void> {
 		await this.loadData();
 		console.log(
 			`🥁 - Seeding ${this.dataJson?.length ?? 0} community members...`,
