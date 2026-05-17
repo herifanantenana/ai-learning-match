@@ -1,6 +1,6 @@
-import { db } from "../..";
-import { communitiesTable } from "../../schemas";
-import { BaseSeeder } from "../base";
+import { db } from "@/db";
+import { communitiesTable } from "@/db/schemas";
+import { BaseSeeder } from "@/db/seeds/base";
 import { UsersSeeder } from "./users";
 
 export interface ICommunity {
