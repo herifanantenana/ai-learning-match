@@ -2,6 +2,10 @@
 	"cSpell.words": [
 		"Meetsy",
 		"postgres",
-		"postgresql"
+		"postgresql",
+		"schemaname",
+		"tablename",
+		"typname",
+		"typtype"
 	]
 }

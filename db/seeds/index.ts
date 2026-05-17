@@ -1,4 +1,4 @@
-import { db } from "..";
+import { db } from "../index";
 import { CommunitiesSeeder } from "./communities";
 import { UsersSeeder } from "./users";
 
@@ -7,7 +7,14 @@ async function main() {
 	await users.seed(db);
 	const communities = new CommunitiesSeeder(users);
 	await communities.seed(db);
-	return 0;
 }
 
-main();
+main()
+	.then(() => {
+		console.log("🎉 - Seeding completed successfully.");
+		process.exit(0);
+	})
+	.catch((error) => {
+		console.error("🩸 - Error during seeding:", error);
+		process.exit(1);
+	});

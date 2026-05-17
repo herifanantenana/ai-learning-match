@@ -18,15 +18,15 @@ export class CommunitiesSeeder extends BaseSeeder<ICommunity, typeof db> {
 	}
 
 	async clean(tx: typeof db): Promise<void> {
-		console.info("🚬 - Cleaning communities...");
+		console.log("🚬 - Cleaning communities...");
 		await tx.delete(communitiesTable);
-		console.info("🔔 - Communities cleaned.");
+		console.log("🔔 - Communities cleaned.");
 	}
 
 	async seed(tx: typeof db): Promise<void> {
 		await this.clean(tx);
 		await this.loadData();
-		console.info(`🥁 - Seeding ${this.dataJson?.length ?? 0} communities...`);
+		console.log(`🥁 - Seeding ${this.dataJson?.length ?? 0} communities...`);
 		if (!this.dataJson || this.dataJson.length === 0) {
 			console.warn("🐷 - No community data to seed");
 			return;
@@ -59,6 +59,6 @@ export class CommunitiesSeeder extends BaseSeeder<ICommunity, typeof db> {
 			this.recordKeyId(key, insertedCommunity.id);
 		});
 
-		console.info(`🗿 - Inserted ${insertedCommunities.length} communities.`);
+		console.log(`🗿 - Inserted ${insertedCommunities.length} communities.`);
 	}
 }

@@ -11,7 +11,9 @@
 		"db:migrate": "bun drizzle-kit migrate",
 		"db:push": "bun drizzle-kit push",
 		"db:studio": "bun drizzle-kit studio",
-		"db:seed": "bun run ./db/seeds/index.ts"
+		"db:seed": "bun run ./db/seeds/index.ts",
+		"db:clean": "bun run ./db/scripts/clean.ts",
+		"db:drop": "bun run ./db/scripts/drop.ts"
 	},
 	"dependencies": {
 		"@clerk/nextjs": "^7.3.3",

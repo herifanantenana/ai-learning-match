@@ -20,15 +20,15 @@ export class UsersSeeder extends BaseSeeder<IUser, typeof db> {
 	}
 
 	async clean(tx: typeof db): Promise<void> {
-		console.info("🚬 - Cleaning users...");
+		console.log("🚬 - Cleaning users...");
 		await tx.delete(usersTable);
-		console.info("🔔 - Users cleaned.");
+		console.log("🔔 - Users cleaned.");
 	}
 
 	async seed(tx: typeof db): Promise<void> {
 		await this.clean(tx);
 		await this.loadData();
-		console.info(`🥁 - Seeding ${this.dataJson?.length ?? 0} users...`);
+		console.log(`🥁 - Seeding ${this.dataJson?.length ?? 0} users...`);
 		if (!this.dataJson || this.dataJson.length === 0) {
 			console.warn("🐷 - No user data to seed");
 			return;
@@ -56,6 +56,6 @@ export class UsersSeeder extends BaseSeeder<IUser, typeof db> {
 			this.recordKeyId(key, insertedUser.id);
 		});
 
-		console.info(`🗿 - Inserted ${insertedUsers.length} users.`);
+		console.log(`🗿 - Inserted ${insertedUsers.length} users.`);
 	}
 }
