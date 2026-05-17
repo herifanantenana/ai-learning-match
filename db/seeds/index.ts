@@ -1,6 +1,6 @@
 import { db } from "../index";
-import { CommunitiesSeeder } from "./communities";
-import { UsersSeeder } from "./users";
+import { CommunitiesSeeder } from "./tables/communities";
+import { UsersSeeder } from "./tables/users";
 
 async function main() {
 	const users = new UsersSeeder();

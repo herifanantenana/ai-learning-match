@@ -1,7 +1,7 @@
-import { db } from "../index";
-import { usersTable } from "../schemas";
-import { ESubscriptionTier } from "../schemas/_shared/type";
-import { BaseSeeder } from "./base";
+import { db } from "../../index";
+import { usersTable } from "../../schemas";
+import { ESubscriptionTier } from "../../schemas/_shared/type";
+import { BaseSeeder } from "../base";
 
 export interface IUser {
 	key: string;
