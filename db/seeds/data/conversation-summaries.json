@@ -234,7 +234,7 @@
 		"conversationId": "conv59",
 		"summary": "Discussion about product management and user research",
 		"topics": ["User Research", "Jobs to be Done", "Product Strategy"],
-		"keyInsights": [
+		"keyPoints": [
 			"User research is foundational to product success",
 			"Jobs to be Done framework helps understand customer motivations",
 			"Practice user interview techniques regularly"
@@ -251,7 +251,7 @@
 		"conversationId": "conv60",
 		"summary": "React Native development patterns and best practices",
 		"topics": ["React Native", "Custom Hooks", "Compound Components"],
-		"keyInsights": [
+		"keyPoints": [
 			"Custom hooks enable reusable logic across components",
 			"Compound components provide flexible APIs",
 			"Code sharing improves maintainability"
@@ -271,7 +271,7 @@
 		"conversationId": "conv62",
 		"summary": "Data engineering with Spark and Kafka best practices",
 		"topics": ["Apache Spark", "Kafka", "Stream Processing"],
-		"keyInsights": [
+		"keyPoints": [
 			"Spark Structured Streaming enables exactly-once processing",
 			"Exchange best practices regularly",
 			"Document pipeline patterns"
@@ -288,7 +288,7 @@
 		"conversationId": "conv64",
 		"summary": "Game development with different engines",
 		"topics": ["Unity", "Godot", "Game Design"],
-		"keyInsights": [
+		"keyPoints": [
 			"Godot is great for 2D and lightweight projects",
 			"Node system in Godot is intuitive",
 			"Each engine has strengths for different game types"
@@ -308,7 +308,7 @@
 		"conversationId": "conv65",
 		"summary": "Real-time multiplayer game infrastructure",
 		"topics": ["Node.js", "Socket.io", "Game Networking"],
-		"keyInsights": [
+		"keyPoints": [
 			"WebSockets essential for real-time gaming",
 			"Lag compensation is a key challenge",
 			"Backend architecture impacts player experience"
@@ -328,7 +328,7 @@
 		"conversationId": "conv66",
 		"summary": "Security threat modeling and SRE practices",
 		"topics": ["STRIDE", "Threat Modeling", "Security"],
-		"keyInsights": [
+		"keyPoints": [
 			"STRIDE framework helps identify system threats",
 			"Security should be integrated early in development",
 			"EXPLAIN ANALYZE useful for database optimization"
@@ -348,7 +348,7 @@
 		"conversationId": "conv67",
 		"summary": "DeFi interface design and blockchain UX",
 		"topics": ["DeFi", "UX Design", "Blockchain"],
-		"keyInsights": [
+		"keyPoints": [
 			"Complex financial data needs clear design",
 			"User trust crucial in DeFi applications",
 			"Collaboration between design and development valuable"
@@ -368,7 +368,7 @@
 		"conversationId": "conv68",
 		"summary": "Database optimization techniques",
 		"topics": ["PostgreSQL", "Query Optimization", "Indexing"],
-		"keyInsights": [
+		"keyPoints": [
 			"Indexing strategies critical for performance",
 			"Query plan analysis reveals optimization opportunities",
 			"EXPLAIN ANALYZE essential for debugging"
@@ -385,7 +385,7 @@
 		"conversationId": "conv69",
 		"summary": "Multi-cloud architecture strategies",
 		"topics": ["AWS", "GCP", "Azure", "Serverless"],
-		"keyInsights": [
+		"keyPoints": [
 			"Each cloud provider has unique strengths",
 			"Serverless architectures offer great scalability",
 			"Cross-cloud skills are valuable"
@@ -402,7 +402,7 @@
 		"conversationId": "conv70",
 		"summary": "Design systems for games and UI components",
 		"topics": ["Storybook", "Figma", "Design Systems"],
-		"keyInsights": [
+		"keyPoints": [
 			"Consistency in gaming UI improves player experience",
 			"Storybook excellent for component documentation",
 			"Figma and Storybook work well together"
