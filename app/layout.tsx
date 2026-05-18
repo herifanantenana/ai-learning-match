@@ -1,5 +1,6 @@
 import { Footer } from "@/components/layout/footer";
 import { Header } from "@/components/layout/header";
+import { QueryProvider } from "@/components/providers/query-provider";
 import { cn } from "@/lib/utils";
 import { ClerkProvider } from "@clerk/nextjs";
 import type { Metadata } from "next";
@@ -33,11 +34,13 @@ export default function RootLayout({
 			className={cn("h-full antialiased", inter.variable, outfit.variable)}
 		>
 			<ClerkProvider>
-				<body className="min-h-full">
-					<Header />
-					{children}
-					<Footer />
-				</body>
+				<QueryProvider>
+					<body className="min-h-full">
+						<Header />
+						{children}
+						<Footer />
+					</body>
+				</QueryProvider>
 			</ClerkProvider>
 		</html>
 	);
