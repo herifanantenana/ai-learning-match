@@ -1,8 +1,17 @@
 export type TKeyIdMap = Map<string, string>;
-import { NodePgDatabase } from "drizzle-orm/node-postgres";
+import { NodePgQueryResultHKT } from "drizzle-orm/node-postgres";
+import { PgAsyncDatabase } from "drizzle-orm/pg-core";
 import fs from "fs";
 import path from "path";
+import type * as schemas from "../schemas/";
+import type { relations } from "../schemas/_relations";
 import { loadJsonFile } from "./utils";
+
+export type TxOrDb = PgAsyncDatabase<
+	NodePgQueryResultHKT,
+	typeof schemas,
+	typeof relations
+>;
 
 export abstract class BaseSeeder<T> {
 	protected dataJson: T[] | null = null;
@@ -42,5 +51,5 @@ export abstract class BaseSeeder<T> {
 		console.log("====================================");
 	}
 
-	abstract seed(tx: NodePgDatabase): Promise<void>;
+	abstract seed(tx: TxOrDb): Promise<void>;
 }

@@ -1,7 +1,7 @@
 import { usersTable } from "@/db/schemas";
 import { ESubscriptionTier } from "@/db/schemas/_shared/type";
+import type { TxOrDb } from "@/db/seeds/base";
 import { BaseSeeder } from "@/db/seeds/base";
-import { NodePgDatabase } from "drizzle-orm/node-postgres";
 
 export interface IUser {
 	key: string;
@@ -19,7 +19,7 @@ export class UsersSeeder extends BaseSeeder<IUser> {
 		super("./data/users.json");
 	}
 
-	async seed(tx: NodePgDatabase): Promise<void> {
+	async seed(tx: TxOrDb): Promise<void> {
 		await this.loadData();
 		console.log(`🥁 - Seeding ${this.dataJson?.length ?? 0} users...`);
 		if (!this.dataJson || this.dataJson.length === 0) {

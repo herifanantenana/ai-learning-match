@@ -1,8 +1,8 @@
 import { communityMembersTable } from "@/db/schemas";
+import type { TxOrDb } from "@/db/seeds/base";
 import { BaseSeeder } from "@/db/seeds/base";
 import { CommunitiesSeeder } from "./communities";
 import { UsersSeeder } from "./users";
-import { NodePgDatabase } from "drizzle-orm/node-postgres";
 
 export interface ICommunityMember {
 	key: string;
@@ -19,7 +19,7 @@ export class CommunityMembersSeeder extends BaseSeeder<ICommunityMember> {
 		super("./data/community-members.json");
 	}
 
-	async seed(tx: NodePgDatabase): Promise<void> {
+	async seed(tx: TxOrDb): Promise<void> {
 		await this.loadData();
 		console.log(
 			`🥁 - Seeding ${this.dataJson?.length ?? 0} community members...`,

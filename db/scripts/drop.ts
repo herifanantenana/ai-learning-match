@@ -11,7 +11,7 @@ async function dropDatabase() {
 		const tablesResult = await db.execute(
 			sql.raw(`SELECT tablename FROM pg_tables WHERE schemaname = 'public';`),
 		);
-		const tablesNames = tablesResult.map((row) => String(row.tablename));
+		const tablesNames = tablesResult.rows.map((row) => String(row.tablename));
 
 		for (const tableName of tablesNames) {
 			await db.execute(sql`DROP TABLE IF EXISTS ${sql.identifier(tableName)} CASCADE;`);
@@ -21,7 +21,7 @@ async function dropDatabase() {
 		const enumerationsResult = await db.execute(
 			sql.raw(`SELECT typname FROM pg_type WHERE typtype = 'e';`),
 		);
-		const enumerationsNames = enumerationsResult.map((row) => String(row.typname))	;
+		const enumerationsNames = enumerationsResult.rows.map((row) => String(row.typname));
 
 		for (const enumerationName of enumerationsNames) {
 			await db.execute(sql`DROP TYPE IF EXISTS ${sql.identifier(enumerationName)} CASCADE;`);
@@ -33,7 +33,7 @@ async function dropDatabase() {
 				`SELECT sequence_name FROM information_schema.sequences WHERE sequence_schema = 'public';`,
 			),
 		);
-		const sequencesNames = sequencesResult.map((row) => String(row.sequence_name));
+		const sequencesNames = sequencesResult.rows.map((row) => String(row.sequence_name));
 
 		for (const sequenceName of sequencesNames) {
 			await db.execute(sql`DROP SEQUENCE IF EXISTS ${sql.identifier(sequenceName)} CASCADE;`);
@@ -45,7 +45,7 @@ async function dropDatabase() {
 				`SELECT table_name FROM information_schema.views WHERE table_schema = 'public';`,
 			),
 		);
-		const viewsNames = viewsResult.map((row) => String(row.table_name));
+		const viewsNames = viewsResult.rows.map((row) => String(row.table_name));
 
 		for (const viewName of viewsNames) {
 			await db.execute(sql`DROP VIEW IF EXISTS ${sql.identifier(viewName)} CASCADE;`);

@@ -2,92 +2,90 @@
 
 ## Stack
 
-- **Runtime**: Bun (pas npm/yarn/pnpm)
+- **Runtime**: Bun (not npm/yarn/pnpm)
+- **Project**: meetsy (directory is `ai-learning-match`)
 - **Framework**: Next.js 16.2.6 (App Router)
-- **Database**: PostgreSQL + Drizzle ORM (beta.22)
+- **Database**: PostgreSQL (Supabase) + Drizzle ORM (beta.22)
+- **State/Fetching**: @tanstack/react-query v5
 - **Auth**: Clerk (`@clerk/nextjs` v7)
-- **UI**: Tailwind CSS 4 + shadcn/ui (radix-vega style) + Radix primitives
+- **UI**: Tailwind CSS 4 + shadcn/ui (radix-vega) + Radix primitives
 
 ## Commands
 
 ```bash
-bun dev          # Start dev server (http://localhost:3000)
-bun run build    # Production build
-bun run lint     # ESLint
-bun run db:generate   # Generate Drizzle migrations
+bun dev               # http://localhost:3000
+bun run build         # Production build + typecheck (no separate typecheck script)
+bun run lint          # ESLint
+bun run start         # Start production server
+bun run db:generate   # Drizzle migration generation
 bun run db:migrate    # Apply migrations
-bun run db:push       # Push schema to DB (dev)
-bun run db:seed:users # Seed test users
+bun run db:push       # Push schema (dev only)
+bun run db:studio     # Drizzle Studio
+bun run db:seed       # Seed test data (bun run ./db/seeds/index.ts)
+bun run db:clean      # Clean database
+bun run db:drop       # Drop all tables
 ```
 
 ## Architecture
 
-- `app/` - Next.js App Router (route groups use parentheses: `(auth-layout)`)
-- `db/schemas/` - Drizzle table definitions
-- `db/index.ts` - DB client export (`drizzle-orm/postgres-js`)
-- `proxy.ts` - Clerk middleware (Next.js 16 terminology)
-- `lib/utils.ts` - Contains `cn()` utility (shadcn standard)
-
-## Environment
-
-Required in `.env`:
-- `DATABASE_URL` - PostgreSQL connection string
-- `DIRECT_DATABASE_URL` - PostgreSQL direct connection string
-- `NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY` - Client-side key
-- `CLERK_SECRET_KEY` - Server-side key
+- `app/` — Next.js App Router with route groups:
+  - `(auth-layout)/` — wraps sign-in/sign-up (centered layout)
+  - `(main)/` — wraps dashboard (container layout)
+- `db/schemas/` — Drizzle table definitions, one file per table
+  - `_shared/` — reusable column helpers: `id.ts` (UUID defaultRandom), `timestamp.ts`, `type.ts` (enums)
+  - `index.ts` — barrel export; **must re-export every new schema**
+  - `_tables.ts` — grouped table imports for `drizzle()`
+  - `_relations.ts` — centralized `defineRelations()` definition
+- `db/index.ts` — DB client: `drizzle({ client, schema: tables, relations })` via `pg` Pool
+- `proxy.ts` — Clerk middleware (Next.js 16 naming; was `middleware.ts` in v15)
+- `components/` — `layout/`, `page/`, `providers/`, `ui/` (shadcn)
+- `@/` path alias maps to project root
 
 ## Code Style
 
-- Prettier with Tailwind CSS plugin (configured in `.prettierrc`)
-- Tabs, semi-colons, single quotes off, trailing commas
-- Use `@/` path aliases (defined in `tsconfig.json`)
+- Tabs, semicolons, double quotes, trailing commas (`.prettierrc`)
+- `cn()` from `@/lib/utils` for class merging
+- Prettier ignores: public, node_modules, build, dist, .vscode, .next
 
-## Middleware (Clerk)
+## Prettier
 
-```typescript
-// proxy.ts - Next.js 16 uses this filename instead of middleware.ts
-import { clerkMiddleware } from '@clerk/nextjs/server'
-
-export default clerkMiddleware()
-
-export const config = {
-  matcher: [
-    '/((?!_next|[^?]*\\.(?:html?|css|js(?!on)|jpe?g|webp|png|gif|svg|ttf|woff2?|ico|csv|docx?|xlsx?|zip|webmanifest)).*)',
-    '/(api|trpc)(.*)',
-    '/__clerk/(.*)',
-  ],
-}
-```
-
-## Auth Components
-
-Use Clerk Core 3 components:
-- `<ClerkProvider>` dans `app/layout.tsx` (inside `<body>`, not wrapping `<html>`)
-- `<Show when="signed-in">` / `<Show when="signed-out">` (pas `<SignedIn>`/`<SignedOut>` méditisés)
-- `<SignInButton>` / `<SignUpButton>` / `<UserButton>` depuis `@clerk/nextjs`
-
-## Database Pattern
-
-```typescript
-// db/index.ts
-import { drizzle } from "drizzle-orm/postgres-js";
-import postgres from "postgres";
-
-const client = postgres(process.env.DATABASE_URL!, { prepare: false });
-export const db = drizzle({ client });
-```
-
-## Shadcn Components
-
-Components are in `components/ui/`. Add new ones with:
 ```bash
-npx shadcn@latest add <component-name>
+bunx prettier --check .
+bunx prettier --write .
 ```
 
-## Notes
+## Middleware
 
-- All routes are private by default via `clerkMiddleware()`
-- Public routes need explicit configuration in middleware
-- Webhook endpoints must be public (they use HMAC, not Clerk sessions)
-- Drizzle migrations output to `./drizzle/migrations` (configured in `drizzle.config.ts`)
-- No typecheck script (run `bun run build` to catch type errors)
+- `proxy.ts`: all routes private by default; no `publicRoutes` set yet
+- Webhook endpoints must be explicitly public (HMAC auth, not Clerk sessions)
+
+## Auth
+
+- Sign-in/sign-up pages: `app/(auth-layout)/sign-in/[[...sign-in]]/` and `sign-up/[[...sign-up]]/`
+- Use `<SignIn />` / `<SignUp />` from `@clerk/nextjs`
+- `useUser()` for client-side current user
+- `<Show when="signed-in">` / `<Show when="signed-out">` (not legacy `<SignedIn>`/`<SignedOut>`)
+
+## Database
+
+- **Relations defined centrally** in `db/schemas/_relations.ts` via `defineRelations()` (not per-file `defineRelationsPart`)
+- After editing schemas: `bun run db:generate` → `bun run db:migrate` (or `db:push` for dev)
+- DB client uses `pg` (node-postgres) Pool — `prepare` option not used with `pg`
+- Seeds: `bun run db:seed`
+
+## React Query
+
+- Provider in `components/providers/query-provider.tsx` (`'use client'`)
+- Defaults: `refetchOnWindowFocus: true`, `staleTime: 0`
+
+## Environment (`.env`)
+
+- `DATABASE_URL` — pooled Supabase (port 6543)
+- `DIRECT_DATABASE_URL` — direct Supabase (port 5432)
+- `NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY`
+- `CLERK_SECRET_KEY`
+- `.env.exemple` is the template (typo preserved)
+
+## Stale files
+
+- `app/meetsy-globals.css` is **not imported** anywhere — legacy file, do not use

@@ -1,7 +1,7 @@
 import { matchesTable } from "@/db/schemas";
 import { EMatchStatus } from "@/db/schemas/_shared/type";
+import type { TxOrDb } from "@/db/seeds/base";
 import { BaseSeeder } from "@/db/seeds/base";
-import { NodePgDatabase } from "drizzle-orm/node-postgres";
 import { CommunitiesSeeder } from "./communities";
 import { UsersSeeder } from "./users";
 
@@ -22,7 +22,7 @@ export class MatchesSeeder extends BaseSeeder<IMatches> {
 		super("./data/matches.json");
 	}
 
-	async seed(tx: NodePgDatabase): Promise<void> {
+	async seed(tx: TxOrDb): Promise<void> {
 		await this.loadData();
 		console.log(`🥁 - Seeding ${this.dataJson?.length ?? 0} matches...`);
 		if (!this.dataJson || this.dataJson.length === 0) {

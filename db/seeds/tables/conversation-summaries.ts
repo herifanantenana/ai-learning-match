@@ -1,6 +1,6 @@
 import { conversationSummariesTable } from "@/db/schemas";
+import type { TxOrDb } from "@/db/seeds/base";
 import { BaseSeeder } from "@/db/seeds/base";
-import { NodePgDatabase } from "drizzle-orm/node-postgres";
 import { ConversationsSeeder } from "./conversations";
 
 interface IConversationSummary {
@@ -18,7 +18,7 @@ export class ConversationSummariesSeeder extends BaseSeeder<IConversationSummary
 		super("./data/conversation-summaries.json");
 	}
 
-	async seed(tx: NodePgDatabase): Promise<void> {
+	async seed(tx: TxOrDb): Promise<void> {
 		await this.loadData();
 		console.log(
 			`🥁 - Seeding ${this.dataJson?.length ?? 0} conversation summaries...`,

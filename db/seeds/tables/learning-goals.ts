@@ -1,6 +1,6 @@
 import { learningGoalsTable } from "@/db/schemas";
+import type { TxOrDb } from "@/db/seeds/base";
 import { BaseSeeder } from "@/db/seeds/base";
-import { NodePgDatabase } from "drizzle-orm/node-postgres";
 import { CommunitiesSeeder } from "./communities";
 import { UsersSeeder } from "./users";
 
@@ -23,7 +23,7 @@ export class LearningGoalsSeeder extends BaseSeeder<ILearningGoal> {
 		super("./data/learning-goals.json");
 	}
 
-	async seed(tx: NodePgDatabase): Promise<void> {
+	async seed(tx: TxOrDb): Promise<void> {
 		await this.loadData();
 		console.log(`🥁 - Seeding ${this.dataJson?.length ?? 0} learning goals...`);
 		if (!this.dataJson || this.dataJson.length === 0) {

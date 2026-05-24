@@ -1,6 +1,6 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# ai-learning-match
 
-## Getting Started
+This is a Next.js project using Bun, Drizzle ORM, Clerk, and Tailwind CSS. See [AGENTS.md](AGENTS.md) for architecture, commands, and conventions.
 
 First, run the development server:
 

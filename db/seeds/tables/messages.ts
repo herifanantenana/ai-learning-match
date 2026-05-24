@@ -1,6 +1,6 @@
 import { messagesTable } from "@/db/schemas";
+import type { TxOrDb } from "@/db/seeds/base";
 import { BaseSeeder } from "@/db/seeds/base";
-import { NodePgDatabase } from "drizzle-orm/node-postgres";
 import { ConversationsSeeder } from "./conversations";
 import { UsersSeeder } from "./users";
 
@@ -20,7 +20,7 @@ export class MessagesSeeder extends BaseSeeder<IMessage> {
 		super("./data/messages.json");
 	}
 
-	async seed(tx: NodePgDatabase): Promise<void> {
+	async seed(tx: TxOrDb): Promise<void> {
 		await this.loadData();
 		console.log(`🥁 - Seeding ${this.dataJson?.length ?? 0} messages...`);
 		if (!this.dataJson || this.dataJson.length === 0) {

@@ -12,7 +12,7 @@ async function cleanDatabase() {
 			sql.raw(`SELECT tablename FROM pg_tables WHERE schemaname = 'public';`),
 		);
 
-		const tablesNames = tablesResult.map((row) => String(row.tablename));
+		const tablesNames = tablesResult.rows.map((row) => String(row.tablename));
 
 		for (const tableName of tablesNames) {
 			await db.execute(

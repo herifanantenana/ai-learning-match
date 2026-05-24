@@ -1,6 +1,6 @@
 import { conversationsTable } from "@/db/schemas";
+import type { TxOrDb } from "@/db/seeds/base";
 import { BaseSeeder } from "@/db/seeds/base";
-import { NodePgDatabase } from "drizzle-orm/node-postgres";
 import { MatchesSeeder } from "./matches";
 
 interface IConversation {
@@ -15,7 +15,7 @@ export class ConversationsSeeder extends BaseSeeder<IConversation> {
 		super("./data/conversations.json");
 	}
 
-	async seed(tx: NodePgDatabase): Promise<void> {
+	async seed(tx: TxOrDb): Promise<void> {
 		await this.loadData();
 		console.log(`🥁 - Seeding ${this.dataJson?.length ?? 0} conversations...`);
 		if (!this.dataJson || this.dataJson.length === 0) {
